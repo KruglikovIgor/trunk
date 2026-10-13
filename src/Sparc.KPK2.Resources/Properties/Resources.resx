@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AistZeroMessage" xml:space="preserve">
+    <value>Следите за изменением величины напряжения ɑ и шторкой Блока 7</value>
+  </data>
+  <data name="CheckInterruptedByUser" xml:space="preserve">
+    <value>Проверка прервана пользователем!</value>
+  </data>
+  <data name="CheckWorkabilitySignal" xml:space="preserve">
+    <value>Проверка отработки индикатора "Исправность"</value>
+  </data>
+  <data name="Diss13" xml:space="preserve">
+    <value>ДИСС-013</value>
+  </data>
+  <data name="Diss15" xml:space="preserve">
+    <value>ДИСС-15</value>
+  </data>
+  <data name="Diss15G" xml:space="preserve">
+    <value>ДИСС-15Г</value>
+  </data>
+  <data name="Diss32_90" xml:space="preserve">
+    <value>ДИСС-32-90</value>
+  </data>
+  <data name="Diss32_90A" xml:space="preserve">
+    <value>ДИСС-32-90A</value>
+  </data>
+  <data name="DVS24_KZ2Message" xml:space="preserve">
+    <value>- Обнулите на блоке 8 показания счетчиков  ПУТЬ КМ, БОКОВОЕ УКЛОНЕНИЕ КМ и УГОЛ КАРТЫ;
+- Установите на блоке 10 переключатель ОТКЛ-ВКЛ в положение ВКЛ
+- Нажмите кнопку ОК</value>
+  </data>
+  <data name="DVS_CheckMapCornerMessage" xml:space="preserve">
+    <value>Cместите при помощи ручки блока 10 перекрестие визира в зону выдачи сигнала Граница карты. И нажмите кнопку "ОК".</value>
+  </data>
+  <data name="DVS_EnterValuesMessage" xml:space="preserve">
+    <value>Зафиксируйте показания Блоков 8 и 10 в соответствующих полях</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="KZN" xml:space="preserve">
+    <value>КЗ-{0}</value>
+  </data>
+  <data name="NotANumberMessage" xml:space="preserve">
+    <value>Введённое значение не является числом</value>
+  </data>
+  <data name="ReleError" xml:space="preserve">
+    <value>Ошибка установки реле!</value>
+  </data>
+  <data name="SetTaskError" xml:space="preserve">
+    <value>Ошибка установки задачи!</value>
+  </data>
+  <data name="StopCheck" xml:space="preserve">
+    <value>Остановить проверку</value>
+  </data>
+  <data name="TaskNOff" xml:space="preserve">
+    <value>Выключить {0}</value>
+  </data>
+  <data name="TaskNOn" xml:space="preserve">
+    <value>Включить {0}</value>
+  </data>
+  <data name="TimeLeftNN" xml:space="preserve">
+    <value>Осталось {0} мин {1} сек</value>
+  </data>
+  <data name="WaitTask" xml:space="preserve">
+    <value>Дождитесь установки контрольной задачи. После чего нажмите ОК.</value>
+  </data>
+  <data name="WorkabilityIsAbsent" xml:space="preserve">
+    <value>Отсутствует сигнал "Исправность" дальнейшая проверка невозможна!</value>
+  </data>
+  <data name="DiscreteInputsBoard" xml:space="preserve">
+    <value>Плата дискретных входов</value>
+  </data>
+  <data name="DiscreteOutputsBoard" xml:space="preserve">
+    <value>Плата дискретных выходов</value>
+  </data>
+  <data name="DiscretInputOutputsBoard" xml:space="preserve">
+    <value>Плата дискретных входов-выходов</value>
+  </data>
+  <data name="ErrorOnDevice" xml:space="preserve">
+    <value>Ошибка на устройстве {0} при выполнении операции {1}</value>
+  </data>
+  <data name="ErrorOnDeviceN" xml:space="preserve">
+    <value>Ошибка на устройстве: {0}</value>
+  </data>
+  <data name="CantFindForm" xml:space="preserve">
+    <value>Не удалось найти форму для открытия</value>
+  </data>
+  <data name="Diss32IndBlock8" xml:space="preserve">
+    <value>ОТКЛ Бл 8</value>
+  </data>
+  <data name="ErrorTurnOffDevices" xml:space="preserve">
+    <value>Ошибка отключения устройств!</value>
+  </data>
+  <data name="Block8Off" xml:space="preserve">
+    <value>Блок 8 выкл.</value>
+  </data>
+  <data name="Block8On" xml:space="preserve">
+    <value>Блок 8 вкл.</value>
+  </data>
+  <data name="Block8OrtOff" xml:space="preserve">
+    <value>Блок 8 О выкл.</value>
+  </data>
+  <data name="Block8OrtOn" xml:space="preserve">
+    <value>Блок 8 О вкл.</value>
+  </data>
+  <data name="Diss3228" xml:space="preserve">
+    <value>ДИСС-32-28</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>КПК-2</value>
+  </data>
+  <data name="ControlTaskBoard" xml:space="preserve">
+    <value>Плата КЗ</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="ErrorDiapazonValue" xml:space="preserve">
+    <value>Значение {0} должно быть</value>
+  </data>
+  <data name="ErrorInputNNValue" xml:space="preserve">
+    <value>Введенное значение{0}: {1} ошибочно</value>
+  </data>
+  <data name="ErrorInputNValue" xml:space="preserve">
+    <value>Введенное значение: {0} ошибочно
+Введите правильное значение</value>
+  </data>
+  <data name="GenSinBoard" xml:space="preserve">
+    <value>Генератор синусов</value>
+  </data>
+  <data name="GetValue" xml:space="preserve">
+    <value>получение значения</value>
+  </data>
+  <data name="OpenFormError" xml:space="preserve">
+    <value>В настоящий момент нет соединения с БД 
+Форма не будет открыта
+Повторите снова или обратитесь к администратору!</value>
+  </data>
+  <data name="PowerSupplyN" xml:space="preserve">
+    <value>Источник питания {0}В</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>установка значения</value>
+  </data>
+  <data name="SetVoltage" xml:space="preserve">
+    <value>установка напряжения</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>в пределах от {1} до {2}</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>включение</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="WriteLogError" xml:space="preserve">
+    <value>Ошибка при записи в лог</value>
+  </data>
+  <data name="CantReadDb" xml:space="preserve">
+    <value>Ошибка получения данных из базы!</value>
+  </data>
+  <data name="CheckDevicesError" xml:space="preserve">
+    <value>Ошибка при открытии СОМ портов и проверки наличия плат:</value>
+  </data>
+  <data name="PSParams" xml:space="preserve">
+    <value>Параметры источников питания</value>
+  </data>
+  <data name="UV" xml:space="preserve">
+    <value>U, {0}</value>
+  </data>
+  <data name="Volt" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="DissCanOff" xml:space="preserve">
+    <value>ДИСС выключить</value>
+  </data>
+  <data name="DissCanOn" xml:space="preserve">
+    <value>ДИСС включить</value>
+  </data>
+  <data name="DissOff" xml:space="preserve">
+    <value>ДИСС выключен</value>
+  </data>
+  <data name="DissOn" xml:space="preserve">
+    <value>ДИСС включён</value>
+  </data>
+  <data name="HVCanOn" xml:space="preserve">
+    <value>Высокое включить</value>
+  </data>
+  <data name="HVOn" xml:space="preserve">
+    <value>Высокое включено</value>
+  </data>
+  <data name="GLPDParams" xml:space="preserve">
+    <value>Параметры ГЛПД. Напряжение смещения на модуляторных диодах.</value>
+  </data>
+  <data name="PMParams" xml:space="preserve">
+    <value>Параметры ПМ. Напряжение смещения на модуляторных диодах.</value>
+  </data>
+  <data name="SecondaryPSVoltage" xml:space="preserve">
+    <value>Напряжение вторичных источников питания</value>
+  </data>
+  <data name="SDParams" xml:space="preserve">
+    <value>Напряжение смещения на синхронных детекторах СД</value>
+  </data>
+  <data name="UNChNoiseParams" xml:space="preserve">
+    <value>Напряжение шумов на выходах УНЧ</value>
+  </data>
+  <data name="TKHighOff" xml:space="preserve">
+    <value>Напряжения смещения на диодах смесителей ТОК К("Высокое" выключено)</value>
+  </data>
+  <data name="TKHighOn" xml:space="preserve">
+    <value>Напряжения смещения на диодах смесителей ТОК К("Высокое" включено)</value>
+  </data>
+  <data name="TKResults" xml:space="preserve">
+    <value>Изменение напряжения смещения на диодах смесителей ТОК К после включения СВЧ-мощности. Разброс абсолютных значений напряжений в паре</value>
+  </data>
+  <data name="Alternate115V" xml:space="preserve">
+    <value>115{0}</value>
+  </data>
+  <data name="Amper" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="CurrentPM" xml:space="preserve">
+    <value>Ток ПМ</value>
+  </data>
+  <data name="MODN" xml:space="preserve">
+    <value>МОД {0}</value>
+  </data>
+  <data name="PMN" xml:space="preserve">
+    <value>ПМ{0}</value>
+  </data>
+  <data name="Positive27V" xml:space="preserve">
+    <value>+27{0}</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>проверяется...</value>
+  </data>
+  <data name="DeltaTKNN" xml:space="preserve">
+    <value>ΔТок {0}-{1}</value>
+  </data>
+  <data name="DeltaUNAbs" xml:space="preserve">
+    <value>ΔU{0} абс</value>
+  </data>
+  <data name="IA" xml:space="preserve">
+    <value>I, {0}</value>
+  </data>
+  <data name="LoadFormError" xml:space="preserve">
+    <value>Ошибка загрузки формы!</value>
+  </data>
+  <data name="miliAmper" xml:space="preserve">
+    <value>мА</value>
+  </data>
+  <data name="miliVolt" xml:space="preserve">
+    <value>мВ</value>
+  </data>
+  <data name="miliWatt" xml:space="preserve">
+    <value>мВт</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="NoiseNN" xml:space="preserve">
+    <value>Шум {0}-{1}</value>
+  </data>
+  <data name="SDNN" xml:space="preserve">
+    <value>СД {0}-{1}</value>
+  </data>
+  <data name="TKNN" xml:space="preserve">
+    <value>Ток {0}-{1}</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="ErrorLoadParameters" xml:space="preserve">
+    <value>Ошибка загрузки сохранённых параметров!</value>
+  </data>
+  <data name="MagnetronTraining" xml:space="preserve">
+    <value>Тренировка магнетрона</value>
+  </data>
+  <data name="StopMagnetronTraining" xml:space="preserve">
+    <value>Остановить тренировку</value>
+  </data>
+  <data name="SetPKToNN" xml:space="preserve">
+    <value>Установите переключатель на блоке ПК в положение {0} ({1})</value>
+  </data>
+  <data name="SetRKToK" xml:space="preserve">
+    <value>Установите переключатель "Р-К" на блоке 7 в положение "К" и после отработки задачи нажмите кнопку "{0}".</value>
+  </data>
+  <data name="SetRKToR" xml:space="preserve">
+    <value>Установите переключатель "Р-К" на блоке 7 в положение "P"  и после отработки задачи нажмите кнопку "{0}".</value>
+  </data>
+  <data name="WorkPosition" xml:space="preserve">
+    <value>Работа</value>
+  </data>
+  <data name="ZeroModeMessage" xml:space="preserve">
+    <value>Установите переключатель "ОБНУЛЕНИЕ"
+на приборе СК-А в положение "{0}"</value>
+  </data>
+  <data name="ZeroOff" xml:space="preserve">
+    <value>ВЫКЛ.</value>
+  </data>
+  <data name="ZeroOn" xml:space="preserve">
+    <value>ВКЛ.</value>
+  </data>
+  <data name="NumberCantBeNegative" xml:space="preserve">
+    <value>Значение не может быть отрицательным!</value>
+  </data>
+  <data name="SetBoardParams" xml:space="preserve">
+    <value>Установка начальных значений на платах</value>
+  </data>
+  <data name="CantChangeTab" xml:space="preserve">
+    <value>Для перехода на другую вкладку
+необходимо закончить все измерения
+на данной вкладке</value>
+  </data>
+  <data name="PressButtonContrBS" xml:space="preserve">
+    <value>Нажмите кнопку "Контр БС" на блоке БС-28 и удерживайте до стабилизации показаний на индикаторах. Удерживая кнопку, нажмите ОК.
+После автоматического завершения задачи отпустите кнопку на БС-28.</value>
+  </data>
+  <data name="PressButtonContrVCh" xml:space="preserve">
+    <value>Нажмите кнопку "Контр ВЧ" на блоке БС-28 и удерживайте её. После того как значения на панели индикаторов установятся, продолжая удерживать кнопку "Контр ВЧ", нажмите ОК.
+Убедитесь что значения доплеровских частот установились. Последовательно отожмите кнопку "Контр ВЧ" на комплексе и "Контр ВЧ" на БС-28.</value>
+  </data>
+  <data name="OneChannelDiss" xml:space="preserve">
+    <value>ВЧ блок: одноканальный</value>
+  </data>
+  <data name="MeasureFreqIndex" xml:space="preserve">
+    <value>Измерьте согласно РЭ индекс частотной модуляции, запишите его в соответствующее поле и нажмите "Сохранить"</value>
+  </data>
+  <data name="VersionDelimiter" xml:space="preserve">
+    <value>{0}.{1}.{2}</value>
+  </data>
+  <data name="CheckDeviceN" xml:space="preserve">
+    <value>Проведение проверки {0}</value>
+  </data>
+  <data name="Diss32" xml:space="preserve">
+    <value>ДИСС-32</value>
+  </data>
+  <data name="NoString" xml:space="preserve">
+    <value>Не соответствует</value>
+  </data>
+  <data name="YesString" xml:space="preserve">
+    <value>Соответствует</value>
+  </data>
+  <data name="ErrorTypeModuleNBySlotN" xml:space="preserve">
+    <value>Ошибка определения модуля, текущий слот: {0}, текущий модуль: {1}</value>
+  </data>
+  <data name="NTurnOn" xml:space="preserve">
+    <value>{0}-ое включение, установите переключатель на блоке НЧ в положение ЗАДАЧА 2, нажмите и отпустите кнопку B1, а переключатели Р-К и С-М на и ндикаторе в положение Р и С и запишите путевую скорость и угол сноса!</value>
+  </data>
+  <data name="MemoryN" xml:space="preserve">
+    <value>ПАМЯТЬ{0}</value>
+  </data>
+  <data name="CaptureN" xml:space="preserve">
+    <value>ЗАХВАТ {0}</value>
+  </data>
+  <data name="MarkSignalsBPK_6AndPressButtonN" xml:space="preserve">
+    <value>Отметьте галочками сигналы, индицируемые на БПК и на блоке 6, после чего нажмите кнопку "{0}".</value>
+  </data>
+  <data name="PushSearchOnAndCheckIndicators" xml:space="preserve">
+    <value>Нажмите и удерживайте кнопку "{0}" и, спустя 15 секунд, отметьте галочками сигналы, индицируемые на блоках, после чего нажмите кнопку "{1}" и отпустите кнопку "{0}".</value>
+  </data>
+  <data name="SetUSPSSwitchToMB" xml:space="preserve">
+    <value>Установите переключатель на УСПС в положение М-Б.</value>
+  </data>
+  <data name="SetUSPSSwitchToMS" xml:space="preserve">
+    <value>Установите переключатель на УСПС в положение М-С.</value>
+  </data>
+  <data name="SetUSPSSwitchToS" xml:space="preserve">
+    <value>Установите переключатель на УСПС в положение C.</value>
+  </data>
+  <data name="WaitBlock6Ready" xml:space="preserve">
+    <value>Дождитесь отработки указателей блока 6.</value>
+  </data>
+  <data name="WaitUSPSReady" xml:space="preserve">
+    <value>Дождитесь отработки указателя угла сноса на УСПС.</value>
+  </data>
+  <data name="ServiceabilityNotFoundInNSeconds" xml:space="preserve">
+    <value>Сигнал "ИСПРАВНОСТЬ" не обнаружен в течении {0} секунд</value>
+  </data>
+  <data name="Diss32BaseIndicatorsState" xml:space="preserve">
+    <value>Исходное состояние индикаторов:
+
+Горят “ДИСС ВКЛ”,     “ПОЛЕТ”, 
+           “ПАМЯТЬ1”,       “ПАМЯТЬ2”,      “ВЫСОКОЕ”, 
+           “НАВИГАЦИЯ” светится при показании счетчика путевой скорости УС ПС более 50 км/ч</value>
+  </data>
+  <data name="PitchAngleNApplied" xml:space="preserve">
+    <value>Установлен угол крена {0}°.</value>
+  </data>
+  <data name="BetaVersion" xml:space="preserve">
+    <value>(бета)</value>
+  </data>
+  <data name="UpButtonSearch" xml:space="preserve">
+    <value>Отпустите кнопку "ВКЛ ПОИСК"</value>
+  </data>
+  <data name="KZNSetted" xml:space="preserve">
+    <value>Установлена контрольная задача КЗ-{0}.</value>
+  </data>
+  <data name="ByVoltageN" xml:space="preserve">
+    <value>Напряжение источника {0} В</value>
+  </data>
+  <data name="CantContinueCheck" xml:space="preserve">
+    <value>Продолжение проверки невозможно!</value>
+  </data>
+  <data name="DiffVoltageSecPower27" xml:space="preserve">
+    <value>Разность напряжений вторичных источников питания -27В ст.опорн. и 27В ст.след.</value>
+  </data>
+  <data name="DissNotInCaptureMode" xml:space="preserve">
+    <value>ДИСС не перешёл в режим захвата!</value>
+  </data>
+  <data name="EnterPSAndUSFromIndicator" xml:space="preserve">
+    <value>Введите показания путевой скорости и угла сноса на индикаторе!</value>
+  </data>
+  <data name="FillAllFieldsAndPressN" xml:space="preserve">
+    <value>Заполните все поля и нажмите "{0}"!</value>
+  </data>
+  <data name="FixAllNChParams" xml:space="preserve">
+    <value>Устанавливая переключатель на блоке НЧ соответственно в положения СМЕС1, 2, ГЕТЕР. (при нажатой кнопке B1 на блоке НЧ), ВЫХ. УНЧ, КЛИСТР., зафиксируйте показания по микроамперметру на блоке НЧ!</value>
+  </data>
+  <data name="ImmidiatelyTurnStopwatchByButtonN" xml:space="preserve">
+    <value>Одновременно включите секундомер, нажав на кнопку "{0}"!</value>
+  </data>
+  <data name="IsPOn" xml:space="preserve">
+    <value>Горит табло П?</value>
+  </data>
+  <data name="MeasureVoltageBetweenStandNAndN" xml:space="preserve">
+    <value>Подключите вольтметр между стойками СТ9(+) и СТ12(-),введите значение напряжения при номинальном значении напряжения питания 115 В 400 Гц, а затем при повышенном и пониженном его значениях, устанавливаемых нажатием кнопок соответственно 109В~ и 121В~</value>
+  </data>
+  <data name="MeasureVoltageBetweenStandNAndNfor6V" xml:space="preserve">
+    <value>Установите потенциометром R78 «РЕГ. 6,3 В» напряжение 6,3 В по вольтметру, минусовую клемму которого подключите к стойке СТ9, а плюсовую клемму – к стойке СТ11, и введите значение напряжения при повышенном и пониженном питания сети 115 В 400 Гц, устанавливаемых нажатием кнопок соответственно 109В~ и 121В~</value>
+  </data>
+  <data name="NeedEnterIntervalValue" xml:space="preserve">
+    <value>Необходимо ввести число от {0} до {1}!</value>
+  </data>
+  <data name="NoConnectionPS115" xml:space="preserve">
+    <value>Нет связи с ИП 115В!</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>ВЫКЛ</value>
+  </data>
+  <data name="SetPotentNAndFixValues" xml:space="preserve">
+    <value>Установите потенциометром {0}В и, изменяя напряжение питания, запишите значение напряжения при пониженном и повышенном значениях напряжения питания.</value>
+  </data>
+  <data name="SwitchKROnIndicatorToK" xml:space="preserve">
+    <value>Установите переключатель К-Р на индикаторе в положение К.</value>
+  </data>
+  <data name="SwitchKROnIndicatorToR" xml:space="preserve">
+    <value>Установите переключатель К-Р на индикаторе в положение Р.</value>
+  </data>
+  <data name="SwitchNChToPositionN" xml:space="preserve">
+    <value>Переключатель на лицевой панели блока НЧ поставьте в положение "{0}".</value>
+  </data>
+  <data name="Task17_4Command" xml:space="preserve">
+    <value>Переключатели К-Р и С-М на индикаторе поставьте соответственно в положение Р и С. Установите переключатель на блоке НЧ в положение ВЫКЛ.</value>
+  </data>
+  <data name="Task2" xml:space="preserve">
+    <value>ЗАДАЧА 2</value>
+  </data>
+  <data name="Task3" xml:space="preserve">
+    <value>ЗАДАЧА 3</value>
+  </data>
+  <data name="TK17Command" xml:space="preserve">
+    <value>Установите переключатель на блоке НЧ в положение ЗАДАЧА2, а переключатели К-Р и С-М на индикаторе соответственно в положения Р и С. После чего нажмите и отпустите B1 на блоке НЧ.</value>
+  </data>
+  <data name="TK17_2Command" xml:space="preserve">
+    <value>Поставьте переключатель С-М на индикаторе в положении М и через 3 минуты вновь зафиксируйте показания путевой скорости!</value>
+  </data>
+  <data name="TK17_3Command" xml:space="preserve">
+    <value>Поставьте переключатели С-М и К-Р на индикаторе в положения С и К, а переключатель на блоке НЧ - в положение ВЫКЛ. и через 3 минуты зафиксируйте показания путевой скорости и угла сноса на индикаторе</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Ожидайте...</value>
+  </data>
+  <data name="WaitWhileDissCapture" xml:space="preserve">
+    <value>Дождитесь перехода ДИСС в режим захвата.</value>
+  </data>
+  <data name="WaitWhileTaskNCompleted" xml:space="preserve">
+    <value>Дождитесь отработки контрольной задачи {0}.</value>
+  </data>
+  <data name="CantChangeDbLanguage" xml:space="preserve">
+    <value>Не удалось переключить язык в базе данных!</value>
+  </data>
+  <data name="ErrorDeleteAircraft" xml:space="preserve">
+    <value>Данный тип ВС удалить нельзя, потому что он был использован в одной или нескольких проведенных проверках!</value>
+  </data>
+  <data name="ErrorDeletingRow" xml:space="preserve">
+    <value>Произошла ошибка при удалении строки.</value>
+  </data>
+  <data name="ErrorSavingDataOnServer" xml:space="preserve">
+    <value>Произошла ошибка сохранения данных в базе данных.</value>
+  </data>
+  <data name="NewAC" xml:space="preserve">
+    <value>Ввод нового типа ВС</value>
+  </data>
+  <data name="QuestionAboutDeleting" xml:space="preserve">
+    <value>Вы действительно хотите удалить запись {0} из базы данных?</value>
+  </data>
+  <data name="EmptyField" xml:space="preserve">
+    <value>Поле не заполнено</value>
+  </data>
+  <data name="EnterPSFromIndicator" xml:space="preserve">
+    <value>Введите показания путевой скорости на индикаторе!</value>
+  </data>
+  <data name="InitialSettingsPrepare" xml:space="preserve">
+    <value>Выполняется начальная настройка</value>
+  </data>
+  <data name="Alfa" xml:space="preserve">
+    <value>α</value>
+  </data>
+  <data name="ChannelN" xml:space="preserve">
+    <value>Канал {0}</value>
+  </data>
+  <data name="CosAN" xml:space="preserve">
+    <value>Cos, αизм, {0}</value>
+  </data>
+  <data name="CosDA" xml:space="preserve">
+    <value>Cos, Δα, {0}</value>
+  </data>
+  <data name="CosUN" xml:space="preserve">
+    <value>Cos, Uизм, {0}</value>
+  </data>
+  <data name="FreqM" xml:space="preserve">
+    <value>Частота, {0}</value>
+  </data>
+  <data name="Grad" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="Hz" xml:space="preserve">
+    <value>Гц</value>
+  </data>
+  <data name="PhaseShiftGrad" xml:space="preserve">
+    <value>Сдвиг фаз, град</value>
+  </data>
+  <data name="SinAN" xml:space="preserve">
+    <value>Sin, αизм, {0}</value>
+  </data>
+  <data name="SinDA" xml:space="preserve">
+    <value>Sin, Δα, {0}</value>
+  </data>
+  <data name="SinUN" xml:space="preserve">
+    <value>Sin, Uизм, {0}</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="TaskN" xml:space="preserve">
+    <value>Задача {0}</value>
+  </data>
+  <data name="UNchN" xml:space="preserve">
+    <value>УНЧ{0}</value>
+  </data>
+  <data name="DeltaTKNAbs" xml:space="preserve">
+    <value>∆ТК {0} абс</value>
+  </data>
+  <data name="FindDAlfaDW" xml:space="preserve">
+    <value>Найти ∆ɑ, ∆W</value>
+  </data>
+  <data name="FindDW" xml:space="preserve">
+    <value>Найти ∆W</value>
+  </data>
+  <data name="ModeK" xml:space="preserve">
+    <value>Режим К</value>
+  </data>
+  <data name="ModeSea" xml:space="preserve">
+    <value>Режим МОРЕ</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="_27VRef" xml:space="preserve">
+    <value>-27 В оп</value>
+  </data>
+  <data name="_27VTs" xml:space="preserve">
+    <value>+27 В сл</value>
+  </data>
+  <data name="LTRBoards" xml:space="preserve">
+    <value>LTR-платы</value>
+  </data>
+  <data name="Diss15Att" xml:space="preserve">
+    <value>(ДИСС-15)</value>
+  </data>
+  <data name="Diss32Att" xml:space="preserve">
+    <value>(ДИСС-32)</value>
+  </data>
+  <data name="GLPDCurrent" xml:space="preserve">
+    <value>Ток ГЛПД</value>
+  </data>
+  <data name="GLPDN" xml:space="preserve">
+    <value>ГЛПД{0}</value>
+  </data>
+  <data name="MCurrent" xml:space="preserve">
+    <value>Ток М</value>
+  </data>
+  <data name="PSvch" xml:space="preserve">
+    <value>Р СВЧ</value>
+  </data>
+  <data name="TKN" xml:space="preserve">
+    <value>TK {0}-{1}</value>
+  </data>
+  <data name="ZoptPKV" xml:space="preserve">
+    <value>Zорт (ПКВ)</value>
+  </data>
+  <data name="ZoptPNP" xml:space="preserve">
+    <value>Zорт (ПНП)</value>
+  </data>
+  <data name="CantMeasureTimeWithP" xml:space="preserve">
+    <value>Присутствует сигнал 'П', замер времени невозможен!</value>
+  </data>
+  <data name="WaitUSPSAndCheck" xml:space="preserve">
+    <value>Дождитесь окончания отработки указателя угла сноса на индикаторе УСПС и отметьте наличие индикации!</value>
+  </data>
+  <data name="CenterFreqNotFound" xml:space="preserve">
+    <value>Не найдена центральная частота!</value>
+  </data>
+  <data name="ConnectionError" xml:space="preserve">
+    <value>Ошибка подключения!</value>
+  </data>
+  <data name="DoFirstNCheck" xml:space="preserve">
+    <value>Выполните вначале проверку " {0} "!</value>
+  </data>
+  <data name="NoDataToAnalyze" xml:space="preserve">
+    <value>Нет данных для анализа!</value>
+  </data>
+  <data name="SpectrumAnalyzerConnection" xml:space="preserve">
+    <value>Подключение к анализатору спектра...</value>
+  </data>
+  <data name="SpectrumNotAnalyzableN" xml:space="preserve">
+    <value>Спектр ВЧ сигнала не позволяет произвести измерение индекса частотной модуляции! Подробнее: {0}</value>
+  </data>
+  <data name="CheckSpectrum" xml:space="preserve">
+    <value>Проверка спектра...</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Подключено</value>
+  </data>
+  <data name="MeasureForCalculation" xml:space="preserve">
+    <value>Проходят измерения для расчёта...</value>
+  </data>
+  <data name="ConnectionSpectrumAnalyzerError" xml:space="preserve">
+    <value>Ошибка подключения к анализатору спектра!</value>
+  </data>
+  <data name="Dbm" xml:space="preserve">
+    <value>дБм</value>
+  </data>
+  <data name="GHz" xml:space="preserve">
+    <value>ГГц</value>
+  </data>
+  <data name="LevelN" xml:space="preserve">
+    <value>Уровень, {0}</value>
+  </data>
+  <data name="NotDefined" xml:space="preserve">
+    <value>не определено</value>
+  </data>
+  <data name="SpectrumGraphTitle" xml:space="preserve">
+    <value>Спектр сигнала</value>
+  </data>
+  <data name="ContinousMeas" xml:space="preserve">
+    <value>Постоянное измерение...</value>
+  </data>
+  <data name="SetPotentAndFixValues485V" xml:space="preserve">
+    <value>Установите потенциометром «R19 РЕГ. 500 В» напряжение резонатора 485 В по вольтметру, минусовую клемму которого подключите к стойке СТ9, а плюсовую клемму – к корпусу. Изменяя напряжение питания, запишите значение напряжения при пониженном и повышенном значениях напряжения питания.</value>
+  </data>
+  <data name="SetPotentAndFixValues515V" xml:space="preserve">
+    <value>Установите потенциометром «R19 РЕГ. 500 В» напряжение резонатора 515 В по вольтметру. Изменяя напряжение питания, запишите значение напряжения при пониженном и повышенном значениях напряжения питания.</value>
+  </data>
+  <data name="RequirementPlusMinus" xml:space="preserve">
+    <value>{0} ± {1}</value>
+  </data>
+  <data name="SAMeasureError" xml:space="preserve">
+    <value>Ошибка измерения на анализаторе спектра!</value>
+  </data>
+  <data name="SetPotent505V" xml:space="preserve">
+    <value>Установите потенциометром «R19 РЕГ. 500 В» напряжение резонатора 505 В по вольтметру и законтрите потенциометр.</value>
+  </data>
+  <data name="Task1Full" xml:space="preserve">
+    <value>ВПЕРЁД - 17, ВБОК - 0, ВВЕРХ - 4,5</value>
+  </data>
+  <data name="WaitWhileBlock6And7DoneAndGoodOn" xml:space="preserve">
+    <value>Дождитесь отработки блоков 6 и 7 и загорания сигнала "Исправность".</value>
+  </data>
+  <data name="WaitWhileBottonIndicatorTurnOnAfterNSec" xml:space="preserve">
+    <value>Дождитесь включения нижнего индикатора, который включится через {0} секунд.</value>
+  </data>
+  <data name="CheckDeviceNN" xml:space="preserve">
+    <value>Проведение проверки {0} № {1}</value>
+  </data>
+  <data name="WaitWhileTaskCompletedOrGoodOff" xml:space="preserve">
+    <value>Дождитесь отработки контрольной задачи или погасания табло "Исправность" и нажмите ОК.</value>
+  </data>
+  <data name="WaitWhileTaskCompletedOrGoodOn" xml:space="preserve">
+    <value>Дождитесь отработки контрольной задачи или загорания табло "Исправность" и нажмите ОК.</value>
+  </data>
+  <data name="CheckEquivalent" xml:space="preserve">
+    <value>Проверка в режиме "Эквивалент"</value>
+  </data>
+  <data name="CheckHeel" xml:space="preserve">
+    <value>Проверка по крену</value>
+  </data>
+  <data name="CheckPitch" xml:space="preserve">
+    <value>Проверка по тангажу</value>
+  </data>
+  <data name="PressButtonContrBSLong" xml:space="preserve">
+    <value>Нажмите кнопку "Контр БС" на блоке БС-28 и удерживайте её. После того как значения на панели индикаторов установятся, продолжая удерживать кнопку "Контр БС", нажмите ОК.
+Убедитесь что значения доплеровских частот установились. Последовательно отожмите кнопку "Контр БС" на комплексе и "Контр БС" на БС-28.</value>
+  </data>
+  <data name="CosCalcN" xml:space="preserve">
+    <value>Cos(), {0}</value>
+  </data>
+  <data name="dCosCalcN" xml:space="preserve">
+    <value>dCos(), {0}</value>
+  </data>
+  <data name="dSinCalcN" xml:space="preserve">
+    <value>dSin(), {0}</value>
+  </data>
+  <data name="SinCalcN" xml:space="preserve">
+    <value>Sin(), {0}</value>
+  </data>
+  <data name="SettingAngle" xml:space="preserve">
+    <value>Идёт установка угла...</value>
+  </data>
+  <data name="PressContrDiss" xml:space="preserve">
+    <value>Нажать клавишу "Контр ДИСС"</value>
+  </data>
+  <data name="UnpressContrDiss" xml:space="preserve">
+    <value>Отжать клавишу "Контр ДИСС"</value>
+  </data>
+  <data name="IndicatorButtonTurnOnSearch" xml:space="preserve">
+    <value>ВКЛ ПОИСК</value>
+  </data>
+  <data name="AfterPressButtonN" xml:space="preserve">
+    <value>После чего нажмите кнопку {0}</value>
+  </data>
+  <data name="CheckHVOff" xml:space="preserve">
+    <value>Проверка при выключении высокого напряжения</value>
+  </data>
+  <data name="CheckRemoveCT" xml:space="preserve">
+    <value>Проверка при снятии КЗ</value>
+  </data>
+  <data name="Task2Full" xml:space="preserve">
+    <value>НАЗАД - 17, ВПРАВО - 17, ВВЕРХ - 3</value>
+  </data>
+  <data name="Task3Full" xml:space="preserve">
+    <value>СКОРОСТЬ - 136, СНОС - 0</value>
+  </data>
+  <data name="WaitWhileBlock6And7DoneAndGoodOff" xml:space="preserve">
+    <value>Дождитесь отработки блоков 6 и 7 и погасания сигнала "Исправность".</value>
+  </data>
+  <data name="WaitWhileGoodOff" xml:space="preserve">
+    <value>Дождитесь погасания сигнала "Исправность".</value>
+  </data>
+  <data name="AskPositionOnNchN" xml:space="preserve">
+    <value>На НЧ блоке присутствует положение переключателя {0}?</value>
+  </data>
+  <data name="PeakFollowAfterFreqNHaveLessAmpl" xml:space="preserve">
+    <value>Пик следующий после частоты {0} МГц амплитудой меньше основной частоты.</value>
+  </data>
+  <data name="PeaksAfterNFollowIncrease" xml:space="preserve">
+    <value>Пики следующие после частоты {0} МГц идут по возрастанию.</value>
+  </data>
+  <data name="PeaksOnFreqNNotFound" xml:space="preserve">
+    <value>Не удалось найти соседние пики, вокруг частоты: {0} МГц.</value>
+  </data>
+  <data name="SignalLevelOnNLessThenNDbm" xml:space="preserve">
+    <value>Уровень сигнала на частоте {0} МГц меньше {1} Дбм.</value>
+  </data>
+  <data name="KZBoardNoResponse" xml:space="preserve">
+    <value>Плата КЗ не отвечает!</value>
+  </data>
+  <data name="NoMeasures" xml:space="preserve">
+    <value>Нет измерений.</value>
+  </data>
+  <data name="EnterPassportData" xml:space="preserve">
+    <value>Введите паспортные данные на устройство!</value>
+  </data>
+  <data name="Requirement" xml:space="preserve">
+    <value>Требование</value>
+  </data>
+  <data name="Diss3228_Monoblock" xml:space="preserve">
+    <value>ДИСС-32-28М</value>
+  </data>
+  <data name="Current27V" xml:space="preserve">
+    <value>Ток (+27В)</value>
+  </data>
+  <data name="ChannelN_UnchN" xml:space="preserve">
+    <value>Канал {0} - УНЧ {1}</value>
+  </data>
+  <data name="CantDeleteMainACType" xml:space="preserve">
+    <value>Невозможно удалить основной тип ВС!</value>
+  </data>
+  <data name="NewModAC" xml:space="preserve">
+    <value>Ввод новой модификации типа ВС</value>
+  </data>
+  <data name="ErrorAlgorithmInitialization" xml:space="preserve">
+    <value>Ошибка инициализации алгоритма</value>
+  </data>
+  <data name="Plug" xml:space="preserve">
+    <value>Переходник</value>
+  </data>
+  <data name="MarkSignalsBPK_6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Diss15D" xml:space="preserve">
+    <value>ДИСС-15Д</value>
+  </data>
+  <data name="NewHelicopter" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SpectrumNotAnalyzable" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Diss32_CheckWork" xml:space="preserve">
+    <value>ДИСС-32 (РП)</value>
+  </data>
+  <data name="Diss32-90A_CheckWork" xml:space="preserve">
+    <value>ДИСС-32-90А (РП)</value>
+  </data>
+  <data name="Diss32_90_CheckWork" xml:space="preserve">
+    <value>ДИСС-32-90 (РП)</value>
+  </data>
+  <data name="ErrorDataHardwareSettings" xml:space="preserve">
+    <value>В файле KPK2Hardware.config отсутствуют сведения о параметрах подключения</value>
+  </data>
+</root>

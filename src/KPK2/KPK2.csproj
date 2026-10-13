@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41107D43-E2FD-442F-89B3-2CDAFFAC3813}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KPK2</RootNamespace>
+    <AssemblyName>KPK2</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <ApplicationIcon>Todo.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Emulation|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Emulation\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;emulation</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>2</WarningLevel>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Emulation|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Emulation\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;emulation</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningLevel>2</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseWinFormsOutOfProcDesigner>True</UseWinFormsOutOfProcDesigner>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AktorPS115v, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\AktorPS115v.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Hardware.LfGenerator.Akip.3410">
+      <HintPath>..\..\lib\Hardware.LfGenerator.Akip.3410.dll</HintPath>
+    </Reference>
+    <Reference Include="LCards, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\LCards.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.1.1\lib\net35\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NPlot, Version=0.9.10.0, Culture=neutral, PublicKeyToken=4eda430eb4395eb1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\NPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Advantech.PCI176X">
+      <HintPath>..\..\lib\Sparc.Hardware.Advantech.PCI176X.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Akip1142">
+      <HintPath>..\..\lib\Sparc.Hardware.Akip1142.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Akip3418">
+      <HintPath>..\..\lib\Sparc.Hardware.Akip3418.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Transport.UsbCh375">
+      <HintPath>..\..\lib\Sparc.Hardware.Transport.UsbCh375.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Transport.VisaConnect, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sparc.Hardware.Transport.VisaConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USBVoltmeter, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\USBVoltmeter.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backup\BackupAlgorithm.cs" />
+    <Compile Include="Common\AddParameters.cs" />
+    <Compile Include="Common\CommonSettings.cs" />
+    <Compile Include="Common\DissFunctions\Block5Type.cs" />
+    <Compile Include="Common\DissFunctions\Diss15Functions.cs" />
+    <Compile Include="Common\DissFunctions\Diss32Functions.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\CheckType.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformanceElement\IndicatorViewer.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformanceElement\IndicatorViewerCreator.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformance.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformanceState\ITypeChecker.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformanceState\StandardChecker.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\MeasurementPerformanceState\RepairChecker.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\TestTasks.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\TestTasksState\ITypeTestTasks.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\TestTasksState\TypeDefaultCheckerTestTasks.cs" />
+    <Compile Include="Common\DissFunctions\Diss32\TestTasksState\TypeRepairCheckerTestTasks.cs" />
+    <Compile Include="Common\Exceptions.cs" />
+    <Compile Include="Common\MeasureVoltage\EmulationAkipPS.cs" />
+    <Compile Include="Common\MeasureVoltage\GlobalMeasure.cs" />
+    <Compile Include="Common\MeasureVoltage\IndicatorsSource.cs" />
+    <Compile Include="Common\MeasureVoltage\AkipPS.cs" />
+    <Compile Include="Common\MeasureVoltage\IPowerSupply.cs" />
+    <Compile Include="Common\MeasureVoltage\ISource.cs" />
+    <Compile Include="Common\MeasureVoltage\IVoltmeter.cs" />
+    <Compile Include="Common\MeasureVoltage\MeasuredChannel.cs" />
+    <Compile Include="Common\MeasureVoltage\NameIk.cs" />
+    <Compile Include="Common\MeasureVoltage\PowerNames.cs" />
+    <Compile Include="Common\MeasureVoltage\UNCHArray.cs" />
+    <Compile Include="Common\MeasureVoltage\VoltagesArray.cs" />
+    <Compile Include="Common\MeasureVoltage\VoltageValues.cs" />
+    <Compile Include="Common\MeasureVoltage\Voltmeter.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\CurTok0.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\CurTok1.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\CurTok2.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\CurTok3.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\Events\EventImageTok.cs" />
+    <Compile Include="Common\TokKFunction\OneChannel\ICurTok.cs" />
+    <Compile Include="DB\DataBaseKPK2.cs" />
+    <Compile Include="GeneralForms\AddForms\fProgressMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\fProgressMessage.Designer.cs">
+      <DependentUpon>fProgressMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmAddACType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmAddACType.Designer.cs">
+      <DependentUpon>frmAddACType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmInformation.Designer.cs">
+      <DependentUpon>frmInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmSelectDissMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmSelectDissMod.Designer.cs">
+      <DependentUpon>frmSelectDissMod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmVSSType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\frmVSSType.Designer.cs">
+      <DependentUpon>frmVSSType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\fSetValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\AddForms\fSetValue.Designer.cs">
+      <DependentUpon>fSetValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork32.Designer.cs">
+      <DependentUpon>frmWork32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork3228_Monoblock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork3228_Monoblock.Designer.cs">
+      <DependentUpon>frmWork3228_Monoblock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\Setting\SettingsObj.cs" />
+    <Compile Include="Interfaces\IFrmWork15ForBlack8Check.cs" />
+    <Compile Include="Interfaces\IFrmWork15ForCorners.cs" />
+    <Compile Include="Interfaces\IMeasurementsControl.cs" />
+    <Compile Include="Interfaces\IUICheckingControl.cs" />
+    <Compile Include="Interfaces\IFrmWork15Base.cs" />
+    <Compile Include="Interfaces\IFrmWork32.cs" />
+    <Compile Include="MyClasse\MeasuringValueInfo.cs" />
+    <Compile Include="MyControl\DISS\FrmDiss32\CaptureModeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\CaptureModeControl.Designer.cs">
+      <DependentUpon>CaptureModeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\MeasurementsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\MeasurementsControl.Designer.cs">
+      <DependentUpon>MeasurementsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\TestTypeId_Dess32.cs" />
+    <Compile Include="GeneralForms\Enums\Checks.cs" />
+    <Compile Include="GeneralForms\Enums\ModeMeasurementsDiss32.cs" />
+    <Compile Include="GeneralForms\Enums\ModeMeasurementsDiss15.cs" />
+    <Compile Include="GeneralForms\Enums\ModeTaskDiss32.cs" />
+    <Compile Include="GeneralForms\Enums\ModeTaskDiss15.cs" />
+    <Compile Include="GeneralForms\Enums\PMIndicators.cs" />
+    <Compile Include="GeneralForms\Enums\SDIndicators.cs" />
+    <Compile Include="GeneralForms\Enums\SecPowerIndicators.cs" />
+    <Compile Include="GeneralForms\Enums\TKIndicators.cs" />
+    <Compile Include="GeneralForms\Enums\UNChIndicators.cs" />
+    <Compile Include="GeneralForms\ServiceForm\frmMeasVoltage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmMeasVoltage.Designer.cs">
+      <DependentUpon>frmMeasVoltage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmBlock5Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmBlock5Type.Designer.cs">
+      <DependentUpon>frmBlock5Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmACType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmACType.designer.cs">
+      <DependentUpon>frmACType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmACTypeEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ReferenceForm\frmACTypeEdit.designer.cs">
+      <DependentUpon>frmACTypeEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmAutoAttestation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmAutoAttestation.Designer.cs">
+      <DependentUpon>frmAutoAttestation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmBlockService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmBlockService.Designer.cs">
+      <DependentUpon>frmBlockService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmProgress.designer.cs">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork3228.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork3228.Designer.cs">
+      <DependentUpon>frmWork3228.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCalibrateAttenuations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCalibrateAttenuations.Designer.cs">
+      <DependentUpon>frmCalibrateAttenuations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmComPorts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmComPorts.designer.cs">
+      <DependentUpon>frmComPorts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCheckComDevices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCheckComDevices.Designer.cs">
+      <DependentUpon>frmCheckComDevices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmGenSinCosAngleCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmGenSinCosAngleCalibrate.Designer.cs">
+      <DependentUpon>frmGenSinCosAngleCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmGenSinCosCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmGenSinCosCalibrate.Designer.cs">
+      <DependentUpon>frmGenSinCosCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmPS115VCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmPS115VCalibrate.Designer.cs">
+      <DependentUpon>frmPS115VCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmSettingsFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmSettingsFile.Designer.cs">
+      <DependentUpon>frmSettingsFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmUNCH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmUNCH.Designer.cs">
+      <DependentUpon>frmUNCH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\KZTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\KZTest.Designer.cs">
+      <DependentUpon>KZTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmKZCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmKZCalibrate.Designer.cs">
+      <DependentUpon>frmKZCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstanceFile.cs" />
+    <Compile Include="KPK2DataSet.cs">
+      <DependentUpon>KPK2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KPK2DataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>KPK2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\BackUPDataBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\BackUPDataBase.designer.cs">
+      <DependentUpon>BackUPDataBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmAbout.designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCalibrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmCalibrate.Designer.cs">
+      <DependentUpon>frmCalibrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmViewTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmViewTest.designer.cs">
+      <DependentUpon>frmViewTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\FrmDocumentLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\FrmDocumentLink.designer.cs">
+      <DependentUpon>FrmDocumentLink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\FrmGenSinSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\FrmGenSinSettings.Designer.cs">
+      <DependentUpon>FrmGenSinSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmNewCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmNewCheck.designer.cs">
+      <DependentUpon>frmNewCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmParameters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmParameters.Designer.cs">
+      <DependentUpon>frmParameters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmPassportData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmPassportData.Designer.cs">
+      <DependentUpon>frmPassportData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmRassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmRassword.Designer.cs">
+      <DependentUpon>frmRassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmReportEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmReportEditor.Designer.cs">
+      <DependentUpon>frmReportEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmReportHeader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmReportHeader.designer.cs">
+      <DependentUpon>frmReportHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork13.Designer.cs">
+      <DependentUpon>frmWork13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\DissForms\frmWork15.Designer.cs">
+      <DependentUpon>frmWork15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmStandAttest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmStandAttest.Designer.cs">
+      <DependentUpon>frmStandAttest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmLTRSignals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\ServiceForm\frmLTRSignals.Designer.cs">
+      <DependentUpon>frmLTRSignals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralForms\frmSelfTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralForms\frmSelfTest.Designer.cs">
+      <DependentUpon>frmSelfTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modes\ModeApplicationState.cs" />
+    <Compile Include="Modes\ModeDefaultCheck.cs" />
+    <Compile Include="Modes\ModeWorkCheck.cs" />
+    <Compile Include="MyClasse\AutoAttestationAlgorithm.cs" />
+    <Compile Include="MyClasse\AutoAttestationTableGenerator.cs" />
+    <Compile Include="MyClasse\BitWork.cs" />
+    <Compile Include="MyClasse\ErrorComparer.cs" />
+    <Compile Include="MyClasse\ImageDataSet.cs" />
+    <Compile Include="MyClasse\LogFile.cs" />
+    <Compile Include="MyClasse\myTimer.cs" />
+    <Compile Include="MyClasse\PowerStrip.cs" />
+    <Compile Include="MyClasse\ProcessControlTask.cs" />
+    <Compile Include="MyClasse\ProcessUnstableValue.cs" />
+    <Compile Include="MyClasse\SISettings.cs" />
+    <Compile Include="MyClasse\TwoDelegates.cs" />
+    <Compile Include="MyControl\Block8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\Block8.Designer.cs">
+      <DependentUpon>Block8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\Block8Check.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\Block8Check.Designer.cs">
+      <DependentUpon>Block8Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\BPK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\BPK.Designer.cs">
+      <DependentUpon>BPK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ControlDVS_24.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ControlDVS_24.Designer.cs">
+      <DependentUpon>ControlDVS_24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ControlLandysh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ControlLandysh.Designer.cs">
+      <DependentUpon>ControlLandysh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ControlSAU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ControlSAU.Designer.cs">
+      <DependentUpon>ControlSAU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ControlSU.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ControlSU.Designer.cs">
+      <DependentUpon>ControlSU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\Corners.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\Corners.Designer.cs">
+      <DependentUpon>Corners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\CorrectionCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\CorrectionCode.Designer.cs">
+      <DependentUpon>CorrectionCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\ReadyWorkTimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\ReadyWorkTimeControl.Designer.cs">
+      <DependentUpon>ReadyWorkTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ElecInsulationResistanceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ElecInsulationResistanceControl.Designer.cs">
+      <DependentUpon>ElecInsulationResistanceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\GraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\GraphControl.Designer.cs">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\IndicationDiss3228M.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\IndicationDiss3228M.Designer.cs">
+      <DependentUpon>IndicationDiss3228M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\IndicationPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\IndicationPanel.Designer.cs">
+      <DependentUpon>IndicationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\RepairLightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\RepairLightControl.Designer.cs">
+      <DependentUpon>RepairLightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\LightControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\LightControl.Designer.cs">
+      <DependentUpon>LightControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\MeasFreqDiss3228M.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\MeasFreqDiss3228M.Designer.cs">
+      <DependentUpon>MeasFreqDiss3228M.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\Memory3228.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\Memory3228.Designer.cs">
+      <DependentUpon>Memory3228.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\PK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\PK.Designer.cs">
+      <DependentUpon>PK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ControlAist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ControlAist.Designer.cs">
+      <DependentUpon>ControlAist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\SecPowerDiss13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\SecPowerDiss13.Designer.cs">
+      <DependentUpon>SecPowerDiss13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\SegmentIndicatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\SegmentIndicatorControl.Designer.cs">
+      <DependentUpon>SegmentIndicatorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\StabilizeSpeed.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\StabilizeSpeed.Designer.cs">
+      <DependentUpon>StabilizeSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\StateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\StateControl.Designer.cs">
+      <DependentUpon>StateControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\SVChFreqAndPowerDiss32.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\SVChFreqAndPowerDiss32.Designer.cs">
+      <DependentUpon>SVChFreqAndPowerDiss32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\SVChFreqAndPower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\SVChFreqAndPower.Designer.cs">
+      <DependentUpon>SVChFreqAndPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\SVCHFreqAndPowerDiss13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\SVCHFreqAndPowerDiss13.Designer.cs">
+      <DependentUpon>SVCHFreqAndPowerDiss13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\Task2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\Task2.Designer.cs">
+      <DependentUpon>Task2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ctrlTK17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ctrlTK17.Designer.cs">
+      <DependentUpon>ctrlTK17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ucIndicatorsState.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ucIndicatorsState.Designer.cs">
+      <DependentUpon>ucIndicatorsState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\UICheckingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\DISS\FrmDiss32\UICheckingControl.Designer.cs">
+      <DependentUpon>UICheckingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\WPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\WPanel.Designer.cs">
+      <DependentUpon>WPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControl\ZeroVoltage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyControl\ZeroVoltage.Designer.cs">
+      <DependentUpon>ZeroVoltage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Globals.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.en.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.es.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\fProgressMessage.resx">
+      <DependentUpon>fProgressMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmAddACType.en.resx">
+      <DependentUpon>frmAddACType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmAddACType.resx">
+      <DependentUpon>frmAddACType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmInformation.en.resx">
+      <DependentUpon>frmInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmInformation.resx">
+      <DependentUpon>frmInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmSelectDissMod.resx">
+      <DependentUpon>frmSelectDissMod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmVSSType.en.resx">
+      <DependentUpon>frmVSSType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\frmVSSType.resx">
+      <DependentUpon>frmVSSType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\AddForms\fSetValue.resx">
+      <DependentUpon>fSetValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\BackUPDataBase.en.resx">
+      <DependentUpon>BackUPDataBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\BackUPDataBase.resx">
+      <DependentUpon>BackUPDataBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork32.en.resx">
+      <DependentUpon>frmWork32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork32.resx">
+      <DependentUpon>frmWork32.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork3228_Monoblock.en.resx">
+      <DependentUpon>frmWork3228_Monoblock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork3228_Monoblock.resx">
+      <DependentUpon>frmWork3228_Monoblock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\DISS\FrmDiss32\CaptureModeControl.resx">
+      <DependentUpon>CaptureModeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\DISS\FrmDiss32\MeasurementsControl.resx">
+      <DependentUpon>MeasurementsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmAbout.en.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmAbout.es.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmMeasVoltage.resx">
+      <DependentUpon>frmMeasVoltage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmNewCheck.en.resx">
+      <DependentUpon>frmNewCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmPassportData.en.resx">
+      <DependentUpon>frmPassportData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmRassword.en.resx">
+      <DependentUpon>frmRassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmReport.en.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmStandAttest.en.resx">
+      <DependentUpon>frmStandAttest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmViewTest.en.resx">
+      <DependentUpon>frmViewTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork13.en.resx">
+      <DependentUpon>frmWork13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmBlock5Type.resx">
+      <DependentUpon>frmBlock5Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACType.en.resx">
+      <DependentUpon>frmACType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACType.es.resx">
+      <DependentUpon>frmACType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACType.resx">
+      <DependentUpon>frmACType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACTypeEdit.en.resx">
+      <DependentUpon>frmACTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACTypeEdit.es.resx">
+      <DependentUpon>frmACTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ReferenceForm\frmACTypeEdit.resx">
+      <DependentUpon>frmACTypeEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmAutoAttestation.resx">
+      <DependentUpon>frmAutoAttestation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmBlockService.resx">
+      <DependentUpon>frmBlockService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmCalibrate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmViewTest.resx">
+      <DependentUpon>frmViewTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmProgress.en.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmProgress.es.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmProgress.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork15.en.resx">
+      <DependentUpon>frmWork15.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork3228.en.resx">
+      <DependentUpon>frmWork3228.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork3228.resx">
+      <DependentUpon>frmWork3228.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmCalibrateAttenuations.resx">
+      <DependentUpon>frmCalibrateAttenuations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmComPorts.resx">
+      <DependentUpon>frmComPorts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmCheckComDevices.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCheckComDevices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\FrmDocumentLink.resx">
+      <DependentUpon>FrmDocumentLink.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmGenSinCosAngleCalibrate.en.resx">
+      <DependentUpon>frmGenSinCosAngleCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmGenSinCosAngleCalibrate.resx">
+      <DependentUpon>frmGenSinCosAngleCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmGenSinCosCalibrate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGenSinCosCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\FrmGenSinSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmGenSinSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmNewCheck.resx">
+      <DependentUpon>frmNewCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmParameters.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmParameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmPassportData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPassportData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmRassword.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmReportEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmReportHeader.en.resx">
+      <DependentUpon>frmReportHeader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmReportHeader.resx">
+      <DependentUpon>frmReportHeader.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork13.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWork13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\DissForms\frmWork15.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWork15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmStandAttest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStandAttest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmLTRSignals.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLTRSignals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmSelfTest.en.resx">
+      <DependentUpon>frmSelfTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\frmSelfTest.resx">
+      <DependentUpon>frmSelfTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmPS115VCalibrate.resx">
+      <DependentUpon>frmPS115VCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmSettingsFile.resx">
+      <DependentUpon>frmSettingsFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmUNCH.resx">
+      <DependentUpon>frmUNCH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\KZTest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KZTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralForms\ServiceForm\frmKZCalibrate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKZCalibrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Block8.en.resx">
+      <DependentUpon>Block8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Block8.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Block8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Block8Check.en.resx">
+      <DependentUpon>Block8Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Block8Check.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Block8Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\BPK.en.resx">
+      <DependentUpon>BPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\BPK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BPK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlAist.en.resx">
+      <DependentUpon>ControlAist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlDVS_24.en.resx">
+      <DependentUpon>ControlDVS_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlDVS_24.resx">
+      <DependentUpon>ControlDVS_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlLandysh.en.resx">
+      <DependentUpon>ControlLandysh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlLandysh.resx">
+      <DependentUpon>ControlLandysh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlSAU.en.resx">
+      <DependentUpon>ControlSAU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlSAU.resx">
+      <DependentUpon>ControlSAU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlSU.en.resx">
+      <DependentUpon>ControlSU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlSU.resx">
+      <DependentUpon>ControlSU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Corners.en.resx">
+      <DependentUpon>Corners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Corners.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Corners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\CorrectionCode.en.resx">
+      <DependentUpon>CorrectionCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\CorrectionCode.resx">
+      <DependentUpon>CorrectionCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ctrlTK17.en.resx">
+      <DependentUpon>ctrlTK17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\DISS\FrmDiss32\ReadyWorkTimeControl.resx">
+      <DependentUpon>ReadyWorkTimeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ElecInsulationResistanceControl.resx">
+      <DependentUpon>ElecInsulationResistanceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\GraphControl.resx">
+      <DependentUpon>GraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\IndicationDiss3228M.resx">
+      <DependentUpon>IndicationDiss3228M.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\IndicationPanel.en.resx">
+      <DependentUpon>IndicationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\IndicationPanel.resx">
+      <DependentUpon>IndicationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\RepairLightControl.en.resx">
+      <DependentUpon>RepairLightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\RepairLightControl.resx">
+      <DependentUpon>RepairLightControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\LightControl.en.resx">
+      <DependentUpon>LightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\LightControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LightControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\MeasFreqDiss3228M.resx">
+      <DependentUpon>MeasFreqDiss3228M.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Memory3228.en.resx">
+      <DependentUpon>Memory3228.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Memory3228.resx">
+      <DependentUpon>Memory3228.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\PK.en.resx">
+      <DependentUpon>PK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\PK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ControlAist.resx">
+      <DependentUpon>ControlAist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SecPowerDiss13.en.resx">
+      <DependentUpon>SecPowerDiss13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SecPowerDiss13.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SecPowerDiss13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SegmentIndicatorControl.resx">
+      <DependentUpon>SegmentIndicatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\StabilizeSpeed.en.resx">
+      <DependentUpon>StabilizeSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\StabilizeSpeed.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StabilizeSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\StateControl.resx">
+      <DependentUpon>StateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVChFreqAndPowerDiss32.en.resx">
+      <DependentUpon>SVChFreqAndPowerDiss32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVChFreqAndPowerDiss32.resx">
+      <DependentUpon>SVChFreqAndPowerDiss32.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVChFreqAndPower.en.resx">
+      <DependentUpon>SVChFreqAndPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVChFreqAndPower.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SVChFreqAndPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVCHFreqAndPowerDiss13.en.resx">
+      <DependentUpon>SVCHFreqAndPowerDiss13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\SVCHFreqAndPowerDiss13.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SVCHFreqAndPowerDiss13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Task2.en.resx">
+      <DependentUpon>Task2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\Task2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Task2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ctrlTK17.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ctrlTK17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ucIndicatorsState.en.resx">
+      <DependentUpon>ucIndicatorsState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ucIndicatorsState.resx">
+      <DependentUpon>ucIndicatorsState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\DISS\FrmDiss32\UICheckingControl.resx">
+      <DependentUpon>UICheckingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\WPanel.en.resx">
+      <DependentUpon>WPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\WPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ZeroVoltage.en.resx">
+      <DependentUpon>ZeroVoltage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyControl\ZeroVoltage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ZeroVoltage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForRepairTestPrintDiss3290A.en.resx">
+      <DependentUpon>frmForRepairTestPrintDiss3290A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForRepairTestPrintDiss3290A.resx">
+      <DependentUpon>frmForRepairTestPrintDiss3290A.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForRepairTestPrint.en.resx">
+      <DependentUpon>frmForRepairTestPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForRepairTestPrint.resx">
+      <DependentUpon>frmForRepairTestPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForPrint.en.resx">
+      <DependentUpon>frmForPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmForPrint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmForPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MainReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MainReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ParamsReport.resx">
+      <DependentUpon>ParamsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ParamsReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ParamsReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RepairReport_Diss32.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepairReport_Diss32.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RepairReport_Diss32_90A.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepairReport_Diss32_90A.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestGraph.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TestGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUser.en.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmEditPost.en.resx">
+      <DependentUpon>frmEditPost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmEditPost.resx">
+      <DependentUpon>frmEditPost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUsers.en.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUsers.es.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Post.en.resx">
+      <DependentUpon>Post.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\Post.resx">
+      <DependentUpon>Post.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="KPK2.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\KPK2.Common.MeasureVoltage.IndicatorsSource.datasource" />
+    <None Include="Properties\DataSources\KPK2.GeneralForms.frmMeasVoltage.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\frmForRepairTestPrintDiss3290A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmForRepairTestPrintDiss3290A.Designer.cs">
+      <DependentUpon>frmForRepairTestPrintDiss3290A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\dsReport.cs">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\dsReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmForRepairTestPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmForRepairTestPrint.Designer.cs">
+      <DependentUpon>frmForRepairTestPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmForPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmForPrint.Designer.cs">
+      <DependentUpon>frmForPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MainReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ParamsReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ParamsReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RepairReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepairReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RepairReport_Diss32.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepairReport_Diss32.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RepairReport_Diss32_90A.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RepairReport_Diss32_90A.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="TestGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestGraph.Designer.cs">
+      <DependentUpon>TestGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mode.cs" />
+    <Compile Include="Threading\SafeReportThread.cs" />
+    <Compile Include="Users\frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmAddUser.designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmEditPost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmEditPost.designer.cs">
+      <DependentUpon>frmEditPost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\frmUsers.designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Post.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users\Post.designer.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="KPK2DataSet.xsc">
+      <DependentUpon>KPK2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KPK2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>KPK2DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="KPK2DataSet.xss">
+      <DependentUpon>KPK2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\dsReport.xsc">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\dsReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\dsReport.xss">
+      <DependentUpon>dsReport.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Reports\RepairReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RepairReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Resources\helicopter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License-LGPL.txt" />
+    <Content Include="ltrModulesNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Todo.ico" />
+    <None Include="Resources\clock.jpg" />
+    <Content Include="Resources\IndicatorPitanie.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Setup\DatabaseInstaller\DatabaseInstaller.csproj">
+      <Project>{36f0dc8c-e805-47bd-bec5-d5bc1ceeb9ed}</Project>
+      <Name>DatabaseInstaller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Setup\DBConfiguration\DBConfiguration.csproj">
+      <Project>{c7ed5741-ff4c-4749-9e65-a2ce55e9ebed}</Project>
+      <Name>DBConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Setup\DBInstaller.Interface\DBInstaller.Interface.csproj">
+      <Project>{df0a9704-1730-433e-bdbc-c338ea6d7831}</Project>
+      <Name>DBInstaller.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Algorithms\Sparc.KPK2.Algorithms.csproj">
+      <Project>{53b81145-f2fc-4764-a2eb-2240bd499278}</Project>
+      <Name>Sparc.KPK2.Algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Config\Sparc.KPK2.Config.csproj">
+      <Project>{820eb36b-8dda-47e8-9700-dd361588acb4}</Project>
+      <Name>Sparc.KPK2.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Functions\Sparc.KPK2.Functions.csproj">
+      <Project>{3d7edb43-4f50-42b6-9648-c7f156fb42e5}</Project>
+      <Name>Sparc.KPK2.Functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Hardware\Sparc.KPK2.Hardware.csproj">
+      <Project>{fd36da1a-920d-449c-914a-8c420c152b2b}</Project>
+      <Name>Sparc.KPK2.Hardware</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Imitator\Sparc.KPK2.Imitator.csproj">
+      <Project>{467aa188-93c5-4f1d-a06c-de948c453851}</Project>
+      <Name>Sparc.KPK2.Imitator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Resources\Sparc.KPK2.Resources.csproj">
+      <Project>{e40cd2e8-6c2c-45c7-8315-8db34801adbf}</Project>
+      <Name>Sparc.KPK2.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControlsKPK2\UserControlsKPK2.csproj">
+      <Project>{4690e58c-6d2f-42f1-af39-490c376a6582}</Project>
+      <Name>UserControlsKPK2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>SubWCRev $(SolutionDir)  $(ProjectDir)\Properties\AssemblyInfo.Template.cs  $(ProjectDir)\Properties\AssemblyInfo.cs
+powershell -Command "(gc $(ProjectDir)\Properties\AssemblyInfo.cs) -replace \"_ProductVersion_\", (gc $(SolutionDir)\SolutionVersion\ProductVersion.txt) | Out-File -Encoding unknown $(ProjectDir)\Properties\AssemblyInfo.cs"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

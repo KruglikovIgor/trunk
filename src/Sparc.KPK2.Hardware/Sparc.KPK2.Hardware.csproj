@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD36DA1A-920D-449C-914A-8C420C152B2B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sparc.KPK2.Hardware</RootNamespace>
+    <AssemblyName>Sparc.KPK2.Hardware</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AktorPS115v">
+      <HintPath>..\..\lib\AktorPS115v.dll</HintPath>
+    </Reference>
+    <Reference Include="APS1102, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\APS1102.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlTaskBoard">
+      <HintPath>..\..\lib\ControlTaskBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscreteInputsBoard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\DiscreteInputsBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="GenSinCosBoard">
+      <HintPath>..\..\lib\GenSinCosBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="Hardware.SpectrumAnalyzer.SignalHound.Sa">
+      <HintPath>..\..\lib\Hardware.SpectrumAnalyzer.SignalHound.Sa.dll</HintPath>
+    </Reference>
+    <Reference Include="LCards">
+      <HintPath>..\..\lib\LCards.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.1.1\lib\net35\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PowerSupplyGWI_ASR72100">
+      <HintPath>..\..\lib\PowerSupplyGWI_ASR72100.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ReleBoard">
+      <HintPath>..\..\lib\ReleBoard.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Advantech.PCI176X">
+      <HintPath>..\..\lib\Sparc.Hardware.Advantech.PCI176X.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.Akip1133">
+      <HintPath>..\..\lib\Sparc.Hardware.Akip1133.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.IT65XX">
+      <HintPath>..\..\lib\Sparc.Hardware.IT65XX.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.LambdaGEN">
+      <HintPath>..\..\lib\Sparc.Hardware.LambdaGEN.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparc.Hardware.PowerMeterU8481A">
+      <HintPath>..\..\lib\Sparc.Hardware.PowerMeterU8481A.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTask.cs" />
+    <Compile Include="LTR\CorrectRangeLTRMeasure.cs" />
+    <Compile Include="DiscreteInputs.cs" />
+    <Compile Include="DiscreteOutputs.cs" />
+    <Compile Include="DO176X.cs" />
+    <Compile Include="Enums\LTRCardsEnum.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="GenSinCos.cs" />
+    <Compile Include="LTR\LTRRanges.cs" />
+    <Compile Include="MyClasseUSB\LTRSupport.cs" />
+    <Compile Include="PS115V\AktorAdapter.cs" />
+    <Compile Include="PS115V\APS7102Adapter.cs" />
+    <Compile Include="PS115V\ASR72100Adapter.cs" />
+    <Compile Include="PS115V\IPower115V.cs" />
+    <Compile Include="PS27V\AkipAdapter.cs" />
+    <Compile Include="PS27V\IPower27V.cs" />
+    <Compile Include="PS27V\IT65XXAdapter.cs" />
+    <Compile Include="PS27V\Lambda27V.cs" />
+    <Compile Include="LTR\Measure.cs" />
+    <Compile Include="MyClasseUSB\UsbBase.cs" />
+    <Compile Include="MyClasseUSB\USBBaseNew.cs" />
+    <Compile Include="PS115V\Power115VExtension.cs" />
+    <Compile Include="PS115V\Power115V.cs" />
+    <Compile Include="PowerMeter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PS115V\PS115DeviceSelector.cs" />
+    <Compile Include="PS27V\LambdaLogger.cs" />
+    <Compile Include="PS27V\Power27V.cs" />
+    <Compile Include="PS27V\PS27DeviceSelector.cs" />
+    <Compile Include="SpectrumAnalyzer.cs" />
+    <Compile Include="SPManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sparc.KPK2.Config\Sparc.KPK2.Config.csproj">
+      <Project>{820eb36b-8dda-47e8-9700-dd361588acb4}</Project>
+      <Name>Sparc.KPK2.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Functions\Sparc.KPK2.Functions.csproj">
+      <Project>{3d7edb43-4f50-42b6-9648-c7f156fb42e5}</Project>
+      <Name>Sparc.KPK2.Functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Imitator\Sparc.KPK2.Imitator.csproj">
+      <Project>{467aa188-93c5-4f1d-a06c-de948c453851}</Project>
+      <Name>Sparc.KPK2.Imitator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sparc.KPK2.Resources\Sparc.KPK2.Resources.csproj">
+      <Project>{e40cd2e8-6c2c-45c7-8315-8db34801adbf}</Project>
+      <Name>Sparc.KPK2.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="APS1102\Transport\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

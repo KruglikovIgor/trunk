@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllDevicesGood" xml:space="preserve">
+    <value>All devices operate!</value>
+  </data>
+  <data name="ApplicationMustBeClosed" xml:space="preserve">
+    <value>Application needs to close!</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>КПК-2</value>
+  </data>
+  <data name="BreakingPCI_1760" xml:space="preserve">
+    <value>Board PCI-1761 (1762) is possibly faulty.</value>
+  </data>
+  <data name="CantChangeTab" xml:space="preserve">
+    <value>To go to another tab, complete all measurements in current tab</value>
+  </data>
+  <data name="CantCloseLTRServer" xml:space="preserve">
+    <value>The auxiliary LTR server program is failed to close, the program will be closed forcedly!</value>
+  </data>
+  <data name="CantConnectToDb" xml:space="preserve">
+    <value>Failed to connect to database!</value>
+  </data>
+  <data name="CantOpenForm" xml:space="preserve">
+    <value>To start form "{0}", complete all measurements in current tab</value>
+  </data>
+  <data name="CantOpenLTRServer" xml:space="preserve">
+    <value>Failed to open control program for L-Card boards!</value>
+  </data>
+  <data name="CantStartAnyTest" xml:space="preserve">
+    <value>Testing is impossible!</value>
+  </data>
+  <data name="CantStartTest" xml:space="preserve">
+    <value>Testing is impossible</value>
+  </data>
+  <data name="CaptionCalibrate" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="ChannelCountOverflow" xml:space="preserve">
+    <value>Permissible channels number is exceeded: {0}.</value>
+  </data>
+  <data name="CheckDevicesError" xml:space="preserve">
+    <value>Error when opening COM ports and checking availability of boards</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Testing</value>
+  </data>
+  <data name="Cosine" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>disabled</value>
+  </data>
+  <data name="DiscretInputOutputsBoard" xml:space="preserve">
+    <value>Discrete input-output board</value>
+  </data>
+  <data name="Diss" xml:space="preserve">
+    <value>DOPP</value>
+  </data>
+  <data name="Diss15" xml:space="preserve">
+    <value>ДИСС-15</value>
+  </data>
+  <data name="Diss32_90А" xml:space="preserve">
+    <value>ДИСС-32-90A</value>
+  </data>
+  <data name="EmptyListOfDevices" xml:space="preserve">
+    <value>List of installed Advantech devices is empty.</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>enabled</value>
+  </data>
+  <data name="EnableOff" xml:space="preserve">
+    <value>disable</value>
+  </data>
+  <data name="EnableOn" xml:space="preserve">
+    <value>enable</value>
+  </data>
+  <data name="EnterAngleInmV" xml:space="preserve">
+    <value>Enter value {0}({1}°) in mV</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorCommand" xml:space="preserve">
+    <value>Operation error:{0}</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="HighVoltageOn" xml:space="preserve">
+    <value>Enable high</value>
+  </data>
+  <data name="IncorrectAngleValue" xml:space="preserve">
+    <value>Entered value {0}({1}°): {2} is wrong.
+Enter the correct value</value>
+  </data>
+  <data name="IncorrectAnswer" xml:space="preserve">
+    <value>Error of board response via</value>
+  </data>
+  <data name="IncorrectTab" xml:space="preserve">
+    <value>Unknown tab</value>
+  </data>
+  <data name="Increase" xml:space="preserve">
+    <value>Increasing</value>
+  </data>
+  <data name="InvalidRelayNumber" xml:space="preserve">
+    <value>Invalid relay number. The relay number must be non-negative.</value>
+  </data>
+  <data name="Invariably" xml:space="preserve">
+    <value>Not changing</value>
+  </data>
+  <data name="KZBoard" xml:space="preserve">
+    <value>Check task board</value>
+  </data>
+  <data name="LightInstruction1" xml:space="preserve">
+    <value>Press key "FORWARD 17 LEFT 17 DOWN 3" on AMP and check display (keys) status</value>
+  </data>
+  <data name="LightInstruction3" xml:space="preserve">
+    <value>Release key "CONTROL DOP" on AMP, press button "Forward" at KPK-2 and check display status in 10s</value>
+  </data>
+  <data name="LightInstruction2" xml:space="preserve">
+    <value>Press key "VELOCITY 258 DRIFT&lt;-9,5" on AMP and check display (keys) status</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Maximum value</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>"М-Б"</value>
+  </data>
+  <data name="MeasureAmplifierPins" xml:space="preserve">
+    <value>Measure voltage on amplifier contacts {0}</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Minimum value</value>
+  </data>
+  <data name="MS" xml:space="preserve">
+    <value>"М-С"</value>
+  </data>
+  <data name="NeedToSaveTest" xml:space="preserve">
+    <value>Do you want to make a record on new test {0}?</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="OpenFormError" xml:space="preserve">
+    <value>Currently not connected to DB.
+The form will not open
+Try again or contact the administrator!</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>All other</value>
+  </data>
+  <data name="PCI_1760notFound" xml:space="preserve">
+    <value>Board PCI-1761 (1762) is not available or faulty</value>
+  </data>
+  <data name="PowerSupplies" xml:space="preserve">
+    <value>Power sources</value>
+  </data>
+  <data name="PowerSupplyMeasuringError" xml:space="preserve">
+    <value>Indication start error 27V - 115V</value>
+  </data>
+  <data name="PressButtonOnBlock8" xml:space="preserve">
+    <value>Press button "{0}" on unit 8</value>
+  </data>
+  <data name="PSOn" xml:space="preserve">
+    <value>Enabling PU</value>
+  </data>
+  <data name="PushContrDiss" xml:space="preserve">
+    <value>Make sure "БПК ON" light at the KPK-2 is out, press key "ДИСС CTRL" on AMP and check display (keys) status</value>
+  </data>
+  <data name="Sine" xml:space="preserve">
+    <value>Sin</value>
+  </data>
+  <data name="SKTBoard" xml:space="preserve">
+    <value>SKT board</value>
+  </data>
+  <data name="SomeDevicesFailed" xml:space="preserve">
+    <value>Faulty devices found!</value>
+  </data>
+  <data name="TakeOffCorrector" xml:space="preserve">
+    <value>Disconnect the update unit from VCC, press button "{0}" at KPK-2 and check display status</value>
+  </data>
+  <data name="TakeOnCorrector" xml:space="preserve">
+    <value>Connect the update unit to VCC, press button "{0}" at KPK-2 and check display status</value>
+  </data>
+  <data name="Task1Instruction" xml:space="preserve">
+    <value>Wait till display "OK" is out on the stand and the indicators of unit 6 stop, then enter readings of scales FORWARD, LEFT, DOWN on unit 6 into the respective cells on the stand
+</value>
+  </data>
+  <data name="Task2Instruction" xml:space="preserve">
+    <value>Wait till display "OK" illuminates on the stand and the indicators of unit 6 stop, then enter readings of scales BACK, RIGHT, UP on unit 6 into the respective cells on the test bench</value>
+  </data>
+  <data name="Task3_4Instruction" xml:space="preserve">
+    <value>Wait till display "OK" illuminates on the stand and reading DA GS counter indication is finished, then enter the readings of drift angle and ground speed counter on DA GS indicator into the respecive cells on the test bench </value>
+  </data>
+  <data name="TaskMemoryInstruction" xml:space="preserve">
+    <value>Press button on AMP DOP panel "ВКЛ ПОИСК" and hold it till display "П" on indicator DA GS illuminates, then press "{0}"</value>
+  </data>
+  <data name="TaskUSPSInstruction" xml:space="preserve">
+    <value>Set switch on DA GS indicator to {0} and press "{1}" after completing the task</value>
+  </data>
+  <data name="TaskUSPSInstruction2" xml:space="preserve">
+    <value>Set switch on indicator DA GS  to "С"</value>
+  </data>
+  <data name="TaskZeroInstruction" xml:space="preserve">
+    <value>Wait until  display "OK" illuminates on the stand, unit 6 indicators and  ground speed counter of DA GS indicator stop</value>
+  </data>
+  <data name="TestFinished" xml:space="preserve">
+    <value>Test completed</value>
+  </data>
+  <data name="ThereIsLighning" xml:space="preserve">
+    <value>Backlight</value>
+  </data>
+  <data name="ThereIsntLightning" xml:space="preserve">
+    <value>No backlight</value>
+  </data>
+  <data name="TKOff" xml:space="preserve">
+    <value>TK switch-on</value>
+  </data>
+  <data name="TKOn" xml:space="preserve">
+    <value>TK switch-off</value>
+  </data>
+  <data name="WaitWhileDeviceTesting" xml:space="preserve">
+    <value>Wait while the equipment is being tested…</value>
+  </data>
+  <data name="WriteReadError" xml:space="preserve">
+    <value>Record/read error</value>
+  </data>
+  <data name="IncorrectSwitchMode" xml:space="preserve">
+    <value>The switch on the front panel is set to the wrong position OFF. Set to ON and repeat the test! </value>
+  </data>
+  <data name="CantCheck" xml:space="preserve">
+    <value>testing impossible</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>unsuccessful</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>successful</value>
+  </data>
+  <data name="AbsentRemember" xml:space="preserve">
+    <value>No memorizing when</value>
+  </data>
+  <data name="AbsentSignals" xml:space="preserve">
+    <value>No signals</value>
+  </data>
+  <data name="CantContinueTesting" xml:space="preserve">
+    <value>Further testing is impossible!</value>
+  </data>
+  <data name="CantReadDb" xml:space="preserve">
+    <value>Database information retrieving error!</value>
+  </data>
+  <data name="FailSpeed" xml:space="preserve">
+    <value>The entered velocity value: {0} is wrong.
+Enter the correct value</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="NoIndication" xml:space="preserve">
+    <value>no indication</value>
+  </data>
+  <data name="PressButtonAndCheck" xml:space="preserve">
+    <value>Press "{0}" at KPK-2 and check display status</value>
+  </data>
+  <data name="RightIndication" xml:space="preserve">
+    <value>Indication available</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>remaining</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="CommandError" xml:space="preserve">
+    <value>Control error!</value>
+  </data>
+  <data name="FailFrequency" xml:space="preserve">
+    <value>The entered frequency : {0} is wrong.
+Enter the correct value</value>
+  </data>
+  <data name="FailValue" xml:space="preserve">
+    <value>The entered value: {0} is wrong! Enter the correct value</value>
+  </data>
+  <data name="FrequencyRequirement" xml:space="preserve">
+    <value>Frequency value should be in the range from {0} to {1}</value>
+  </data>
+  <data name="PS" xml:space="preserve">
+    <value>GS {0}</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="SpeedValueLimit" xml:space="preserve">
+    <value>Velocity value {0} should be in the range from {1} to {2}</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="US" xml:space="preserve">
+    <value>DA {0}</value>
+  </data>
+  <data name="ValueLimit" xml:space="preserve">
+    <value>Value "{0}" should be in the range from  {1} до {2}</value>
+  </data>
+  <data name="PSParams" xml:space="preserve">
+    <value>Power source parameters</value>
+  </data>
+  <data name="SecondaryPSVoltage" xml:space="preserve">
+    <value>Voltage of secondary sources of power</value>
+  </data>
+  <data name="GLPDParams" xml:space="preserve">
+    <value>IMPATT oscillator parameters. Bias voltage on modulator diodes.</value>
+  </data>
+  <data name="VoltagesKCurrentsHighOff" xml:space="preserve">
+    <value>Bias voltage on mixers diodes CURRENT К("High" disabled)</value>
+  </data>
+  <data name="VoltagesKCurrentHighOn" xml:space="preserve">
+    <value>Bias voltage on mixers diodes CURRENT К("High" enabled)</value>
+  </data>
+  <data name="NoiseVoltages" xml:space="preserve">
+    <value>Noise voltage at LF amplifier outputs</value>
+  </data>
+  <data name="Positive115V" xml:space="preserve">
+    <value>115{0}</value>
+  </data>
+  <data name="Positive27V" xml:space="preserve">
+    <value>+27{0}</value>
+  </data>
+  <data name="UV" xml:space="preserve">
+    <value>U, {0}</value>
+  </data>
+  <data name="Volt" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="miliVolt" xml:space="preserve">
+    <value>mV</value>
+  </data>
+  <data name="CurrentK" xml:space="preserve">
+    <value>Current К {0}-{1}</value>
+  </data>
+  <data name="GLPD" xml:space="preserve">
+    <value>IMPATT {0}</value>
+  </data>
+  <data name="GLPDCurrent" xml:space="preserve">
+    <value>IMPATT OC</value>
+  </data>
+  <data name="MeasVoltageAfterSVChOn" xml:space="preserve">
+    <value>Change of bias voltage mixers diodes  CURRENT К after swithing on UHF power. Scattered absolute values of voltage in pair</value>
+  </data>
+  <data name="MOD" xml:space="preserve">
+    <value>MOD {0}</value>
+  </data>
+  <data name="NoiseNN" xml:space="preserve">
+    <value>Noise {0}-{1}</value>
+  </data>
+  <data name="POnUS_PS" xml:space="preserve">
+    <value>"П" on DA GS</value>
+  </data>
+  <data name="SD" xml:space="preserve">
+    <value>SD {0}-{1}</value>
+  </data>
+  <data name="Uabs" xml:space="preserve">
+    <value>U{0} abs</value>
+  </data>
+  <data name="CantConnectDb" xml:space="preserve">
+    <value>Currently not connected to DB.
+The form will be closed. 
+Try again or contact the administrator!</value>
+  </data>
+  <data name="ShowAllActiveUsers" xml:space="preserve">
+    <value>Show all active employees</value>
+  </data>
+  <data name="ShowAllUsers" xml:space="preserve">
+    <value>Show all employees from DB</value>
+  </data>
+  <data name="UserWorking" xml:space="preserve">
+    <value>Employee engaged</value>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>Currently not engaged</value>
+  </data>
+  <data name="NoPosts" xml:space="preserve">
+    <value>No positions available.
+Add positions for employees</value>
+  </data>
+  <data name="DiscreteInputsBoard" xml:space="preserve">
+    <value>Discrete inputs board</value>
+  </data>
+  <data name="DiscreteOutputsBoard" xml:space="preserve">
+    <value>Discrete outputs board</value>
+  </data>
+  <data name="GenSinBoard" xml:space="preserve">
+    <value>Sine generator</value>
+  </data>
+  <data name="TabloOn" xml:space="preserve">
+    <value>Dicrete inputs monitoring</value>
+  </data>
+  <data name="MeasureAfter10Sec" xml:space="preserve">
+    <value>Measuring will start in 10 sec.  Elapsed:</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TKM" xml:space="preserve">
+    <value>High voltage, magnetron current and SHF reference power. Bias voltage of modulator diodes</value>
+  </data>
+  <data name="CrystalMixCurrents" xml:space="preserve">
+    <value>Currents of crystal mixers. Scattered diodes currents in pair</value>
+  </data>
+  <data name="CurrentMagnetron" xml:space="preserve">
+    <value>Сurrent M</value>
+  </data>
+  <data name="CurrentMagnetronN" xml:space="preserve">
+    <value>MD {0}</value>
+  </data>
+  <data name="HV" xml:space="preserve">
+    <value>HV</value>
+  </data>
+  <data name="IA" xml:space="preserve">
+    <value>I, {0}</value>
+  </data>
+  <data name="miliAmper" xml:space="preserve">
+    <value>mA</value>
+  </data>
+  <data name="SVChPowerControl" xml:space="preserve">
+    <value>SHF reference power</value>
+  </data>
+  <data name="UNChNN" xml:space="preserve">
+    <value>LFA {0}-{1}</value>
+  </data>
+  <data name="UNChVoltage" xml:space="preserve">
+    <value>Signal voltage at LF amplifier outputs</value>
+  </data>
+  <data name="Amper" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="CurrentN" xml:space="preserve">
+    <value>Current {0}</value>
+  </data>
+  <data name="AlfaGrad" xml:space="preserve">
+    <value>α, degree</value>
+  </data>
+  <data name="KmH" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="MSec" xml:space="preserve">
+    <value>m/s</value>
+  </data>
+  <data name="WN" xml:space="preserve">
+    <value>W, {0}</value>
+  </data>
+  <data name="Wxg" xml:space="preserve">
+    <value>Wxг, {0}</value>
+  </data>
+  <data name="Wyg" xml:space="preserve">
+    <value>Wyг, {0}</value>
+  </data>
+  <data name="Wzg" xml:space="preserve">
+    <value>Wzг, {0}</value>
+  </data>
+  <data name="ControlTaskN" xml:space="preserve">
+    <value>Check Task CT-{0}</value>
+  </data>
+  <data name="FixChanges" xml:space="preserve">
+    <value>Record changes of longitudinal, lateral and vertical component of velocity vector
+(relative to values during nulling)</value>
+  </data>
+  <data name="GreatThan" xml:space="preserve">
+    <value>Increased</value>
+  </data>
+  <data name="HVOff" xml:space="preserve">
+    <value>DISABLE high </value>
+  </data>
+  <data name="HVOn" xml:space="preserve">
+    <value>ENABLE ON</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Decreased</value>
+  </data>
+  <data name="NotChanged" xml:space="preserve">
+    <value>Same</value>
+  </data>
+  <data name="DataFromUnitN" xml:space="preserve">
+    <value>Data from unit {0}</value>
+  </data>
+  <data name="MeasuredValuesPSAndUS" xml:space="preserve">
+    <value>Measured values of GS and DA</value>
+  </data>
+  <data name="MeasureSpeedStabilize" xml:space="preserve">
+    <value>Measuring response rates</value>
+  </data>
+  <data name="TimeN" xml:space="preserve">
+    <value>Time, {0}</value>
+  </data>
+  <data name="Vstab" xml:space="preserve">
+    <value>Vresp.</value>
+  </data>
+  <data name="WaitWhileStabilizeUnitN" xml:space="preserve">
+    <value>Wait for the unit indicators to stop {0}</value>
+  </data>
+  <data name="MeasureSpeedPS" xml:space="preserve">
+    <value>Measuring response rate of ground speed (GS)</value>
+  </data>
+  <data name="MeasureSpeedUS" xml:space="preserve">
+    <value>Measuring response rate of drift angle (DA)</value>
+  </data>
+  <data name="MeasureSpeedWN" xml:space="preserve">
+    <value>Measuring response rate of vertical component {0}</value>
+  </data>
+  <data name="dBm" xml:space="preserve">
+    <value>dBm</value>
+  </data>
+  <data name="miliWatt" xml:space="preserve">
+    <value>mW</value>
+  </data>
+  <data name="PowerN" xml:space="preserve">
+    <value>P, {0}</value>
+  </data>
+  <data name="StopTimer" xml:space="preserve">
+    <value>Stop timer</value>
+  </data>
+  <data name="ErrorDiapazonValue" xml:space="preserve">
+    <value>Value {0} should be in the range from {1} to {2}</value>
+  </data>
+  <data name="ErrorInputNValue" xml:space="preserve">
+    <value>Entered value: {0} is wrong.
+Enter correct value</value>
+  </data>
+  <data name="Sideway" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="SpeedN" xml:space="preserve">
+    <value>velocity {0}</value>
+  </data>
+  <data name="TimePassed" xml:space="preserve">
+    <value>Elapsed</value>
+  </data>
+  <data name="TimeWhilePOn" xml:space="preserve">
+    <value>Display П turn-on time</value>
+  </data>
+  <data name="MeasuredSpeedParams" xml:space="preserve">
+    <value>Measured values of velocity components</value>
+  </data>
+  <data name="WaitWhileMeasureHVTime" xml:space="preserve">
+    <value>Wait for HV turn-on time measurement to complete</value>
+  </data>
+  <data name="FixCounters" xml:space="preserve">
+    <value>Record readings of counters "ПУТЬ" and "БОКОВОЕ УКЛОНЕНИЕ"</value>
+  </data>
+  <data name="MeasuredValueN" xml:space="preserve">
+    <value>Measured value {0}</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="SignalNNotFound" xml:space="preserve">
+    <value>Signal "{0}" not detected!</value>
+  </data>
+  <data name="Op" xml:space="preserve">
+    <value>ref.</value>
+  </data>
+  <data name="Sl" xml:space="preserve">
+    <value>ts.</value>
+  </data>
+  <data name="Wx" xml:space="preserve">
+    <value>Wx IFS</value>
+  </data>
+  <data name="Wy" xml:space="preserve">
+    <value>Wy IFS</value>
+  </data>
+  <data name="Wz" xml:space="preserve">
+    <value>Wz IFS</value>
+  </data>
+  <data name="Zopt" xml:space="preserve">
+    <value>Zopt.(IFS)</value>
+  </data>
+  <data name="WmN" xml:space="preserve">
+    <value>Wm, {0}</value>
+  </data>
+  <data name="InSec" xml:space="preserve">
+    <value>/s</value>
+  </data>
+  <data name="SetSMToM" xml:space="preserve">
+    <value>Set switch "С-М" on unit 7 to "M"; after completing the task, press "{0}", then "{1}"</value>
+  </data>
+  <data name="SetSMToS" xml:space="preserve">
+    <value>Set switch "С-М" on unit 7 to "С"</value>
+  </data>
+  <data name="Noise" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="ReportLabelN" xml:space="preserve">
+    <value>Test report {0}</value>
+  </data>
+  <data name="Signal" xml:space="preserve">
+    <value>Signal</value>
+  </data>
+  <data name="ErrorInputNNValue" xml:space="preserve">
+    <value>Entered value{0}: {1} is wrong</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Enter correct value</value>
+  </data>
+  <data name="ErrorChoose" xml:space="preserve">
+    <value>Parameter for measurement not selected</value>
+  </data>
+  <data name="PowerSupplyN" xml:space="preserve">
+    <value>Power source {0}V</value>
+  </data>
+  <data name="ErrorOnDevice" xml:space="preserve">
+    <value>Error at device {0} while performing operation {1}</value>
+  </data>
+  <data name="GetValue" xml:space="preserve">
+    <value>obtaining value</value>
+  </data>
+  <data name="SetVoltage" xml:space="preserve">
+    <value>setting voltage</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>enabling</value>
+  </data>
+  <data name="AfterStabilizeBlockN" xml:space="preserve">
+    <value>After completing the task on unit {0}</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NotMeasured" xml:space="preserve">
+    <value>not measured</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Block8Off" xml:space="preserve">
+    <value>Disable unit 8</value>
+  </data>
+  <data name="Block8On" xml:space="preserve">
+    <value>Enable unit 8</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="SaveNotCompleted" xml:space="preserve">
+    <value>Failed to save all!</value>
+  </data>
+  <data name="ApplicationAlreadyRunning" xml:space="preserve">
+    <value>Application already started!
+Press ОК to exit</value>
+  </data>
+  <data name="BVK" xml:space="preserve">
+    <value>БВК</value>
+  </data>
+  <data name="CalcDiss" xml:space="preserve">
+    <value>Calc DOPP</value>
+  </data>
+  <data name="CalcDPSM" xml:space="preserve">
+    <value>Calc ДПСМ</value>
+  </data>
+  <data name="ControlDiss" xml:space="preserve">
+    <value>CTRL DOPP</value>
+  </data>
+  <data name="CoordsOff" xml:space="preserve">
+    <value>Dis. coord.</value>
+  </data>
+  <data name="CorrectWork" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Flight" xml:space="preserve">
+    <value>Flight</value>
+  </data>
+  <data name="NOnN" xml:space="preserve">
+    <value>"{0}" to {1}</value>
+  </data>
+  <data name="P" xml:space="preserve">
+    <value>П</value>
+  </data>
+  <data name="RefuseBVK" xml:space="preserve">
+    <value>БВК failure</value>
+  </data>
+  <data name="RightWorkBVK" xml:space="preserve">
+    <value>Good БВК</value>
+  </data>
+  <data name="ZoptPNP" xml:space="preserve">
+    <value>Zopt.(HSI)</value>
+  </data>
+  <data name="DataFromIndicatorN" xml:space="preserve">
+    <value>Data from indicator {0}</value>
+  </data>
+  <data name="SpeedVectorsFromBlockN" xml:space="preserve">
+    <value>Velocity components of unit {0}</value>
+  </data>
+  <data name="FindError" xml:space="preserve">
+    <value>Find error</value>
+  </data>
+  <data name="WmbN" xml:space="preserve">
+    <value>Wмб, {0}</value>
+  </data>
+  <data name="WmsN" xml:space="preserve">
+    <value>Wмс, {0}</value>
+  </data>
+  <data name="WpN" xml:space="preserve">
+    <value>Wп, {0}</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>setting value</value>
+  </data>
+  <data name="AngleGrad" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Tangazh" xml:space="preserve">
+    <value>side deviation</value>
+  </data>
+  <data name="FindDeltaW" xml:space="preserve">
+    <value>Obtain ΔW</value>
+  </data>
+  <data name="FindDeltaWAndAlfa" xml:space="preserve">
+    <value>Obtain ΔW, Δα</value>
+  </data>
+  <data name="VoltageShiftOnSD" xml:space="preserve">
+    <value>Bias voltage on synchronous detectors SD</value>
+  </data>
+  <data name="LTRBoards" xml:space="preserve">
+    <value>LTR boards</value>
+  </data>
+  <data name="CantSaveDbParam" xml:space="preserve">
+    <value>Error while saving parameter to database!</value>
+  </data>
+  <data name="CantInitiateNewCheckNoExecutors" xml:space="preserve">
+    <value>No available emloyees in DB!
+Recording new test will not be possible!</value>
+  </data>
+  <data name="CloseFormWithUnsavedData" xml:space="preserve">
+    <value>Unsaved data in the form!
+Do you really want to close the form?</value>
+  </data>
+  <data name="FillFieldRequired" xml:space="preserve">
+    <value>Mandatory filds must not be empty!</value>
+  </data>
+  <data name="NewCheckOf" xml:space="preserve">
+    <value>New test {0}</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Caution!</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Device type:</value>
+  </data>
+  <data name="DoYouWannaSaveThisData" xml:space="preserve">
+    <value>Do you want to save these data?</value>
+  </data>
+  <data name="NewCheckData" xml:space="preserve">
+    <value>New test contains the following data:</value>
+  </data>
+  <data name="TestingDate" xml:space="preserve">
+    <value>Date of test:</value>
+  </data>
+  <data name="ErrorLoadFromDb" xml:space="preserve">
+    <value>Error while loading from DB!</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>all</value>
+  </data>
+  <data name="TestHistory" xml:space="preserve">
+    <value>Tests history {0}</value>
+  </data>
+  <data name="ComplyRE" xml:space="preserve">
+    <value>Complies with OM</value>
+  </data>
+  <data name="NotComplyRe" xml:space="preserve">
+    <value>Does not comply with OM</value>
+  </data>
+  <data name="ReportBaseLineCheck" xml:space="preserve">
+    <value>Testing device main parameters</value>
+  </data>
+  <data name="ReportCompletedWorksAndNote" xml:space="preserve">
+    <value>Completing operation/Note</value>
+  </data>
+  <data name="ReportConclusion" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="ReportController" xml:space="preserve">
+    <value>Inspector</value>
+  </data>
+  <data name="ReportFIO" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ReportOperator" xml:space="preserve">
+    <value>Operator:</value>
+  </data>
+  <data name="ReportParamName" xml:space="preserve">
+    <value>Parameter name</value>
+  </data>
+  <data name="ReportNTP" xml:space="preserve">
+    <value>PNV</value>
+  </data>
+  <data name="ReportSubscribe" xml:space="preserve">
+    <value>signature</value>
+  </data>
+  <data name="ReportTestDate" xml:space="preserve">
+    <value>Date of operation:</value>
+  </data>
+  <data name="ReportTypeAircraft" xml:space="preserve">
+    <value>Aircraft type:</value>
+  </data>
+  <data name="ReportTypeCheck" xml:space="preserve">
+    <value>Maintenance form</value>
+  </data>
+  <data name="ReportUnits" xml:space="preserve">
+    <value>UoM</value>
+  </data>
+  <data name="ReportMeasValue" xml:space="preserve">
+    <value>Actually</value>
+  </data>
+  <data name="ReportAircraftRegNo" xml:space="preserve">
+    <value>Aircraft identification:</value>
+  </data>
+  <data name="ReportAircraftSerNo" xml:space="preserve">
+    <value>Aircraft serial No.:</value>
+  </data>
+  <data name="ReportEquipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="ReportItemSerNo" xml:space="preserve">
+    <value>Serial No.</value>
+  </data>
+  <data name="ReportTBO" xml:space="preserve">
+    <value>TSO</value>
+  </data>
+  <data name="ReportTSN" xml:space="preserve">
+    <value>TSN</value>
+  </data>
+  <data name="ReportAllPages" xml:space="preserve">
+    <value>Total pages</value>
+  </data>
+  <data name="ReportConfiguration" xml:space="preserve">
+    <value>Including:</value>
+  </data>
+  <data name="ReportPage" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="DeleteBlockRow" xml:space="preserve">
+    <value>Are you sure you want to delete the chosen unit?</value>
+  </data>
+  <data name="Block8OrtWarning" xml:space="preserve">
+    <value>Make sure that the counters of unit 8 "ПУТЬ КМ" and "БОКОВОЕ УКЛОНЕНИЕ КМ" are nulled and "УГОЛ КАРТЫ" is set correctly: 90 for testing at 135 degrees of the course and  0 for all the others </value>
+  </data>
+  <data name="FieldNRequired" xml:space="preserve">
+    <value>Field "{0}" must befilled!</value>
+  </data>
+  <data name="ErrorPictureFormat" xml:space="preserve">
+    <value>Picture does not match format!</value>
+  </data>
+  <data name="PowerSupply115VFailed" xml:space="preserve">
+    <value>Source power 115V is out of range!</value>
+  </data>
+  <data name="PowerSupply27VFailed" xml:space="preserve">
+    <value>Source power 27V is out of range!</value>
+  </data>
+  <data name="PressB1" xml:space="preserve">
+    <value>Press and unpress B1 on LF unit!</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="Diss13" xml:space="preserve">
+    <value>ДИСС-013</value>
+  </data>
+  <data name="ConnectUsingRE" xml:space="preserve">
+    <value>Connect as per OM {0}, then press ОК</value>
+  </data>
+  <data name="FrequencyMeter" xml:space="preserve">
+    <value>frequency meter</value>
+  </data>
+  <data name="PowerMeter" xml:space="preserve">
+    <value>power meter</value>
+  </data>
+  <data name="WaveGuideAdapterAndAttenuator" xml:space="preserve">
+    <value>waveguide adapter and attenuator</value>
+  </data>
+  <data name="DissIsOff" xml:space="preserve">
+    <value>DOPP is disabled!</value>
+  </data>
+  <data name="DissIsOn" xml:space="preserve">
+    <value>DOPP is enabled!</value>
+  </data>
+  <data name="TurnOffDiss" xml:space="preserve">
+    <value>Disabling DOPP...</value>
+  </data>
+  <data name="TurnOnDiss" xml:space="preserve">
+    <value>Enabling DOPP…</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>frequency</value>
+  </data>
+  <data name="Hz" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>power</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ErrorOnDeviceN" xml:space="preserve">
+    <value>Error in device: {0}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Device type: {0}
+Serial number: {1}
+Date of manufacture: {2}
+Test date and time: {3}
+Performed by: {4}
+Continue?</value>
+  </data>
+  <data name="PS40VFailed" xml:space="preserve">
+    <value>Power source 27 V  connection error</value>
+  </data>
+  <data name="LTRCrateFailed" xml:space="preserve">
+    <value>No connection with crate LTR</value>
+  </data>
+  <data name="MHz" xml:space="preserve">
+    <value>MHz</value>
+  </data>
+  <data name="ButtonDissOnAlready" xml:space="preserve">
+    <value>DOPP enabled</value>
+  </data>
+  <data name="ButtonDissReadyToOff" xml:space="preserve">
+    <value>DISABLE DOPP</value>
+  </data>
+  <data name="ButtonDissReadyToOn" xml:space="preserve">
+    <value>ENABLE DOPP</value>
+  </data>
+  <data name="PoverkaText" xml:space="preserve">
+    <value>System calibration</value>
+  </data>
+  <data name="WxN" xml:space="preserve">
+    <value>Wx INS</value>
+  </data>
+  <data name="WxS" xml:space="preserve">
+    <value>Wx FMGU</value>
+  </data>
+  <data name="WxT" xml:space="preserve">
+    <value>Wx Tester</value>
+  </data>
+  <data name="WyN" xml:space="preserve">
+    <value>Wy INS</value>
+  </data>
+  <data name="WyS" xml:space="preserve">
+    <value>Wy FMGU</value>
+  </data>
+  <data name="WyT" xml:space="preserve">
+    <value>Wy Tester</value>
+  </data>
+  <data name="WzN" xml:space="preserve">
+    <value>Wz INS</value>
+  </data>
+  <data name="WzS" xml:space="preserve">
+    <value>Wz FMGU</value>
+  </data>
+  <data name="WzT" xml:space="preserve">
+    <value>Wz Tester</value>
+  </data>
+  <data name="SVCh" xml:space="preserve">
+    <value>SHF</value>
+  </data>
+  <data name="PoverkaUNCH" xml:space="preserve">
+    <value>Calibration of metrological characteristics for AC voltage MCH</value>
+  </data>
+  <data name="PoverkaTime" xml:space="preserve">
+    <value>Calibration of metrological characteristics of MCH for time intervals between events</value>
+  </data>
+  <data name="PoverkaMeandr" xml:space="preserve">
+    <value>Calibration of metrological characteristics of "meander" voltage MCH with arbitrary setting of amplitude, frequency and phase shift between the channels</value>
+  </data>
+  <data name="UNCHSignals" xml:space="preserve">
+    <value>LF amplifier signals</value>
+  </data>
+  <data name="Poverka" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="CantCloseForm" xml:space="preserve">
+    <value>Can't close the form while performing measurements, stop measuring and try again! </value>
+  </data>
+  <data name="DevicesNotFound" xml:space="preserve">
+    <value>Devices not found!</value>
+  </data>
+  <data name="EmulationText" xml:space="preserve">
+    <value>The program is in bench emulation mode!</value>
+  </data>
+  <data name="ErrorNumber" xml:space="preserve">
+    <value>Invalid number format</value>
+  </data>
+  <data name="CriticalProgramError" xml:space="preserve">
+    <value>A program error occurred, it is required to fully switch off and switch on the computer!</value>
+  </data>
+  <data name="ErrorEmployeeNotSelected" xml:space="preserve">
+    <value>Employee not selected!</value>
+  </data>
+  <data name="ErrorProductNumberIsEmpty" xml:space="preserve">
+    <value>Device serial number not entered!</value>
+  </data>
+  <data name="CheckBackup" xml:space="preserve">
+    <value>Checking actual status of database copy…</value>
+  </data>
+  <data name="ConnectingDb" xml:space="preserve">
+    <value>Connecting to database...</value>
+  </data>
+  <data name="LoadingSettings" xml:space="preserve">
+    <value>Loading settings…</value>
+  </data>
+  <data name="StartLTRServer" xml:space="preserve">
+    <value>Starting LTR-server...</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Unknown error</value>
+  </data>
+  <data name="AttentionBigLineResistance" xml:space="preserve">
+    <value>CAUTION! High line resistance {0} Ом (&gt; {1} Ом) detected. A calibration error may occur.
+If not, then an error is in line installation up to power source 115V.</value>
+  </data>
+  <data name="ErrorWrongLineResistance" xml:space="preserve">
+    <value>CAUTION! Invalid line resistance {0} Ом (&gt; {1} Ом) detected. Data will not be saved!</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>angle</value>
+  </data>
+  <data name="SpeedBackward" xml:space="preserve">
+    <value>velocity BACKWARD</value>
+  </data>
+  <data name="SpeedDown" xml:space="preserve">
+    <value>velocity DOWN</value>
+  </data>
+  <data name="SpeedForward" xml:space="preserve">
+    <value>velocity FORWARD</value>
+  </data>
+  <data name="AfterPLightPressButtonN" xml:space="preserve">
+    <value>After display "П" illuminates on unit 7, press "{0}"</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>velocity</value>
+  </data>
+  <data name="SpeedRight" xml:space="preserve">
+    <value>velocity RIGHT</value>
+  </data>
+  <data name="SpeedLeft" xml:space="preserve">
+    <value>velocity LEFT</value>
+  </data>
+  <data name="SpeedUp" xml:space="preserve">
+    <value>velocity UP</value>
+  </data>
+  <data name="CurrentByN" xml:space="preserve">
+    <value>Current in {0}</value>
+  </data>
+  <data name="CalculateMD5Failed" xml:space="preserve">
+    <value>An exception occurred while attempting to calculate file hash</value>
+  </data>
+  <data name="ClearDbFailed" xml:space="preserve">
+    <value>An error occurred whle cleaning the database!</value>
+  </data>
+  <data name="ClearDbRequest" xml:space="preserve">
+    <value>After confirmation all tests, employees, helicopters, and positions will be deleted. Do you confirm database clean-up?</value>
+  </data>
+  <data name="ClearDbSuccessful" xml:space="preserve">
+    <value>The databse is successfully cleaned up!</value>
+  </data>
+  <data name="LogsCopyOutFailed" xml:space="preserve">
+    <value>An error occurred while unloading logs. Maybe the logs were not fully unloaded!</value>
+  </data>
+  <data name="LogsCopyOutSuccessfulFilesN" xml:space="preserve">
+    <value>The logs are successfully unloaded! Files unloaded: {0}</value>
+  </data>
+  <data name="OpenManualError" xml:space="preserve">
+    <value>Manual file opening error. File is missing or damaged.</value>
+  </data>
+  <data name="CopyDbFailed" xml:space="preserve">
+    <value>An error occured while creating database backup copy!</value>
+  </data>
+  <data name="CopyDbSuccessful" xml:space="preserve">
+    <value>Database backup copying is successfully completed!
+Path to backup copy: {0}</value>
+  </data>
+  <data name="CopyLogoFailedNN" xml:space="preserve">
+    <value>Failed to copy log file: {0} {1}</value>
+  </data>
+  <data name="WriteLogError" xml:space="preserve">
+    <value>Log record error</value>
+  </data>
+  <data name="AddFoto" xml:space="preserve">
+    <value>Add photo…</value>
+  </data>
+  <data name="ChangeFoto" xml:space="preserve">
+    <value>Change photo…</value>
+  </data>
+  <data name="EditEmployee" xml:space="preserve">
+    <value>Editing employee information</value>
+  </data>
+  <data name="EditNewEmployee" xml:space="preserve">
+    <value>Adding information on a new employee</value>
+  </data>
+  <data name="NotWork" xml:space="preserve">
+    <value>not engaged</value>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>engaged</value>
+  </data>
+  <data name="EmployeeNumberAlreadyExist" xml:space="preserve">
+    <value>This ID number already exists. It should be changed.</value>
+  </data>
+  <data name="AddPost" xml:space="preserve">
+    <value>Adding position…</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>available</value>
+  </data>
+  <data name="EditPost" xml:space="preserve">
+    <value>Editing positions</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>not available</value>
+  </data>
+  <data name="ShowAllPosts" xml:space="preserve">
+    <value>Show all positions from DB</value>
+  </data>
+  <data name="ShowAvailablePosts" xml:space="preserve">
+    <value>Show available positions</value>
+  </data>
+  <data name="EmployeeAlreadyExist" xml:space="preserve">
+    <value>Such employee already exists!</value>
+  </data>
+  <data name="PostAlreadyExist" xml:space="preserve">
+    <value>Such position already exists!</value>
+  </data>
+  <data name="TSNLessThanTSO" xml:space="preserve">
+    <value>TSN should be more or equal to TSO!</value>
+  </data>
+  <data name="TimeCantBeNegative" xml:space="preserve">
+    <value>Time should be more than 0!</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>"Track"</value>
+  </data>
+  <data name="WriteValuesPathAndAngle" xml:space="preserve">
+    <value>Register readings of the counters
+"DISTANCE" and "SIDE DEVIATION"</value>
+  </data>
+  <data name="AngleSpeedMessage" xml:space="preserve">
+    <value>After pressing "{0}", watch the indicator Drift Angle of unit 7, as soon as it passes a section (distance) equal to 15° press "Stop timer"</value>
+  </data>
+  <data name="ForwardBackwardSpeedMessage" xml:space="preserve">
+    <value>After pressing "{0}", watch the indicator BACK-FORWARD of unit 6, as soon as it passes a section (distance) equal to 20 km/h, press "Stop timer"</value>
+  </data>
+  <data name="LeftRightSpeedMessage" xml:space="preserve">
+    <value>After pressing "{0}", watch the indicator LEFT-RIGHT of unit 6, as soon as it passes a section (distance) equal to 20 km/h, press "Stop timer"</value>
+  </data>
+  <data name="SpeedSpeedMessage" xml:space="preserve">
+    <value>After pressing "{0}", watch the velocity indicator of unit 7, as soon as it passes a section (distance) equal to 100 km/h, press "Stop timer"</value>
+  </data>
+  <data name="UpDownSpeedMessage" xml:space="preserve">
+    <value>After pressing "{0}", watch the indicator UP-DOWN of unit 6, as soon as it passes a section (distance) equal to 8 m/s, press "Stop timer"</value>
+  </data>
+  <data name="BPK" xml:space="preserve">
+    <value>AMP</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="CorrectionOff" xml:space="preserve">
+    <value>Disconnect the update unit from VCC, press "Disable High" and check display status</value>
+  </data>
+  <data name="ControlTaskBoard" xml:space="preserve">
+    <value>CT board</value>
+  </data>
+  <data name="MBMode" xml:space="preserve">
+    <value>Mode M-Б</value>
+  </data>
+  <data name="MemoryMode" xml:space="preserve">
+    <value>MEMORY</value>
+  </data>
+  <data name="MSMode" xml:space="preserve">
+    <value>Mode M-C </value>
+  </data>
+  <data name="UNChNoiseVoltage" xml:space="preserve">
+    <value>Noise voltage at LF amplifier outputs</value>
+  </data>
+  <data name="TKMN" xml:space="preserve">
+    <value>MD{0}</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="ReportNotMeasured" xml:space="preserve">
+    <value>not measured</value>
+  </data>
+  <data name="ButtonDissOffAlready" xml:space="preserve">
+    <value>DOPP disabled</value>
+  </data>
+  <data name="KPK2" xml:space="preserve">
+    <value>КПК-2</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="SignalReadyFound" xml:space="preserve">
+    <value>Signal “OK” is not turned off for 10 seconds</value>
+  </data>
+  <data name="CheckDeviceN" xml:space="preserve">
+    <value>Test {0}</value>
+  </data>
+  <data name="PhaseIndex" xml:space="preserve">
+    <value>Frequency modulation index</value>
+  </data>
+  <data name="ErrorDeleteBlockFromDb" xml:space="preserve">
+    <value>Database unit removal error!</value>
+  </data>
+  <data name="Attestation" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="Block8GeoWarning" xml:space="preserve">
+    <value>Put control bar ВП8.810.034 into unit 10.
+Set switch “ОТКЛ-ВКЛ”on unit 10 to "ВКЛ".
+Set the sight centre on the control bar of unit 10 to initial point 1.</value>
+  </data>
+  <data name="MeasuredValuesPSAndUSN" xml:space="preserve">
+    <value>Measured values of GS and DA No.{0}</value>
+  </data>
+  <data name="SetMapCorner" xml:space="preserve">
+    <value>Set the sight centre of unit 10 beyond zone “MAP BOUNDARY” and unpress "{0}"</value>
+  </data>
+  <data name="ErrorDoCommand" xml:space="preserve">
+    <value>Control command generation error</value>
+  </data>
+  <data name="SetBoardParams" xml:space="preserve">
+    <value>Initial values setting in boards</value>
+  </data>
+  <data name="ReportOK" xml:space="preserve">
+    <value>complies with PNV</value>
+  </data>
+  <data name="ReportWrong" xml:space="preserve">
+    <value>does not comply with PNV</value>
+  </data>
+  <data name="CheckOf" xml:space="preserve">
+    <value>Test {0}</value>
+  </data>
+  <data name="LoadSettingsError" xml:space="preserve">
+    <value>Settings loading error!</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ErrorDoDriveCommand" xml:space="preserve">
+    <value>An error occurred while generating control command.
+Application needs to close.</value>
+  </data>
+  <data name="ErrorDriveCommand" xml:space="preserve">
+    <value>Error of control commands</value>
+  </data>
+  <data name="OutputZeroVoltages" xml:space="preserve">
+    <value>Output voltage of VCC unit proportional to velocity vector components
+Wxr, Wzr, Wyr when these components are nulled</value>
+  </data>
+  <data name="WxgSPSV" xml:space="preserve">
+    <value>Wxг ACAS</value>
+  </data>
+  <data name="NoConnectionWithBoardN" xml:space="preserve">
+    <value>No connection with board: {0}</value>
+  </data>
+  <data name="Mcs" xml:space="preserve">
+    <value>µs</value>
+  </data>
+  <data name="AlfaMGrad" xml:space="preserve">
+    <value>αm, degree</value>
+  </data>
+  <data name="CantChangeDbLanguage" xml:space="preserve">
+    <value>Failed to switch languages in Database!</value>
+  </data>
+  <data name="GreaterThanDb" xml:space="preserve">
+    <value>inc</value>
+  </data>
+  <data name="LessThanDb" xml:space="preserve">
+    <value>dec</value>
+  </data>
+  <data name="SameDb" xml:space="preserve">
+    <value>no change</value>
+  </data>
+  <data name="Block8OrtWarningSimple" xml:space="preserve">
+    <value>Make sure that the counters of unit 8 "ПУТЬ КМ", "БОКОВОЕ УКЛОНЕНИЕ КМ" and "УГОЛ КАРТЫ" are nulled. </value>
+  </data>
+  <data name="Block5TypeMissing" xml:space="preserve">
+    <value>Block 5 type not selected!</value>
+  </data>
+  <data name="CheckInterrupted" xml:space="preserve">
+    <value>Check interrupted!</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="RepeatTest" xml:space="preserve">
+    <value>Repeat Test</value>
+  </data>
+  <data name="PowerMeterCalibration" xml:space="preserve">
+    <value>Power meter calibration...</value>
+  </data>
+  <data name="PowerMeterCalibrationFinished" xml:space="preserve">
+    <value>Calibration finished</value>
+  </data>
+  <data name="NoSignal" xml:space="preserve">
+    <value>no signal</value>
+  </data>
+</root>

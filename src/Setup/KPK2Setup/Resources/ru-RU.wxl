@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="ru-RU" Codepage="1251" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="ProductPackageLanguage">1251</String>
+  <String Id="PackageDescription">КПК-2   </String>
+  <String Id="KPK2.ReportGenerator">Сохранение истории работы ПО КПК-2</String>
+  <String Id="KPK2.ReportGeneratorDescription">Сохраняет историю работы ПО</String>
+  <String Id="WelcomeDlg_Title">Установка [ProductName]</String>
+</WixLocalization>

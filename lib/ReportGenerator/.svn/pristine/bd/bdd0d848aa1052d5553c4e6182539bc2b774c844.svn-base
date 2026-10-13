@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sparc.Utils.GenerateSoftwareReport</name>
+    </assembly>
+    <members>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.EditingLogs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Добавить путь в LogPath.xml
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            Удалить путь из LogPath.xml
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bChange_Click(System.Object,System.EventArgs)">
+            <summary>
+            Изменить путь из LogPath.xml
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.LoadData">
+            <summary>
+            Обновление информации из LogPath.xml
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bChangeNameProcess_Click(System.Object,System.EventArgs)">
+            <summary>
+            Сохранить изменения названия КПК и имя процесса в LogPath.xml
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bFingRep_Click(System.Object,System.EventArgs)">
+            <summary>
+            Выбор папки
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.bSaveLogs_Click(System.Object,System.EventArgs)">
+            <summary>
+            Сохранить логи в выбранную папку
+            </summary>
+        </member>
+        <member name="F:Sparc.Utils.GenerateSoftwareReport.EditingLogs.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.EditingLogs.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.IsEditingMode">
+            <summary>
+            Включен ли режим редактирования
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.SaveLogs(System.Collections.Generic.List{System.String},System.String,System.Boolean)">
+            <summary>
+            Сохранение логов в выбранную пользователем папку.
+            </summary>
+            <param name="pathsToLog">Список путей к логам</param>
+            <param name="KPKName">Наименование КПК (участвует в наименовании архива)</param>
+            <param name="overwrite">True = Принудительная перезапись, если файл существует</param>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.ViewInformation">
+            <summary>
+            Вывод информации в окне
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.SelectDirectoryToSave">
+            <summary>
+            Выбор папки для сохранения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GenerateSoftwareReport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.CurSettings">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.CheckAndSavePaths">
+            <summary>
+            Проверка и сохранение путей
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.CheckMutex(System.String)">
+            <summary>
+            Проверка на существующий мьютекс
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.DeletePath(System.String)">
+            <summary>
+            Удалить путь
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.AddPath(System.String)">
+            <summary>
+            Добавить путь
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.ChangePath(System.String,System.String)">
+            <summary>
+            Изменить путь
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.SaveSettings">
+            <summary>
+            Сохранить изменения 
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.GettingExternalPaths.LoadSettings">
+            <summary>
+            Загрузить конфиг
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.Program.Main(System.String[])">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings">
+            <summary>
+            Настройки генератора отчётов
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings.KPKName">
+            <summary>
+            Название КПК
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings.ProcessName">
+            <summary>
+            Имя проверяемиого процесса
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings.MutexName">
+            <summary>
+            Имя проверяемого мьютекса
+            </summary>
+        </member>
+        <member name="F:Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings.LogPaths">
+            <summary>
+            Пути логов
+            </summary>
+        </member>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.Settings.XmlSettingsController">
+            <summary>
+            Загружает и сохраняет настройки
+            </summary>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.Settings.XmlSettingsController.Load(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="filePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.Settings.XmlSettingsController.Save(System.String,Sparc.Utils.GenerateSoftwareReport.Settings.RGSettings)">
+            <summary>
+            
+            </summary>
+            <param name="filePath"></param>
+            <param name="settings"></param>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.WorkWithReport.Compress(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Сжатие каталога или файла в архив
+            </summary>
+            <param name="startPath">Путь до элемента, который будет помещён в архив</param>
+            <param name="zipPath">Путь до места архива</param>
+            <param name="kpkName">Имя КПК используется при формировании имени выходного файла</param>
+            <param name="replace">Заменять ли текущий файл, если он уже создан ранее</param>
+            <returns> Возвращает пути сохранённых архивов </returns>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.WorkWithReport.CopyAll(System.String,System.String)">
+            <summary>
+            Рекурсивное копирование всех файлов и каталогов
+            </summary>
+            <param name="fromPath">Откуда</param>
+            <param name="toPath">Куда</param>
+        </member>
+        <member name="M:Sparc.Utils.GenerateSoftwareReport.WorkWithReport.RemoveDirectory(System.String)">
+            <summary>
+            Рекурсивное удаление каталога со всеми файлами и подкаталогами
+            </summary>
+            <param name="path">Путь для удаления</param>
+        </member>
+        <member name="T:Sparc.Utils.GenerateSoftwareReport.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.AccessError">
+            <summary>
+              Looks up a localized string similar to Ошибка доступа к файлу или каталогу.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.ArchiveError">
+            <summary>
+              Looks up a localized string similar to Не удалось создать архив.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Attention">
+            <summary>
+              Looks up a localized string similar to Предупреждение.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.CompressNotCompleteInNMinutes">
+            <summary>
+              Looks up a localized string similar to Процесс сжатия не завершился в течении {0} минут:.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.EndOfProgram">
+            <summary>
+              Looks up a localized string similar to Отчет о программе успешно сформирован.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Error">
+            <summary>
+              Looks up a localized string similar to Ошибка.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.FileAlreadyExists">
+            <summary>
+              Looks up a localized string similar to Файл уже существует!.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Instructions">
+            <summary>
+              Looks up a localized string similar to Выберите каталог для извлечения лог-файлов:.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.LogError">
+            <summary>
+              Looks up a localized string similar to Ошибка генерации логов.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.PathError">
+            <summary>
+              Looks up a localized string similar to Не удалось получить пути к логам из конфигурации.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Replace">
+            <summary>
+              Looks up a localized string similar to архив уже существует. Заменить его?.
+            </summary>
+        </member>
+        <member name="P:Sparc.Utils.GenerateSoftwareReport.Properties.Resources.Select">
+            <summary>
+              Looks up a localized string similar to Выбрать.
+            </summary>
+        </member>
+    </members>
+</doc>

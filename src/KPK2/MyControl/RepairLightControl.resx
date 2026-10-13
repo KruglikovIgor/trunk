@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;grpBox_Light_7.Name" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Name" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Name" xml:space="preserve">
+    <value>btn_Light_9</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Name" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Name" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Name" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Name" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Name" xml:space="preserve">
+    <value>lbl_Light</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Name" xml:space="preserve">
+    <value>btn_Forward</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Name" xml:space="preserve">
+    <value>btn_Refuse_BVK</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Name" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Name" xml:space="preserve">
+    <value>btn_Light_8</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Name" xml:space="preserve">
+    <value>btn_Light_7</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Name" xml:space="preserve">
+    <value>btn_Light_6</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Name" xml:space="preserve">
+    <value>btn_Light_5</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Name" xml:space="preserve">
+    <value>btn_Light_4</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Name" xml:space="preserve">
+    <value>btn_Light_3</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Name" xml:space="preserve">
+    <value>btn_Light_2</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Name" xml:space="preserve">
+    <value>btn_Light_1</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grpBox_Light.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpBox_Light.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 294</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grpBox_Light.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light.Text" xml:space="preserve">
+    <value>Работа световой сигнализации изделия и выдача каналом координат сигналов</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light.Name" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Name" xml:space="preserve">
+    <value>rbtn_L7_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Name" xml:space="preserve">
+    <value>rbtn_L7_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 215</value>
+  </data>
+  <data name="grpBox_Light_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_7.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="grpBox_Light_7.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="grpBox_Light_7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.Name" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L7_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L7_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L7_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="rbtn_L7_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L7_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L7_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L7_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Name" xml:space="preserve">
+    <value>rbtn_L7_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L7_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L7_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L7_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="rbtn_L7_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L7_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L7_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L7_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Name" xml:space="preserve">
+    <value>rbtn_L7_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_7</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L7_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Name" xml:space="preserve">
+    <value>rbtn_L6_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Name" xml:space="preserve">
+    <value>rbtn_L6_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 215</value>
+  </data>
+  <data name="grpBox_Light_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_6.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="grpBox_Light_6.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="grpBox_Light_6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Name" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L6_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L6_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L6_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="rbtn_L6_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L6_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L6_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L6_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Name" xml:space="preserve">
+    <value>rbtn_L6_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L6_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L6_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L6_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="rbtn_L6_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L6_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L6_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L6_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Name" xml:space="preserve">
+    <value>rbtn_L6_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_6</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L6_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Light_9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 16</value>
+  </data>
+  <data name="btn_Light_9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_9.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btn_Light_9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Name" xml:space="preserve">
+    <value>btn_Light_9</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Name" xml:space="preserve">
+    <value>rbtn_L5_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Name" xml:space="preserve">
+    <value>rbtn_L5_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 136</value>
+  </data>
+  <data name="grpBox_Light_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_5.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="grpBox_Light_5.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Name" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbtn_L5_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L5_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L5_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="rbtn_L5_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L5_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L5_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L5_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Name" xml:space="preserve">
+    <value>rbtn_L5_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L5_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L5_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L5_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="rbtn_L5_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L5_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L5_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L5_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Name" xml:space="preserve">
+    <value>rbtn_L5_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_5</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L5_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Name" xml:space="preserve">
+    <value>rbtn_L4_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Name" xml:space="preserve">
+    <value>rbtn_L4_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 136</value>
+  </data>
+  <data name="grpBox_Light_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="grpBox_Light_4.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Name" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbtn_L4_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L4_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L4_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="rbtn_L4_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L4_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L4_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L4_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Name" xml:space="preserve">
+    <value>rbtn_L4_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L4_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L4_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L4_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="rbtn_L4_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L4_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L4_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L4_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Name" xml:space="preserve">
+    <value>rbtn_L4_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_4</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L4_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Name" xml:space="preserve">
+    <value>rbtn_L3_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Name" xml:space="preserve">
+    <value>rbtn_L3_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 136</value>
+  </data>
+  <data name="grpBox_Light_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="grpBox_Light_3.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Name" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbtn_L3_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L3_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L3_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="rbtn_L3_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L3_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L3_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L3_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Name" xml:space="preserve">
+    <value>rbtn_L3_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L3_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L3_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L3_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="rbtn_L3_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L3_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L3_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L3_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Name" xml:space="preserve">
+    <value>rbtn_L3_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_3</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L3_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Name" xml:space="preserve">
+    <value>rbtn_L2_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Name" xml:space="preserve">
+    <value>rbtn_L2_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 136</value>
+  </data>
+  <data name="grpBox_Light_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="grpBox_Light_2.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Name" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rbtn_L2_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L2_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L2_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 45</value>
+  </data>
+  <data name="rbtn_L2_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L2_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L2_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L2_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Name" xml:space="preserve">
+    <value>rbtn_L2_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L2_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L2_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L2_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 21</value>
+  </data>
+  <data name="rbtn_L2_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L2_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L2_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L2_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Name" xml:space="preserve">
+    <value>rbtn_L2_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_2</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L2_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Light.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Bold</value>
+  </data>
+  <data name="lbl_Light.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Light.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 78</value>
+  </data>
+  <data name="lbl_Light.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbl_Light.Size" type="System.Drawing.Size, System.Drawing">
+    <value>945, 55</value>
+  </data>
+  <data name="lbl_Light.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lbl_Light.Text" xml:space="preserve">
+    <value>Убедитесь, что на "КПК-2" не светится индикатор "БПК вкл", нажмите клавишу "КОНТР ДИСС" на БПК и проверьте состояние табло (клавиш)</value>
+  </data>
+  <data name="lbl_Light.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Name" xml:space="preserve">
+    <value>lbl_Light</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;lbl_Light.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_Forward.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Forward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 46</value>
+  </data>
+  <data name="btn_Forward.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Forward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Forward.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btn_Forward.Text" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Name" xml:space="preserve">
+    <value>btn_Forward</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Forward.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_Refuse_BVK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Refuse_BVK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 46</value>
+  </data>
+  <data name="btn_Refuse_BVK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Refuse_BVK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Refuse_BVK.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn_Refuse_BVK.Text" xml:space="preserve">
+    <value>Отказ БВК</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Name" xml:space="preserve">
+    <value>btn_Refuse_BVK</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Refuse_BVK.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Name" xml:space="preserve">
+    <value>rbtn_L1_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Name" xml:space="preserve">
+    <value>rbtn_L1_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Light_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 136</value>
+  </data>
+  <data name="grpBox_Light_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="grpBox_Light_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 73</value>
+  </data>
+  <data name="grpBox_Light_1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="grpBox_Light_1.Text" xml:space="preserve">
+    <value>"КОНТР ДИСС" на БПК</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Name" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Light_1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="rbtn_L1_N.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L1_N.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L1_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 45</value>
+  </data>
+  <data name="rbtn_L1_N.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L1_N.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="rbtn_L1_N.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtn_L1_N.Text" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Name" xml:space="preserve">
+    <value>rbtn_L1_N</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.Parent" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_N.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L1_Y.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtn_L1_Y.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtn_L1_Y.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 21</value>
+  </data>
+  <data name="rbtn_L1_Y.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="rbtn_L1_Y.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 18</value>
+  </data>
+  <data name="rbtn_L1_Y.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rbtn_L1_Y.Text" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Name" xml:space="preserve">
+    <value>rbtn_L1_Y</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.Parent" xml:space="preserve">
+    <value>grpBox_Light_1</value>
+  </data>
+  <data name="&gt;&gt;rbtn_L1_Y.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Light_8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 16</value>
+  </data>
+  <data name="btn_Light_8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_Light_8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Name" xml:space="preserve">
+    <value>btn_Light_8</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_Light_7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 16</value>
+  </data>
+  <data name="btn_Light_7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_Light_7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Name" xml:space="preserve">
+    <value>btn_Light_7</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_7.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btn_Light_6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 16</value>
+  </data>
+  <data name="btn_Light_6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_Light_6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Name" xml:space="preserve">
+    <value>btn_Light_6</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_6.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btn_Light_5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 16</value>
+  </data>
+  <data name="btn_Light_5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_Light_5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Name" xml:space="preserve">
+    <value>btn_Light_5</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btn_Light_4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 16</value>
+  </data>
+  <data name="btn_Light_4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_Light_4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Name" xml:space="preserve">
+    <value>btn_Light_4</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btn_Light_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 16</value>
+  </data>
+  <data name="btn_Light_3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_Light_3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Name" xml:space="preserve">
+    <value>btn_Light_3</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btn_Light_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 16</value>
+  </data>
+  <data name="btn_Light_2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Light_2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Name" xml:space="preserve">
+    <value>btn_Light_2</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btn_Light_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Light_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="btn_Light_1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btn_Light_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 29</value>
+  </data>
+  <data name="btn_Light_1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_Light_1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Name" xml:space="preserve">
+    <value>btn_Light_1</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.Parent" xml:space="preserve">
+    <value>grpBox_Light</value>
+  </data>
+  <data name="&gt;&gt;btn_Light_1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>970, 300</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RepairLightControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

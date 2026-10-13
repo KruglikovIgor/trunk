@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lHold.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lHold.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="lHold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 11</value>
+  </data>
+  <data name="lHold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="lHold.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lHold.Text" xml:space="preserve">
+    <value>Зафиксировано</value>
+  </data>
+  <data name="lHold.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lHold.Name" xml:space="preserve">
+    <value>lHold</value>
+  </data>
+  <data name="&gt;&gt;lHold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lHold.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;lHold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbServiceability.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbServiceability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 54</value>
+  </data>
+  <data name="cbServiceability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 20</value>
+  </data>
+  <data name="cbServiceability.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbServiceability.Text" xml:space="preserve">
+    <value>ИСПРАВНОСТЬ</value>
+  </data>
+  <data name="&gt;&gt;cbServiceability.Name" xml:space="preserve">
+    <value>cbServiceability</value>
+  </data>
+  <data name="&gt;&gt;cbServiceability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbServiceability.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbServiceability.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbCapture3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbCapture3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 28</value>
+  </data>
+  <data name="cbCapture3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="cbCapture3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cbCapture3.Text" xml:space="preserve">
+    <value>ЗАХВАТ 3</value>
+  </data>
+  <data name="&gt;&gt;cbCapture3.Name" xml:space="preserve">
+    <value>cbCapture3</value>
+  </data>
+  <data name="&gt;&gt;cbCapture3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCapture3.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbCapture2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbCapture2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 54</value>
+  </data>
+  <data name="cbCapture2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="cbCapture2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbCapture2.Text" xml:space="preserve">
+    <value>ЗАХВАТ 2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture2.Name" xml:space="preserve">
+    <value>cbCapture2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCapture2.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbCapture1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbCapture1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 28</value>
+  </data>
+  <data name="cbCapture1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="cbCapture1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="cbCapture1.Text" xml:space="preserve">
+    <value>ЗАХВАТ 1</value>
+  </data>
+  <data name="&gt;&gt;cbCapture1.Name" xml:space="preserve">
+    <value>cbCapture1</value>
+  </data>
+  <data name="&gt;&gt;cbCapture1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCapture1.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbCapture.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbCapture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 54</value>
+  </data>
+  <data name="cbCapture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="cbCapture.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbCapture.Text" xml:space="preserve">
+    <value>ЗАХВАТ</value>
+  </data>
+  <data name="&gt;&gt;cbCapture.Name" xml:space="preserve">
+    <value>cbCapture</value>
+  </data>
+  <data name="&gt;&gt;cbCapture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbCapture.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbCapture.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbFlight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbFlight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="cbFlight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="cbFlight.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cbFlight.Text" xml:space="preserve">
+    <value>ПОЛЕТ</value>
+  </data>
+  <data name="&gt;&gt;cbFlight.Name" xml:space="preserve">
+    <value>cbFlight</value>
+  </data>
+  <data name="&gt;&gt;cbFlight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbFlight.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbFlight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbHighVoltage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbHighVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="cbHighVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
+  <data name="cbHighVoltage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cbHighVoltage.Text" xml:space="preserve">
+    <value>ВЫСОКОЕ</value>
+  </data>
+  <data name="&gt;&gt;cbHighVoltage.Name" xml:space="preserve">
+    <value>cbHighVoltage</value>
+  </data>
+  <data name="&gt;&gt;cbHighVoltage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbHighVoltage.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbHighVoltage.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbDissOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbDissOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="cbDissOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="cbDissOn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbDissOn.Text" xml:space="preserve">
+    <value>ДИСС ВКЛ</value>
+  </data>
+  <data name="&gt;&gt;cbDissOn.Name" xml:space="preserve">
+    <value>cbDissOn</value>
+  </data>
+  <data name="&gt;&gt;cbDissOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbDissOn.Parent" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;cbDissOn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="gbKPK2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbKPK2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbKPK2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbKPK2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>394, 87</value>
+  </data>
+  <data name="gbKPK2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbKPK2.Text" xml:space="preserve">
+    <value>На КПК-2</value>
+  </data>
+  <data name="&gt;&gt;gbKPK2.Name" xml:space="preserve">
+    <value>gbKPK2</value>
+  </data>
+  <data name="&gt;&gt;gbKPK2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbKPK2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbKPK2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbBPKServiceability.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbBPKServiceability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 28</value>
+  </data>
+  <data name="cbBPKServiceability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="cbBPKServiceability.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cbBPKServiceability.Text" xml:space="preserve">
+    <value>ИСПРАВН.</value>
+  </data>
+  <data name="&gt;&gt;cbBPKServiceability.Name" xml:space="preserve">
+    <value>cbBPKServiceability</value>
+  </data>
+  <data name="&gt;&gt;cbBPKServiceability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBPKServiceability.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbBPKServiceability.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbBPKSearch.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbBPKSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="cbBPKSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="cbBPKSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbBPKSearch.Text" xml:space="preserve">
+    <value>ПОИСК</value>
+  </data>
+  <data name="&gt;&gt;cbBPKSearch.Name" xml:space="preserve">
+    <value>cbBPKSearch</value>
+  </data>
+  <data name="&gt;&gt;cbBPKSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBPKSearch.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbBPKSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbBPKFlight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbBPKFlight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="cbBPKFlight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="cbBPKFlight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbBPKFlight.Text" xml:space="preserve">
+    <value>ПОЛЕТ</value>
+  </data>
+  <data name="&gt;&gt;cbBPKFlight.Name" xml:space="preserve">
+    <value>cbBPKFlight</value>
+  </data>
+  <data name="&gt;&gt;cbBPKFlight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBPKFlight.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbBPKFlight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 87</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>На БПК</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="cbOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="cbOff.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbOff.Text" xml:space="preserve">
+    <value>табло ВЫК</value>
+  </data>
+  <data name="&gt;&gt;cbOff.Name" xml:space="preserve">
+    <value>cbOff</value>
+  </data>
+  <data name="&gt;&gt;cbOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbOff.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;cbOff.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 4</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 87</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>На блоке 6</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="cbP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="cbP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbP.Text" xml:space="preserve">
+    <value>табло П</value>
+  </data>
+  <data name="&gt;&gt;cbP.Name" xml:space="preserve">
+    <value>cbP</value>
+  </data>
+  <data name="&gt;&gt;cbP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbP.Parent" xml:space="preserve">
+    <value>gbUSPS</value>
+  </data>
+  <data name="&gt;&gt;cbP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbUSPS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 4</value>
+  </data>
+  <data name="gbUSPS.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbUSPS.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="gbUSPS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 87</value>
+  </data>
+  <data name="gbUSPS.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbUSPS.Text" xml:space="preserve">
+    <value>На УС ПС</value>
+  </data>
+  <data name="&gt;&gt;gbUSPS.Name" xml:space="preserve">
+    <value>gbUSPS</value>
+  </data>
+  <data name="&gt;&gt;gbUSPS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbUSPS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbUSPS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="siTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="siTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>808, 31</value>
+  </data>
+  <data name="siTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="siTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 37</value>
+  </data>
+  <data name="siTime.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="siTime.Unit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="siTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;siTime.Name" xml:space="preserve">
+    <value>siTime</value>
+  </data>
+  <data name="&gt;&gt;siTime.Type" xml:space="preserve">
+    <value>UserControls.SegmentIndication, UserControlsKPK2, Version=1.0.6610.29024, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;siTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;siTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>950, 95</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ucIndicatorsState</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

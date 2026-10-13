@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- <ItemGroup>
+    <BootstrapperFile Include="Microsoft.Net.Framework.2.0">
+      <ProductName>.NET Framework 2.0</ProductName>
+    </BootstrapperFile> -->
+  <!--<BootstrapperFile Include="Microsoft.Sql.Server.Express.9.2">
+      <ProductName>SQL Server 2005 Express Edition SP2 (x86)</ProductName>
+    </BootstrapperFile>-->
+  <!-- <BootstrapperFile Include="Microsoft.Sql.Server.Express.10.0">
+      <ProductName>SQL Server 2008 Express</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Microsoft.Windows.Installer.3.1">
+      <ProductName>Windows Installer 3.1</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="SAP.CrystalReports14.NET.2.0">
+      <ProductName>SAP Crystal Reports Runtime Engine for .NET Framework</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Microsoft.Data.Access.Components.2.8">
+      <ProductName>Microsoft Data Access Components 2.8</ProductName>
+    </BootstrapperFile>
+    <BootstrapperFile Include="Microsoft.Windows.Installer.4.5">
+      <ProductName>Windows Installer 4.5</ProductName>
+    </BootstrapperFile>
+  </ItemGroup> -->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.7</ProductVersion>
+    <ProjectGuid>d4399cbf-dbb1-47d1-91ad-fd8f9b1e10e2</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>KPK2Setup</OutputName>
+    <OutputType>Package</OutputType>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' AND '$(MSBuildExtensionsPath32)' != '' ">$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug;FilesPath=..\..\KPK2\bin\x86\Debug\; DbFilesPath=..\..\..\db\; LibFilesPath=..\..\..\lib\; DocFilesPath=..\..\..\doc\</DefineConstants>
+    <Cultures>ru-RU</Cultures>
+    <SuppressIces>ICE61</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>FilesPath=..\..\KPK2\bin\x86\Release\; LibFilesPath=..\..\..\lib\; DocFilesPath=..\..\..\doc\</DefineConstants>
+    <Cultures>ru-RU</Cultures>
+    <SuppressIces>ICE61</SuppressIces>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Emulation|x86' ">
+    <DefineConstants>Debug;FilesPath=..\..\KPK2\bin\x86\Emulation\; DbFilesPath=..\..\..\db\; LibFilesPath=..\..\..\lib\; DocFilesPath=..\..\..\doc</DefineConstants>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+    <Cultures>ru-RU</Cultures>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Emulation|AnyCPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Emulation|Any CPU' ">
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Dialog.wxs" />
+    <Compile Include="KPK2.wxs" />
+    <Compile Include="ReportGenerator.Shortcuts.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixNetFxExtension">
+      <HintPath>$(WixExtDir)\WixNetFxExtension.dll</HintPath>
+      <Name>WixNetFxExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="KPK2_DialogBanner.bmp" />
+    <Content Include="Version.wxi" />
+    <Content Include="Version.wxi.Template" />
+    <Content Include="UpBanner.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\en-US.wxl" />
+    <EmbeddedResource Include="Resources\es-ES.wxl" />
+    <EmbeddedResource Include="Resources\ru-RU.wxl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseInstaller\DatabaseInstaller.csproj">
+      <Name>DatabaseInstaller</Name>
+      <Project>{36f0dc8c-e805-47bd-bec5-d5bc1ceeb9ed}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\DBConfiguration\DBConfiguration.csproj">
+      <Name>DBConfiguration</Name>
+      <Project>{c7ed5741-ff4c-4749-9e65-a2ce55e9ebed}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\DBInstaller.Interface\DBInstaller.Interface.csproj">
+      <Name>DBInstaller.Interface</Name>
+      <Project>{df0a9704-1730-433e-bdbc-c338ea6d7831}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+    <ProjectReference Include="..\DBInstallerGUI\DBInstallerGUI.csproj">
+      <Name>DBInstallerGUI</Name>
+      <Project>{13a304ec-f0e2-430e-91d5-ee9d06286dd5}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" />
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target> -->
+  <Target Name="AfterBuild">
+    <GenerateBootstrapper ApplicationFile="$(TargetFileName)" ApplicationName="My Application Name" BootstrapperItems="@(BootstrapperFile)" ComponentsLocation="Relative" CopyComponents="True" OutputPath="$(OutputPath)" Path="C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\Bootstrapper\" />
+  </Target>
+  <PropertyGroup>
+    <PreBuildEvent>powershell -Command "(gc $(ProjectDir)Version.wxi.Template) -replace \"_ProductVersion_\", (gc $(SolutionDir)SolutionVersion\ProductVersion.txt) | Out-File -Encoding utf8 $(ProjectDir)Version.wxi"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

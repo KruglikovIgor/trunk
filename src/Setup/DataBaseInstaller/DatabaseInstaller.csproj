@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sparc.DatabaseInstaller</RootNamespace>
+    <AssemblyName>DatabaseInstaller</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\Database\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\Database\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SPARC SPA Co., Ltd..snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>DataBase.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Emulation|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Emulation\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>$(SolutionDir)packages\NLog.5.1.1\lib\net35\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sources\DatabaseInstaller\DbInfo.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbBackuper\BackupIndex.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbBackuper\DbBackuper.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DatabaseInstaller.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Enum\EnumVersionPlace.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbCreator\DbCreator.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbCreator\DbChecker.cs" />
+    <Compile Include="Sources\DatabaseInstaller\ScriptExecutor\ScriptExecutor.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbCreator\ScriptSets\ScriptSet.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\BackupDbScript.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\RestoreDbScript.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\ExistDbScript.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\UpdateScript.cs" />
+    <Compile Include="Sources\Logger\ConsoleLogger.cs" />
+    <Compile Include="Sources\Logger\FileLogger.cs" />
+    <Compile Include="Sources\Logger\NLogLogger.cs" />
+    <Compile Include="Sources\Logger\MultiLogger.cs" />
+    <Compile Include="Sources\Logger\TextBoxLogger.cs" />
+    <Compile Include="Sources\Logger\NullLogger.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\SimpleScript.cs" />
+    <Compile Include="Sources\DatabaseInstaller\Scripts\IScript.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbCreator\ScriptSets\UpdateScriptsSet.cs" />
+    <Compile Include="Sources\DatabaseInstaller\DbCreator\ScriptSets\CreateScriptsSet.cs" />
+    <Compile Include="Sources\ScriptLoader\ScriptName.cs" />
+    <Compile Include="Sources\Tools\DbVersionInDB.cs" />
+    <Compile Include="Sources\Tools\SyncSeparateThreadCaller.cs" />
+    <Compile Include="Sources\Tools\ExceptionMessage.cs" />
+    <Compile Include="Sources\ScriptLoader\ScriptItem.cs" />
+    <Compile Include="Sources\ScriptLoader\ResourceScriptLoader.cs" />
+    <Compile Include="Sources\Tools\DbVersion.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Sources\ScriptLoader\IScriptLoader.cs" />
+    <Compile Include="Sources\Tools\LinesNavigator\LinesNavigator.cs" />
+    <Compile Include="Sources\Tools\LinesNavigator\LinesNavigator_Extensions.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SPARC SPA Co., Ltd..snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataBase.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBInstaller.Interface\DBInstaller.Interface.csproj">
+      <Project>{df0a9704-1730-433e-bdbc-c338ea6d7831}</Project>
+      <Name>DBInstaller.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>subwcrev $(ProjectDir) $(ProjectDir)Properties\AssemblyInfo.template $(ProjectDir)Properties\AssemblyInfo.cs
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>

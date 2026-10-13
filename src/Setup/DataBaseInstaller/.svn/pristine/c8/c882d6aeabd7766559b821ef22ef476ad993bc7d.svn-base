@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseInstaller", "DatabaseInstaller.csproj", "{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIContract", "UIContract\UIContract.csproj", "{DF0A9704-1730-433E-BDBC-C338EA6D7831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBInstallerGUI", "DBInstallerGUI\DBInstallerGUI.csproj", "{13A304EC-F0E2-430E-91D5-EE9D06286DD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Emulation|x86 = Emulation|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Debug|x86.ActiveCfg = Debug|x86
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Debug|x86.Build.0 = Debug|x86
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Emulation|x86.ActiveCfg = Emulation|x86
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Emulation|x86.Build.0 = Emulation|x86
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Release|x86.ActiveCfg = Release|x86
+		{36F0DC8C-E805-47BD-BEC5-D5BC1CEEB9ED}.Release|x86.Build.0 = Release|x86
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Emulation|x86.ActiveCfg = Release|Any CPU
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Emulation|x86.Build.0 = Release|Any CPU
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF0A9704-1730-433E-BDBC-C338EA6D7831}.Release|x86.Build.0 = Release|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Debug|x86.Build.0 = Debug|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Emulation|x86.ActiveCfg = Release|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Emulation|x86.Build.0 = Release|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Release|x86.ActiveCfg = Release|Any CPU
+		{13A304EC-F0E2-430E-91D5-EE9D06286DD5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {993EFDC9-4D44-4C82-B84E-50C20089B00E}
+	EndGlobalSection
+EndGlobal

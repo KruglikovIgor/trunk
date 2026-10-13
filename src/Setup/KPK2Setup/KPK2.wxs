@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+  <?include Version.wxi?>
+
+  <?define ProductName="KPK2" ?>
+  <?define Manufacturer="SPARC"?>
+  <?define LibPath="..\..\lib\"?>
+  <?define ResourcesPath="..\..\KPK2\"?>
+  
+	<Product Id="*" Name="$(var.ProductName)" Language="1033" Version="$(var.ProductVersion)" Manufacturer="$(var.Manufacturer)" UpgradeCode="7b66010a-22cf-42c3-b95c-d30069056453">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Description="!(loc.PackageDescription) $(var.ProductVersion)" SummaryCodepage="!(loc.ProductPackageLanguage)"/>
+
+		<MajorUpgrade AllowSameVersionUpgrades="yes" DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />    
+
+    <Icon Id="icon.ico" SourceFile="$(var.ResourcesPath)\Todo.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="icon.ico" />
+
+    <Feature Id="Feature.ReportGenerator"
+             Title="!(loc.KPK2.ReportGenerator)"
+             Description="!(loc.KPK2.ReportGeneratorDescription)"
+             Level="1"
+    >
+
+      <ComponentGroupRef Id="Cmp.ReportGenerator.Files"/>
+      
+      <ComponentGroupRef Id="Cmp.ReportGenerator.Config"/>
+
+      <ComponentRef Id="Cmp.Kpk2ReportGenerator.Shortcuts.Desktop"/>
+
+    </Feature>
+
+		<Feature Id="ProductFeature" Title="KPK2Setup" Level="1">
+			<ComponentGroupRef Id="KPK2Components" />
+      <ComponentGroupRef Id="KPK2Manual" />
+      <ComponentGroupRef Id="KPK2LibComponents" />
+      <ComponentGroupRef Id="KPK2EnLocalization" />
+      <ComponentGroupRef Id="KPK2RuLocalization" />
+      <ComponentGroupRef Id="KPK2EsLocalization" />
+      <ComponentGroupRef Id="KPK2MainMenuShortcuts" />
+      <ComponentGroupRef Id="KPK2DesktopShortcuts" />
+      <ComponentGroupRef Id="KPK2Database" />
+      <ComponentGroupRef Id="KPK2DatabaseInstaller" />
+    </Feature>
+
+    <PropertyRef Id="NETFRAMEWORK20"/>
+    <Condition Message="Install Framework 2.0!">
+      <![CDATA[Installed OR NETFRAMEWORK20]]>
+    </Condition>
+
+    <PropertyRef Id="NETFRAMEWORK40FULL"/>
+    <Condition Message="Install Framework 4.0!">
+      <![CDATA[Installed OR NETFRAMEWORK40FULL]]>
+    </Condition>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="ManufacturerFolder" Name ="$(var.Manufacturer)">
+          <Directory Id="KPK2Location" Name="$(var.ProductName)">
+            <Directory Id="KPK2En" Name="en" />
+            <Directory Id="KPK2Ru" Name="ru" />
+            <Directory Id="KPK2Es" Name="es" />
+            <Directory Id="ReportGenerator" Name="ReportGenerator"/>
+            <Directory Id="Database" Name="Database" />
+          </Directory>
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="MenuManufacturerFolder" Name="$(var.Manufacturer)">
+          <Directory Id ="MenuKPK2Folder" Name="$(var.ProductName)"/>
+        </Directory>
+      </Directory>
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="CommonManufacturerFolder" Name="$(var.Manufacturer)">
+          <Directory Id="CommonKPK2Folder" Name="$(var.ProductName)"/>
+        </Directory>
+      </Directory>
+      <Directory Id="DesktopFolder"/>
+    </Directory>
+
+    <ComponentGroup Id="KPK2DatabaseInstaller" Directory="KPK2Location">
+		<Component Id="DBInstallerGUI" Guid="AC1CF244-8951-4460-95CB-39EFF910BFDE">
+			<File Source="$(var.DBInstallerGUI.TargetDir)\DBInstallerGUI.exe" Checksum="yes"
+			      KeyPath="yes" />
+      </Component>
+	    <Component Id="DatabaseInstaller" Guid="9AFCD8D7-7534-47EC-9920-4A28A4A8AA7E">
+		    <File Source="$(var.DatabaseInstaller.TargetDir)\DatabaseInstaller.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="DBConfiguration" Guid="9087862C-0433-428E-93C1-89F01536A7F1">
+		    <File Source="$(var.DBConfiguration.TargetDir)\DBConfiguration.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="DBInstaller.Interface" Guid="C8FEA145-B83B-40FB-B7FA-7E21D1241C93">
+		    <File Source="$(var.DBInstaller.Interface.TargetDir)\DBInstaller.Interface.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="MefContrib" Guid="3DBBD042-3B46-4B0B-9DC1-BD72FB8DD498">
+		    <File Source="$(var.DBInstallerGUI.TargetDir)\MefContrib.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="MefContrib.Integration.Unity" Guid="D86B9C41-BF92-4F32-BB92-618A9607CAA7">
+		    <File Source="$(var.DBInstallerGUI.TargetDir)\MefContrib.Integration.Unity.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="Microsoft.Practices.ServiceLocation" Guid="76DD148A-67DE-4E9B-898D-0EA22DA8AF88">
+		    <File Source="$(var.DBInstallerGUI.TargetDir)\Microsoft.Practices.ServiceLocation.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="Microsoft.Practices.Unity.Configuration" Guid="5A555121-7885-4244-B60D-AF53E0084D08">
+		    <File Source="$(var.DBInstallerGUI.TargetDir)\Microsoft.Practices.Unity.Configuration.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+	    <Component Id="Microsoft.Practices.Unity" Guid="D3C57D7F-4294-464A-86D7-73DC272C86E3">
+		    <File Source="$(var.DBInstallerGUI.TargetDir)\Microsoft.Practices.Unity.dll" Checksum="yes"
+		          KeyPath="yes" />
+	    </Component>
+    </ComponentGroup>
+
+ 
+    <ComponentGroup Id="Cmp.ReportGenerator.Config" Directory="ReportGenerator">
+      <Component Id="LogPath.xml" Guid="F22CB7FD-F987-465A-AD5E-CAB92814A64B">
+        <File Id="FILE_LogPath" KeyPath="yes" Source="$(var.SolutionDir)..\lib\LogPath.xml" />
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="Cmp.ReportGenerator.Files" Directory="ReportGenerator">
+      <Component Id="Sparc.Utils.GenerateSoftwareReport.exe" Guid="79BE7F28-C8B5-4D33-B36C-B0FE66E7AB25">
+        <File Id="FILE_Sparc.Utils.GenerateSoftwareReport" KeyPath="yes" Source="$(var.SolutionDir)..\lib\ReportGenerator\Sparc.Utils.GenerateSoftwareReport.exe" />
+      </Component>
+
+      <Component Id="ICSharpCode.SharpZipLib.dll" Guid="6457BDDF-BF17-42FF-8F7B-D54E29998080">
+        <File Id="FILE_ICSharpCode.SharpZipLib" KeyPath="yes" Source="$(var.SolutionDir)..\lib\ReportGenerator\ICSharpCode.SharpZipLib.dll"/>
+      </Component>
+
+      
+    </ComponentGroup>
+
+    <ComponentGroup Id="KPK2Components" Directory="KPK2Location">
+      <Component Id="CMP_AktorPS" Guid="0BBE923B-AAC9-4598-A6F2-AA682355C97C">
+        <File Id="FILE_AktorPS" KeyPath="yes" Source="$(var.FilesPath)\AktorPS115v.dll" />        
+      </Component>            
+      <Component Id="CMP_APS1102" Guid="04D324AF-FF0B-40A6-BF70-2CE341E98652">
+        <File Id="FILE_APS1102" KeyPath="yes" Source="$(var.FilesPath)\APS1102.dll" />
+      </Component>
+      <Component Id="CMP_GenSinCos" Guid="168EBFF8-88C0-46D8-BEC5-BFF67F93F0AF">
+        <File Id="FILE_GenSinCos" KeyPath="yes" Source="$(var.FilesPath)\GenSinCosBoard.dll" />
+      </Component>
+      <Component Id="CMP_GenWf" Guid="F4110BB8-9DAB-41D8-A164-26FE64963828">
+        <File Id="FILE_GenWf" KeyPath="yes" Source="$(var.FilesPath)\Hardware.LfGenerator.Akip.3410.dll" />
+      </Component>
+      <Component Id="CMP_ControlTask" Guid="51E925E5-AE52-400D-BB35-1A08DC4E14CC">
+        <File Id="FILE_ControlTask" KeyPath="yes" Source="$(var.FilesPath)\ControlTaskBoard.dll" />
+      </Component>
+      <Component Id="CMP_Rele" Guid="B22E1ACE-085E-4FDC-B597-42B1F6EE079B">
+        <File Id="FILE_Rele" KeyPath="yes" Source="$(var.FilesPath)\ReleBoard.dll" />
+      </Component>
+      <Component Id="CMP_DiscreteInputs" Guid="3689D0E9-3C16-468E-B64C-28813B9804ED">
+        <File Id="FILE_DiscreteInputs" KeyPath="yes" Source="$(var.FilesPath)\DiscreteInputsBoard.dll" />
+      </Component>
+      <Component Id="CMP_KPK2EXE" Guid="B722C416-FB7B-437F-87E0-E646B1A3EF29">
+        <File Id="FILE_KPK2EXE" KeyPath="yes" Source="$(var.FilesPath)\KPK2.exe"/>
+      </Component>
+      <Component Id="CMP_KPK2Config" Guid="5DE7E700-637C-46CB-8D2B-A993C61B5488">
+        <File Id="FILE_KPK2Config" KeyPath="yes" Source="$(var.FilesPath)\KPK2.exe.config" />
+      </Component>
+      <Component Id="CMP_ZedGraph" Guid="54470DC1-3F84-4AF7-8CBE-9D6F458D762B">
+        <File Id="FILE_ZedGraph" KeyPath="yes" Source="$(var.FilesPath)\ZedGraph.dll" />
+      </Component>
+      <Component Id="CMP_SignalHound_Sa" Guid="F78ECF4C-7F40-492B-8FDA-785B9300BDDE">
+        <File Id="FILE_SignalHound_Sa" KeyPath="yes" Source="$(var.FilesPath)\Hardware.SpectrumAnalyzer.SignalHound.Sa.dll" />
+      </Component>
+      <Component Id="CMP_NLog" Guid="C84FA039-3314-4DEA-A590-9663BE73C3C3">
+        <File Id="FILE_NLog" KeyPath="yes" Source="$(var.FilesPath)\NLog.dll" />
+      </Component>
+      <Component Id="CMP_LCards" Guid="1DB58099-2D2F-47B6-B997-7DB981BBEE83">
+        <File Id="FILE_LCards" KeyPath="yes" Source="$(var.FilesPath)\LCards.dll" />
+      </Component>
+      <Component Id="CMP_LTR114" Guid="723CAE4A-138A-45ED-9350-00129CA05763">
+        <File Id="FILE_LTR114" KeyPath="yes" Source="$(var.FilesPath)\Ltr114Lib.dll" />
+      </Component>
+      <Component Id="CMP_LTR11" Guid="93DA465C-B20B-45F1-96A8-DBCC93635AE4">
+        <File Id="FILE_LTR11" KeyPath="yes" Source="$(var.FilesPath)\Ltr11Lib.dll" />
+      </Component>
+      <Component Id="CMP_LTR22" Guid="E1D49AC1-FD46-4C2A-8B01-71A2F03D57DB">
+        <File Id="FILE_LTR22" KeyPath="yes" Source="$(var.FilesPath)\Ltr22Lib.dll" />
+      </Component>
+      <Component Id="CMP_ltrModulesNet" Guid="893A2CF9-51FE-4D86-9869-8FE26448242A">
+        <File Id="FILE_ltrModulesNet" KeyPath="yes" Source="$(var.LibFilesPath)\ltrModulesNet.dll" />
+        <RemoveFile Id="DEL_ltrModulesNet" Name="ltrModulesNet.dll" On="uninstall"/>
+      </Component>
+      <Component Id="CMP_NPlot" Guid="A1CBE56E-FD49-4F5F-8239-44828A70F8FE">
+        <File Id="FILE_NPlot" KeyPath="yes" Source="$(var.FilesPath)\NPlot.dll" />
+      </Component>
+      <Component Id="CMP_PCI176X" Guid="02418140-6B8D-47C4-A08F-6F32BA45778A">
+        <File Id="FILE_PCI176X" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Advantech.PCI176X.dll" />
+      </Component>
+      <Component Id="CMP_USBVoltmeter" Guid="2E21B81B-4439-407B-B487-70ADF0DEAEEC">
+        <File Id="FILE_USBVoltmeter" KeyPath="yes" Source="$(var.FilesPath)\USBVoltmeter.dll" />
+      </Component>
+      <Component Id="CMP_UserControlsKPK2" Guid="CDF210B3-5BF8-4CEB-8319-9FE7597D12DD">
+        <File Id="FILE_UserControlsKPK2" KeyPath="yes" Source="$(var.FilesPath)\UserControlsKPK2.dll" />
+      </Component>
+      <Component Id="CMP_KPK2Resources" Guid="8919362C-56D5-4DD2-A9FF-E3465EDE0A5D">
+        <File Id="FILE_KPK2Resources" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Resources.dll" />
+      </Component>
+      <Component Id="CMP_KPK2Imitator" Guid="CBC13363-DC38-4D94-8685-0F87DB8A17A9">
+        <File Id="FILE_KPK2Imitator" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Imitator.dll" />
+      </Component>
+      <Component Id="CMP_KPK2Hardware" Guid="91D010C5-D176-4F98-B62C-A2B4E61B491A">
+        <File Id="FILE_KPK2Hardware" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Hardware.dll" />
+      </Component>
+      <Component Id="CMP_KPK2Functions" Guid="387413C2-8D33-4389-9563-CC770961CB9C">
+        <File Id="FILE_KPK2Functions" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Functions.dll" />
+      </Component>
+      <Component Id="CMP_KPK2Algorithms" Guid="6B8DED01-7770-4FF6-802B-9E20DCA8E210">
+        <File Id="FILE_KPK2Algorithms" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Algorithms.dll" />
+      </Component>
+      <Component Id="CMP_x86_sa_api_dll" Guid="89A7D32A-B675-49D6-9EB9-2DE7FF8AA7AA">
+        <File Id="FILE_x86_sa_api_dll" KeyPath="yes" Source="$(var.LibFilesPath)\sa_api.dll" />
+      </Component>
+      <Component Id="CMP_PSAkip1142" Guid="5EFA344D-4BC8-4B4E-9B3A-83A8508808B1">
+        <File Id="FILE_PSAkip1142" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Akip1142.dll" />
+      </Component>
+      <Component Id="CMP_PSAkip3418" Guid="791C5672-072C-4681-A7FC-A16F1926E2CD">
+        <File Id="FILE_PSAkip3418" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Akip3418.dll" />
+      </Component>
+      <Component Id="CMP_ASR72100" Guid="CCA69AB4-BE90-4E18-843A-2F2D5A63458A">
+        <File Id="FILE_ASR72100" KeyPath="yes" Source="$(var.FilesPath)\PowerSupplyGWI_ASR72100.dll" />
+      </Component>
+      <Component Id="CMP_PSLambdaGEN" Guid="29A5E0B9-5FAD-45D3-9B58-2153AD687DC3">
+        <File Id="FILE_PSLambdaGEN" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.LambdaGEN.dll" />
+      </Component>
+      
+      <Component Id="CMP_Akip1133" Guid="{51B11780-1D2B-46C5-8362-F25E43C538EE}">
+        <File Id="FILE_Akip1133" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Akip1133.dll"/>
+      </Component>
+
+      <Component Id="CMP_IT65XX" Guid="{7FDA123F-478D-4A27-B15E-9C2270AC88C3}">
+        <File Id="FILE_IT65XX" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.IT65XX.dll"/>
+      </Component>
+
+      <Component Id="CMP_TUsbCh375" Guid="DADD3D7C-B321-46B8-A305-FBD4B0B095CA">
+        <File Id="FILE_TUsbCh375" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Transport.UsbCh375.dll" />
+      </Component>
+      <Component Id="CMP_PowerMeterU8481A" Guid="01BD254F-E045-4086-869A-142FAE8352E1">
+        <File Id="FILE_PowerMeterU8481A" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.PowerMeterU8481A.dll" />
+      </Component>  
+      <Component Id="CMP_VisaConnect" Guid="A84EE5DF-DAF8-4AD1-8003-C29791A65A4E">
+        <File Id="FILE_VisaConnect" KeyPath="yes" Source="$(var.FilesPath)\Sparc.Hardware.Transport.VisaConnect.dll" />
+      </Component>
+      <Component Id="CMP_KPK2ConfigFile" Guid="{4134EF58-14A9-46AB-8679-8F63075475A4}">
+        <File Id="FILE_KPK2ConfigFile" KeyPath="yes" Source="$(var.FilesPath)\Sparc.KPK2.Config.dll"/>
+      </Component>
+      <Component Id="CMP_KPK2ConfigXml" Guid="{8504D154-8F7F-4047-8468-18C5E780E064}">
+        <File Id="FILE_KPK2ConfigXml" KeyPath="yes" Source="$(var.FilesPath)\KPK2Hardware.config"/>
+      </Component>
+      <Component Id="CMP_NlogConfig" Guid="{E339E0A2-B7C3-4512-9A06-89E9A6B299D8}">
+        <File Id="FILE_NLogConfig" KeyPath="yes" Source="$(var.FilesPath)\NLog.config" />
+      </Component>
+      <Component Id="CMP_NlogXML" Guid="{F986E322-8ABD-418C-82D3-1C51E7B8D137}">
+        <File Id="FILE_NLogXML" KeyPath="yes" Source="$(var.FilesPath)\NLog.xml" />
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="KPK2Manual" Directory="KPK2Location">
+      <Component Id="CMP_KPK2Manual" Guid="6D76BB6D-0C64-404C-BFD6-71067537A67F">
+        <File Id="FILE_KPK2Manual" KeyPath="yes" Source="$(var.DocFilesPath)\KPK2.pdf" />
+      </Component>      
+    </ComponentGroup>
+
+    <ComponentGroup Id="KPK2LibComponents" Directory="KPK2Location">
+      <Component Id="CMP_LogoBMP" Guid="6161CE1C-17E0-48CA-83A7-036D123B04A6">
+        <File Id="FILE_LogoBMP" KeyPath="yes" Source="$(var.LibFilesPath)\logo.bmp" />
+      </Component>     
+    </ComponentGroup>
+
+    <ComponentGroup Id="KPK2EnLocalization" Directory="KPK2En">      
+      <Component Id="CMP_KPK2En" Guid="21A32D0F-BB9B-4C8F-90A1-2781EB91EDA2" KeyPath="yes">
+        <File Id="FILE_KPK2En" Source="$(var.FilesPath)\en\KPK2.resources.dll" />
+        <File Id="FILE_KPK2ResEn" Source="$(var.FilesPath)\en\Sparc.KPK2.Resources.resources.dll" />
+        <File Id="FILE_UserControlsKPK2ResEn" Source="$(var.FilesPath)\en\UserControlsKPK2.resources.dll" />
+      </Component>
+    </ComponentGroup>
+    
+    <ComponentGroup Id="KPK2RuLocalization" Directory="KPK2Ru">      
+      <Component Id="CMP_KPK2Ru" Guid="598E3AB5-CDCF-4110-AA4A-03FAEC23CE71" KeyPath="yes">
+        <File Id="FILE_ZedGraphRu" Source="$(var.FilesPath)\ru\ZedGraph.resources.dll" />
+      </Component>
+    </ComponentGroup>
+    
+    <ComponentGroup Id="KPK2EsLocalization" Directory="KPK2Es">      
+      <Component Id="CMP_KPK2Es" Guid="508734BA-4988-4424-A827-9BD644D227DA" KeyPath="yes">
+        <File Id="FILE_KPK2Es" Source="$(var.FilesPath)\es\KPK2.resources.dll" />
+        <File Id="FILE_ZedGraphEs" Source="$(var.FilesPath)\es\ZedGraph.resources.dll" />
+      </Component>
+    </ComponentGroup>
+
+    <ComponentGroup Id="KPK2Database" Directory="CommonKPK2Folder">
+      <Component Id="CMP_CommonKPK2Folder" Guid="8FB6F14F-A9B6-4492-A685-3741E0D94D14">
+        <CreateFolder Directory="CommonKPK2Folder">
+          <Permission User="Everyone" GenericAll="yes" />
+        </CreateFolder>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\$(var.Manufacturer)\$(var.ProductName)"  Name="PermissionsApplied" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+    <ComponentGroup Id="KPK2MainMenuShortcuts" Directory="MenuKPK2Folder">
+      <Component Id="CMP_MainExeShortcut" Guid="A00B3F63-27E9-46BF-9BF8-61D7CE308FCE">
+        <Shortcut Id="SC_MainExe" Name="KPK2" Target="[KPK2Location]KPK2.exe" WorkingDirectory="KPK2Location"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\$(var.Manufacturer)\$(var.ProductName)"  Name="MainMenuExeInstalled" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+      <Component Id="CMP_ShortcutUninstall" Guid="0994A10C-E01E-4B81-8848-F62410F73C30">
+        <Shortcut Id="SC_Uninstall" Name="Uninstall KPK2" Target="[System64Folder]msiexec.exe" Arguments="/x [ProductCode]"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\$(var.Manufacturer)\$(var.ProductName)"  Name="MainMenuUninstallInstalled" Type="integer" Value="1" KeyPath="yes"/>
+        <RemoveFolder Id="RM_StartMenuDir" On="uninstall" Directory="MenuKPK2Folder"/>
+        <RemoveFolder Id="RM_StartMenuDirMain" On="uninstall" Directory="MenuManufacturerFolder"/>
+      </Component>
+    </ComponentGroup>
+    <ComponentGroup Id="KPK2DesktopShortcuts" Directory="DesktopFolder">
+      <Component Id="CMP_DesktopShortcutMainExe" Guid="DE01E675-F2A6-4F84-B938-B7B8FB4F6D41">
+        <Shortcut Id="SC_DesktopMainExe" Name="KPK-2" Target="[KPK2Location]KPK2.exe" WorkingDirectory="KPK2Location"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\$(var.Manufacturer)\$(var.ProductName)"  Name="DesktopInstalled" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+    <Property Id="WIXUI_INSTALLDIR" Value="KPK2Location" ></Property>
+    <UIRef Id="WixUI_InstallDirMy"/>
+
+    <Binary Id="BR_InstallDb" SourceFile="..\KPK2SetupAction\bin\$(var.Configuration)\KPK2SetupAction.CA.dll"/>
+    <Binary Id="BR_OnInstall" SourceFile="..\MoveFileAction\bin\$(var.Configuration)\MoveFileAction.CA.dll"/>
+    <CustomAction Id="CA_OnInstall" BinaryKey="BR_OnInstall" DllEntry="OnInstall" Execute="deferred" Return="check" Impersonate="no"/>
+    <CustomAction Id="CA_InstallDb" BinaryKey="BR_InstallDb" DllEntry="InstallDb" Execute="deferred" Return="check"/>
+    <CustomAction Id="CA_UninstallDb" BinaryKey="BR_InstallDb" DllEntry="UninstallDb" Execute="deferred" Return="check"/>
+    <CustomAction Id="SetProperty" Property="CA_InstallDb" Value="[CommonKPK2Folder]"/>
+    <CustomAction Id="SetProperty2" Property="CA_UninstallDb" Value="[CommonKPK2Folder]"/>
+    <CustomAction Id="SetProperty3" Property="CA_OnInstall" Value="[KPK2Location]"/>
+
+    <InstallExecuteSequence>
+      <Custom Action="SetProperty3" Before="CA_OnInstall"/>
+      <Custom Action="CA_OnInstall" Before="SetProperty">
+        NOT Installed
+      </Custom>
+      <Custom Action="SetProperty" Before="CA_InstallDb"/>
+      <Custom Action="CA_InstallDb" After="InstallFiles">
+        NOT Installed
+      </Custom>
+      <Custom Action="SetProperty2" Before="CA_UninstallDb"/>
+      <Custom Action="CA_UninstallDb" Before="RemoveFiles">
+        Installed
+      </Custom>
+    </InstallExecuteSequence>
+  </Product>
+</Wix>

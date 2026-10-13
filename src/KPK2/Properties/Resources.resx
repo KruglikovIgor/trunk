@@ -1,0 +1,1551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllDevicesGood" xml:space="preserve">
+    <value>Все устройства работают!</value>
+  </data>
+  <data name="ApplicationMustBeClosed" xml:space="preserve">
+    <value>Приложение необходимо закрыть!</value>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>КПК-2</value>
+  </data>
+  <data name="BreakingPCI_1760" xml:space="preserve">
+    <value>Возможно неисправна плата PCI-1761 (1762).</value>
+  </data>
+  <data name="CantChangeTab" xml:space="preserve">
+    <value>Для перехода на другую вкладку
+необходимо закончить все измерения
+на данной вкладке</value>
+  </data>
+  <data name="CantCloseLTRServer" xml:space="preserve">
+    <value>Не удалось закрыть вспомогательную программу LTR-сервер, программа будет закрыта принудительно!</value>
+  </data>
+  <data name="CantConnectToDb" xml:space="preserve">
+    <value>Не удалось подключиться к базе данных!</value>
+  </data>
+  <data name="CantOpenForm" xml:space="preserve">
+    <value>Для запуска формы "{0}"
+необходимо закончить все измерения
+на данной вкладке</value>
+  </data>
+  <data name="CantOpenLTRServer" xml:space="preserve">
+    <value>Не удалось открыть программу управления для плат L-Card!</value>
+  </data>
+  <data name="CantStartAnyTest" xml:space="preserve">
+    <value>Проведение проверок невозможно!</value>
+  </data>
+  <data name="CantStartTest" xml:space="preserve">
+    <value>Проведение проверки невозможно</value>
+  </data>
+  <data name="CaptionCalibrate" xml:space="preserve">
+    <value>Калибровка</value>
+  </data>
+  <data name="ChannelCountOverflow" xml:space="preserve">
+    <value>Превышено допустимое число каналов: {0}.</value>
+  </data>
+  <data name="CheckDevicesError" xml:space="preserve">
+    <value>Ошибка при открытии СОМ портов и проверки наличия плат:</value>
+  </data>
+  <data name="Checking" xml:space="preserve">
+    <value>Проверяется</value>
+  </data>
+  <data name="Cosine" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>выключен</value>
+  </data>
+  <data name="DiscretInputOutputsBoard" xml:space="preserve">
+    <value>Плата дискретных входов-выходов</value>
+  </data>
+  <data name="Diss" xml:space="preserve">
+    <value>ДИСС</value>
+  </data>
+  <data name="Diss15" xml:space="preserve">
+    <value>ДИСС-15</value>
+  </data>
+  <data name="Diss32_90А" xml:space="preserve">
+    <value>ДИСС-32-90A</value>
+  </data>
+  <data name="EmptyListOfDevices" xml:space="preserve">
+    <value>Список установленных устройств Advantech пуст.</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>включен</value>
+  </data>
+  <data name="EnableOff" xml:space="preserve">
+    <value>выключить</value>
+  </data>
+  <data name="EnableOn" xml:space="preserve">
+    <value>включить</value>
+  </data>
+  <data name="EnterAngleInmV" xml:space="preserve">
+    <value>Необходимо ввести значение {0}({1}°) в мВ</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="ErrorCommand" xml:space="preserve">
+    <value>Ошибка при выполнении операции: {0}</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="helicopter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helicopter.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>Высокое</value>
+  </data>
+  <data name="HighVoltageOn" xml:space="preserve">
+    <value>Высокое включить</value>
+  </data>
+  <data name="IncorrectAngleValue" xml:space="preserve">
+    <value>Введенное значение {0}({1}°): {2} ошибочно
+Введите правильное значение</value>
+  </data>
+  <data name="IncorrectAnswer" xml:space="preserve">
+    <value>Ошибка при ответе платы через</value>
+  </data>
+  <data name="IncorrectTab" xml:space="preserve">
+    <value>Неизвестная вкладка</value>
+  </data>
+  <data name="Increase" xml:space="preserve">
+    <value>Увеличивается</value>
+  </data>
+  <data name="InvalidRelayNumber" xml:space="preserve">
+    <value>Недопустимый номер реле. Номер реле должен быть неотрицительным.</value>
+  </data>
+  <data name="Invariably" xml:space="preserve">
+    <value>Не изменяется</value>
+  </data>
+  <data name="KZBoard" xml:space="preserve">
+    <value>Модуль МКЗ</value>
+  </data>
+  <data name="LightInstruction1" xml:space="preserve">
+    <value>Нажмите клавишу "ВПЕРЕД 17 ВЛЕВО 17 ВНИЗ 3" на БПК и проверьте состояние табло (клавиш)</value>
+  </data>
+  <data name="LightInstruction2" xml:space="preserve">
+    <value>Нажмите клавишу "СКОРОСТЬ 258 СНОС&lt;-9,5" на БПК и проверьте состояние табло (клавиш)</value>
+  </data>
+  <data name="LightInstruction3" xml:space="preserve">
+    <value>Отожмите клавишу "КОНТР ДИСС" на БПК, нажмите кнопку "Вперед" на КПК-2 и через 10с проверьте состояние табло</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Максимальное значение</value>
+  </data>
+  <data name="MB" xml:space="preserve">
+    <value>"М-Б"</value>
+  </data>
+  <data name="MeasureAmplifierPins" xml:space="preserve">
+    <value>Произвести измерение напряжения
+на контактах усилителя {0}</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Минимальное значение</value>
+  </data>
+  <data name="MS" xml:space="preserve">
+    <value>"М-С"</value>
+  </data>
+  <data name="NeedToSaveTest" xml:space="preserve">
+    <value>Делать запись о новой проверке {0}?</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Откл</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Вкл</value>
+  </data>
+  <data name="OpenFormError" xml:space="preserve">
+    <value>В настоящий момент нет соединения с БД
+Форма не будет открыта
+Повторите снова или обратитесь к администратору!</value>
+  </data>
+  <data name="Others" xml:space="preserve">
+    <value>Остальные</value>
+  </data>
+  <data name="PCI_1760notFound" xml:space="preserve">
+    <value>Отсутствует или неуисправна плата PCI-1761 (1762).</value>
+  </data>
+  <data name="PowerSupplies" xml:space="preserve">
+    <value>Источники питания</value>
+  </data>
+  <data name="PowerSupplyMeasuringError" xml:space="preserve">
+    <value>Ошибка при запуске индикации 27В - 115В</value>
+  </data>
+  <data name="PressButtonOnBlock8" xml:space="preserve">
+    <value>Нажмите кнопку "{0}" на блоке 8 орт.</value>
+  </data>
+  <data name="PSOn" xml:space="preserve">
+    <value>Включение БП</value>
+  </data>
+  <data name="PushContrDiss" xml:space="preserve">
+    <value>Убедитесь, что на КПК-2 не светится индикатор "БПК вкл", нажмите клавишу "КОНТР ДИСС" на БПК и проверьте состояние табло (клавиш)</value>
+  </data>
+  <data name="Sine" xml:space="preserve">
+    <value>Sin</value>
+  </data>
+  <data name="SKTBoard" xml:space="preserve">
+    <value>Модуль СКТ</value>
+  </data>
+  <data name="SomeDevicesFailed" xml:space="preserve">
+    <value>Найдены неисправные устройства!</value>
+  </data>
+  <data name="TakeOffCorrector" xml:space="preserve">
+    <value>Отключите от блока ВСС прибор коррекции, нажмите кнопку "{0}" на КПК-2 и проверьте состояние табло</value>
+  </data>
+  <data name="TakeOnCorrector" xml:space="preserve">
+    <value>Подключите к блоку ВСС прибор коррекции, нажмите кнопку "{0}" на КПК-2 и проверьте состояние табло</value>
+  </data>
+  <data name="Task1Instruction" xml:space="preserve">
+    <value>Дождитесь загорания табло "ИСПРАВНОСТЬ" на стенде и
+окончания движения указателей блока 6, после чего
+введите показания по шкалам ВПЕРЕД, ВЛЕВО, ВНИЗ
+на блоке 6 в соответствующие ячейки на стенде</value>
+  </data>
+  <data name="Task2Instruction" xml:space="preserve">
+    <value>Дождитесь загорания табло "ИСПРАВНОСТЬ" на стенде и
+окончания движения указателей блока 6, после чего
+введите показания по шкалам НАЗАД, ВПРАВО, ВВЕРХ
+на блоке 6 в соответствующие ячейки на стенде</value>
+  </data>
+  <data name="Task3_4Instruction" xml:space="preserve">
+    <value>Дождитесь загорания табло "ИСПРАВНОСТЬ" на стенде и
+окончания отработки счетчика путевой скорости и
+указателя угла сноса на индикаторе УС ПС, после
+чего введите показания счетчика путевой скорости
+и указателя угла сноса на индикаторе УС ПС в
+соответствующие ячейки на стенде</value>
+  </data>
+  <data name="TaskMemoryInstruction" xml:space="preserve">
+    <value>Нажмите кнопку на пульте БПК ДИСС "ВКЛ ПОИСК"
+и удерживайте ее до загорания табло "П" на
+индикаторе УС ПС, после чего нажмите кнопку "{0}"</value>
+  </data>
+  <data name="TaskUSPSInstruction" xml:space="preserve">
+    <value>Установите переключатель на индикаторе УС ПС №1
+в положение {0} и после отработки задачи
+нажмите кнопку "{1}"</value>
+  </data>
+  <data name="TaskUSPSInstruction2" xml:space="preserve">
+    <value>Установите переключатель на индикаторе УС ПС №1
+в положение "С"</value>
+  </data>
+  <data name="TaskZeroInstruction" xml:space="preserve">
+    <value>Дождитесь загорания табло "ИСПРАВНОСТЬ" на стенде
+и окончания движения указателей блока 6
+и счётчика путевой скорости индикатора УС ПС</value>
+  </data>
+  <data name="TestFinished" xml:space="preserve">
+    <value>Проверка завершена.</value>
+  </data>
+  <data name="ThereIsLighning" xml:space="preserve">
+    <value>Есть подсвет</value>
+  </data>
+  <data name="ThereIsntLightning" xml:space="preserve">
+    <value>Нет подсвета</value>
+  </data>
+  <data name="TKOff" xml:space="preserve">
+    <value>Выключение ТК</value>
+  </data>
+  <data name="TKOn" xml:space="preserve">
+    <value>Включение ТК</value>
+  </data>
+  <data name="WaitWhileDeviceTesting" xml:space="preserve">
+    <value>Подождите идёт проверка оборудования...</value>
+  </data>
+  <data name="WriteReadError" xml:space="preserve">
+    <value>Ошибка при записи/чтении:</value>
+  </data>
+  <data name="IncorrectSwitchMode" xml:space="preserve">
+    <value>Положение выключателся на передней панели установлено в неправильное положение ВЫКЛ, установите во ВКЛ и повторите проверку!</value>
+  </data>
+  <data name="CantCheck" xml:space="preserve">
+    <value>невозможно проверить</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>неуспешно</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>успешно</value>
+  </data>
+  <data name="AbsentRemember" xml:space="preserve">
+    <value>Отсутствие запоминания при</value>
+  </data>
+  <data name="AbsentSignals" xml:space="preserve">
+    <value>Отсутствие сигналов</value>
+  </data>
+  <data name="CantContinueTesting" xml:space="preserve">
+    <value>Дальнейшая проверка невозможна!</value>
+  </data>
+  <data name="CantReadDb" xml:space="preserve">
+    <value>Ошибка получения данных из базы!</value>
+  </data>
+  <data name="FailSpeed" xml:space="preserve">
+    <value>Введенное значение скорости: {0} ошибочно
+Введите правильное значение</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>мин</value>
+  </data>
+  <data name="NoIndication" xml:space="preserve">
+    <value>Нет индикации</value>
+  </data>
+  <data name="PressButtonAndCheck" xml:space="preserve">
+    <value>Нажмите кнопку "{0}" на КПК-2 и проверьте состояние табло</value>
+  </data>
+  <data name="RightIndication" xml:space="preserve">
+    <value>Есть индикация</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>сек</value>
+  </data>
+  <data name="TimeLeft" xml:space="preserve">
+    <value>Осталось</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="BPK" xml:space="preserve">
+    <value>БПК</value>
+  </data>
+  <data name="CommandError" xml:space="preserve">
+    <value>Ошибка управления!</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="FailFrequency" xml:space="preserve">
+    <value>Введенное значение частоты: {0} ошибочно
+Введите правильное значение</value>
+  </data>
+  <data name="FailValue" xml:space="preserve">
+    <value>Введенное значение: {0}  ошибочно! Введите правильное значение</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="FrequencyRequirement" xml:space="preserve">
+    <value>Значение Частоты должно быть в пределах от {0} до {1}</value>
+  </data>
+  <data name="Left" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="PS" xml:space="preserve">
+    <value>ПС {0}</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="SpeedValueLimit" xml:space="preserve">
+    <value>Значение скорости {0} должно быть в пределах от {1} до {2}</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="US" xml:space="preserve">
+    <value>УС {0}</value>
+  </data>
+  <data name="ValueLimit" xml:space="preserve">
+    <value>Значение "{0}" должно быть в пределах от {1} до {2}</value>
+  </data>
+  <data name="PSParams" xml:space="preserve">
+    <value>Параметры источников питания</value>
+  </data>
+  <data name="SecondaryPSVoltage" xml:space="preserve">
+    <value>Напряжение вторичных источников питания</value>
+  </data>
+  <data name="GLPDParams" xml:space="preserve">
+    <value>Параметры ГЛПД. Напряжение смещения на модуляторных диодах.</value>
+  </data>
+  <data name="VoltagesKCurrentsHighOff" xml:space="preserve">
+    <value>Напряжения смещения на диодах смесителей ТОК К("Высокое" выключено)</value>
+  </data>
+  <data name="VoltagesKCurrentHighOn" xml:space="preserve">
+    <value>Напряжения смещения на диодах смесителей ТОК К("Высокое" включено)</value>
+  </data>
+  <data name="NoiseVoltages" xml:space="preserve">
+    <value>Напряжение шумов на выходах УНЧ</value>
+  </data>
+  <data name="SignalReadyFound" xml:space="preserve">
+    <value>Сигнал "Исправность" не отключился в течении 10 сек.</value>
+  </data>
+  <data name="Positive115V" xml:space="preserve">
+    <value>115{0}</value>
+  </data>
+  <data name="Positive27V" xml:space="preserve">
+    <value>+27{0}</value>
+  </data>
+  <data name="UV" xml:space="preserve">
+    <value>U, {0}</value>
+  </data>
+  <data name="Volt" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="miliVolt" xml:space="preserve">
+    <value>мВ</value>
+  </data>
+  <data name="CorrectionOff" xml:space="preserve">
+    <value>Отключите от блока ВСС прибор коррекции, нажмите кнопку "Высокое выключить" и проверьте состояние табло</value>
+  </data>
+  <data name="CurrentK" xml:space="preserve">
+    <value>Ток К {0}-{1}</value>
+  </data>
+  <data name="GLPD" xml:space="preserve">
+    <value>ГЛПД {0}</value>
+  </data>
+  <data name="GLPDCurrent" xml:space="preserve">
+    <value>Ток ГЛПД</value>
+  </data>
+  <data name="MeasVoltageAfterSVChOn" xml:space="preserve">
+    <value>Изменение напряжения смещения на диодах смесителей ТОК К после включения СВЧ-мощности. Разброс абсолютных значений напряжений в паре</value>
+  </data>
+  <data name="MOD" xml:space="preserve">
+    <value>МОД {0}</value>
+  </data>
+  <data name="NoiseNN" xml:space="preserve">
+    <value>Шум {0}-{1}</value>
+  </data>
+  <data name="POnUS_PS" xml:space="preserve">
+    <value>"П" на УС ПС</value>
+  </data>
+  <data name="SD" xml:space="preserve">
+    <value>СД {0}-{1}</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="VCh" xml:space="preserve">
+    <value>ВЧ</value>
+  </data>
+  <data name="VSS" xml:space="preserve">
+    <value>ВCC</value>
+  </data>
+  <data name="Uabs" xml:space="preserve">
+    <value>U{0} абс</value>
+  </data>
+  <data name="CantConnectDb" xml:space="preserve">
+    <value>В настоящий момент нет соединения с БД
+Форма будет закрыта
+Повторите попытку или обратитесь к администратору</value>
+  </data>
+  <data name="ShowAllActiveUsers" xml:space="preserve">
+    <value>Показать всех работающих сотрудников</value>
+  </data>
+  <data name="ShowAllUsers" xml:space="preserve">
+    <value>Показать всех сотрудников из БД</value>
+  </data>
+  <data name="UserWorking" xml:space="preserve">
+    <value>Сотрудник работает</value>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>В настоящее время не работает</value>
+  </data>
+  <data name="NoPosts" xml:space="preserve">
+    <value>Нет доступных должностей.
+Необходимо добавить должности для сотрудников</value>
+  </data>
+  <data name="CheckDeviceN" xml:space="preserve">
+    <value>Проверка {0}</value>
+  </data>
+  <data name="ControlTaskBoard" xml:space="preserve">
+    <value>Плата КЗ</value>
+  </data>
+  <data name="DiscreteInputsBoard" xml:space="preserve">
+    <value>Модуль МДВ</value>
+  </data>
+  <data name="DiscreteOutputsBoard" xml:space="preserve">
+    <value>Модуль ДК</value>
+  </data>
+  <data name="GenSinBoard" xml:space="preserve">
+    <value>Генератор синусов</value>
+  </data>
+  <data name="TabloOn" xml:space="preserve">
+    <value>Мониторинг дискретных входов</value>
+  </data>
+  <data name="MBMode" xml:space="preserve">
+    <value>Режим М-Б</value>
+  </data>
+  <data name="MeasureAfter10Sec" xml:space="preserve">
+    <value>Измерение начнется через 10 сек. Прошло:</value>
+  </data>
+  <data name="MemoryMode" xml:space="preserve">
+    <value>Режим ПАМЯТЬ</value>
+  </data>
+  <data name="MSMode" xml:space="preserve">
+    <value>Режим М-С</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="TKM" xml:space="preserve">
+    <value>Высокое напряжение, ток магнетрона и контрольная мощность СВЧ. Напряжение смещения модуляторных диодов</value>
+  </data>
+  <data name="CrystalMixCurrents" xml:space="preserve">
+    <value>Токи кристаллических смесителей. Разброс токов диодов в паре</value>
+  </data>
+  <data name="CurrentMagnetron" xml:space="preserve">
+    <value>Ток М</value>
+  </data>
+  <data name="CurrentMagnetronN" xml:space="preserve">
+    <value>ТКМ {0}</value>
+  </data>
+  <data name="HV" xml:space="preserve">
+    <value>ВН</value>
+  </data>
+  <data name="IA" xml:space="preserve">
+    <value>I, {0}</value>
+  </data>
+  <data name="miliAmper" xml:space="preserve">
+    <value>мА</value>
+  </data>
+  <data name="SVChPowerControl" xml:space="preserve">
+    <value>Контр.мощн.СВЧ</value>
+  </data>
+  <data name="UNChNN" xml:space="preserve">
+    <value>УНЧ {0}-{1}</value>
+  </data>
+  <data name="UNChNoiseVoltage" xml:space="preserve">
+    <value>Напряжение шумов на выходах УНЧ</value>
+  </data>
+  <data name="UNChVoltage" xml:space="preserve">
+    <value>Напряжение сигнала на выходах УНЧ</value>
+  </data>
+  <data name="Amper" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="CurrentN" xml:space="preserve">
+    <value>Ток {0}</value>
+  </data>
+  <data name="AlfaGrad" xml:space="preserve">
+    <value>α, град</value>
+  </data>
+  <data name="KmH" xml:space="preserve">
+    <value>км/ч</value>
+  </data>
+  <data name="MSec" xml:space="preserve">
+    <value>м/c</value>
+  </data>
+  <data name="WN" xml:space="preserve">
+    <value>W, {0}</value>
+  </data>
+  <data name="Wxg" xml:space="preserve">
+    <value>Wxг, {0}</value>
+  </data>
+  <data name="Wyg" xml:space="preserve">
+    <value>Wyг, {0}</value>
+  </data>
+  <data name="Wzg" xml:space="preserve">
+    <value>Wzг, {0}</value>
+  </data>
+  <data name="ControlTaskN" xml:space="preserve">
+    <value>Контрольная задача КЗ-{0}</value>
+  </data>
+  <data name="FixChanges" xml:space="preserve">
+    <value>Зафиксируйте изменения продольной, поперечной
+и вертикальной составляющих вектора скорости
+(относительно значений при обнулении)</value>
+  </data>
+  <data name="GreatThan" xml:space="preserve">
+    <value>Увеличилось</value>
+  </data>
+  <data name="HVOff" xml:space="preserve">
+    <value>Высокое ВЫКЛЮЧИТЬ</value>
+  </data>
+  <data name="HVOn" xml:space="preserve">
+    <value>Высокое ВКЛЮЧИТЬ</value>
+  </data>
+  <data name="LessThan" xml:space="preserve">
+    <value>Уменьшилось</value>
+  </data>
+  <data name="NotChanged" xml:space="preserve">
+    <value>Не изменилось</value>
+  </data>
+  <data name="DataFromUnitN" xml:space="preserve">
+    <value>Данные с блока {0}</value>
+  </data>
+  <data name="MeasuredValuesPSAndUS" xml:space="preserve">
+    <value>Измеренные значения ПС и УС</value>
+  </data>
+  <data name="MeasureSpeedStabilize" xml:space="preserve">
+    <value>Измерение скоростей отработки</value>
+  </data>
+  <data name="TimeN" xml:space="preserve">
+    <value>Время, {0}</value>
+  </data>
+  <data name="Vstab" xml:space="preserve">
+    <value>Vотр.</value>
+  </data>
+  <data name="WaitWhileStabilizeUnitN" xml:space="preserve">
+    <value>Дождитесь окончания движения указателей блока {0}</value>
+  </data>
+  <data name="MeasureSpeedPS" xml:space="preserve">
+    <value>Измерение скорости отработки путевой скорости (ПС)</value>
+  </data>
+  <data name="MeasureSpeedUS" xml:space="preserve">
+    <value>Измерение скорости отработки угла сноса (УС)</value>
+  </data>
+  <data name="MeasureSpeedWN" xml:space="preserve">
+    <value>Измерение скорости отработки вертикальной составляющей {0}</value>
+  </data>
+  <data name="dBm" xml:space="preserve">
+    <value>dBm</value>
+  </data>
+  <data name="miliWatt" xml:space="preserve">
+    <value>мВт</value>
+  </data>
+  <data name="PowerN" xml:space="preserve">
+    <value>P, {0}</value>
+  </data>
+  <data name="StopTimer" xml:space="preserve">
+    <value>Остановить таймер</value>
+  </data>
+  <data name="ErrorDiapazonValue" xml:space="preserve">
+    <value>Значение {0} должно быть
+в пределах от {1} до {2}</value>
+  </data>
+  <data name="ErrorInputNValue" xml:space="preserve">
+    <value>Введенное значение: {0} ошибочно
+Введите правильное значение</value>
+  </data>
+  <data name="Sideway" xml:space="preserve">
+    <value>Вбок</value>
+  </data>
+  <data name="SpeedN" xml:space="preserve">
+    <value>скорости {0}</value>
+  </data>
+  <data name="TimePassed" xml:space="preserve">
+    <value>Прошло</value>
+  </data>
+  <data name="TimeWhilePOn" xml:space="preserve">
+    <value>Время включения табло П</value>
+  </data>
+  <data name="MeasuredSpeedParams" xml:space="preserve">
+    <value>Измеренные значения составляющих скорости</value>
+  </data>
+  <data name="WaitWhileMeasureHVTime" xml:space="preserve">
+    <value>Дождитесь окончания измерения времени включения ВН</value>
+  </data>
+  <data name="FixCounters" xml:space="preserve">
+    <value>Зафиксируйте показания счётчиков "ПУТЬ" и "БОКОВОЕ УКЛОНЕНИЕ"</value>
+  </data>
+  <data name="MeasuredValueN" xml:space="preserve">
+    <value>Измеренное значение {0}</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>Память</value>
+  </data>
+  <data name="SignalNNotFound" xml:space="preserve">
+    <value>Сигнал "{0}" не обнаружен!</value>
+  </data>
+  <data name="Op" xml:space="preserve">
+    <value>оп.</value>
+  </data>
+  <data name="Sl" xml:space="preserve">
+    <value>сл.</value>
+  </data>
+  <data name="TKMN" xml:space="preserve">
+    <value>ТКМ {0}</value>
+  </data>
+  <data name="Wx" xml:space="preserve">
+    <value>Wx ПКВ</value>
+  </data>
+  <data name="Wy" xml:space="preserve">
+    <value>Wy ПКВ</value>
+  </data>
+  <data name="Wz" xml:space="preserve">
+    <value>Wz ПКВ</value>
+  </data>
+  <data name="Zopt" xml:space="preserve">
+    <value>Zорт (ПКВ)</value>
+  </data>
+  <data name="WmN" xml:space="preserve">
+    <value>Wм, {0}</value>
+  </data>
+  <data name="InSec" xml:space="preserve">
+    <value>/c</value>
+  </data>
+  <data name="SetSMToM" xml:space="preserve">
+    <value>Установите переключатель "С-М" на блоке 7
+в положение "M" и после отработки задачи  нажмите кнопку "{0}", а затем "{1}"</value>
+  </data>
+  <data name="SetSMToS" xml:space="preserve">
+    <value>Установите переключатель "С-М" на блоке 7 в положение "С"</value>
+  </data>
+  <data name="Noise" xml:space="preserve">
+    <value>Шум</value>
+  </data>
+  <data name="ReportLabelN" xml:space="preserve">
+    <value>Отчет по проверке {0}</value>
+  </data>
+  <data name="Signal" xml:space="preserve">
+    <value>Сигнал</value>
+  </data>
+  <data name="ErrorInputNNValue" xml:space="preserve">
+    <value>Введенное значение{0}: {1} ошибочно</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>Введите правильное значение</value>
+  </data>
+  <data name="ErrorChoose" xml:space="preserve">
+    <value>Не выбран параметр для измерения!</value>
+  </data>
+  <data name="PowerSupplyN" xml:space="preserve">
+    <value>Источник питания {0}В</value>
+  </data>
+  <data name="ErrorOnDevice" xml:space="preserve">
+    <value>Ошибка на устройстве {0} при выполнении операции {1}</value>
+  </data>
+  <data name="GetValue" xml:space="preserve">
+    <value>получение значения</value>
+  </data>
+  <data name="SetVoltage" xml:space="preserve">
+    <value>установка напряжения</value>
+  </data>
+  <data name="TurnOn" xml:space="preserve">
+    <value>включение</value>
+  </data>
+  <data name="AfterStabilizeBlockN" xml:space="preserve">
+    <value>После отработки задачи на блоке {0}</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="NotMeasured" xml:space="preserve">
+    <value>Не измерялось</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Block8Off" xml:space="preserve">
+    <value>Откл. Блок 8</value>
+  </data>
+  <data name="Block8On" xml:space="preserve">
+    <value>Вкл. Блок 8</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Отчёт</value>
+  </data>
+  <data name="SaveNotCompleted" xml:space="preserve">
+    <value>Ошибка при сохранении!</value>
+  </data>
+  <data name="ApplicationAlreadyRunning" xml:space="preserve">
+    <value>Приложение КПК-2 уже запущено!
+Нажмите ОК для выхода.</value>
+  </data>
+  <data name="BVK" xml:space="preserve">
+    <value>БВК</value>
+  </data>
+  <data name="CalcDiss" xml:space="preserve">
+    <value>Счис. ДИСС</value>
+  </data>
+  <data name="CalcDPSM" xml:space="preserve">
+    <value>Счис. ДПСМ</value>
+  </data>
+  <data name="ControlDiss" xml:space="preserve">
+    <value>КОНТР ДИСС</value>
+  </data>
+  <data name="CoordsOff" xml:space="preserve">
+    <value>Откл. коорд.</value>
+  </data>
+  <data name="CorrectWork" xml:space="preserve">
+    <value>Исправность</value>
+  </data>
+  <data name="Flight" xml:space="preserve">
+    <value>Полёт</value>
+  </data>
+  <data name="NOnN" xml:space="preserve">
+    <value>"{0}" на {1}</value>
+  </data>
+  <data name="P" xml:space="preserve">
+    <value>П</value>
+  </data>
+  <data name="RefuseBVK" xml:space="preserve">
+    <value>Отказ БВК</value>
+  </data>
+  <data name="RightWorkBVK" xml:space="preserve">
+    <value>Испр. БВК</value>
+  </data>
+  <data name="ZoptPNP" xml:space="preserve">
+    <value>Zорт (ПНП)</value>
+  </data>
+  <data name="DataFromIndicatorN" xml:space="preserve">
+    <value>Данные с индикатора {0}</value>
+  </data>
+  <data name="Pitch" xml:space="preserve">
+    <value>Тангаж</value>
+  </data>
+  <data name="SpeedVectorsFromBlockN" xml:space="preserve">
+    <value>Составляющие скорости с блока {0}</value>
+  </data>
+  <data name="FindError" xml:space="preserve">
+    <value>Найти погрешность</value>
+  </data>
+  <data name="WmbN" xml:space="preserve">
+    <value>Wмб, {0}</value>
+  </data>
+  <data name="WmsN" xml:space="preserve">
+    <value>Wмс, {0}</value>
+  </data>
+  <data name="WpN" xml:space="preserve">
+    <value>Wп, {0}</value>
+  </data>
+  <data name="SetValue" xml:space="preserve">
+    <value>установка значения</value>
+  </data>
+  <data name="AngleGrad" xml:space="preserve">
+    <value>{0}°</value>
+  </data>
+  <data name="Tangazh" xml:space="preserve">
+    <value>Боковое уклонение</value>
+  </data>
+  <data name="FindDeltaW" xml:space="preserve">
+    <value>Найти ΔW</value>
+  </data>
+  <data name="FindDeltaWAndAlfa" xml:space="preserve">
+    <value>Найти ΔW, Δα</value>
+  </data>
+  <data name="VoltageShiftOnSD" xml:space="preserve">
+    <value>Напряжение смещения на синхронных детекторах СД</value>
+  </data>
+  <data name="LTRBoards" xml:space="preserve">
+    <value>Платы LTR</value>
+  </data>
+  <data name="CantSaveDbParam" xml:space="preserve">
+    <value>Ошибка сохранения параметра в базу данных!</value>
+  </data>
+  <data name="CantInitiateNewCheckNoExecutors" xml:space="preserve">
+    <value>В БД нет доступных сотрудников!
+Cделать запись о новой проверке будет невозможно!</value>
+  </data>
+  <data name="CloseFormWithUnsavedData" xml:space="preserve">
+    <value>Есть несохраненные данные на форме!
+Вы действительно хотите закрыть форму?</value>
+  </data>
+  <data name="FillFieldRequired" xml:space="preserve">
+    <value>Поля, обязательные для заполнения,не могут быть пустыми!</value>
+  </data>
+  <data name="NewCheckOf" xml:space="preserve">
+    <value>Новая проверка {0}</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Тип прибора:</value>
+  </data>
+  <data name="DoYouWannaSaveThisData" xml:space="preserve">
+    <value>Сохранять эти данные?</value>
+  </data>
+  <data name="NewCheckData" xml:space="preserve">
+    <value>Новая проверка содержит следующие данные:</value>
+  </data>
+  <data name="TestingDate" xml:space="preserve">
+    <value>Дата проведения проверки:</value>
+  </data>
+  <data name="ErrorLoadFromDb" xml:space="preserve">
+    <value>Ошибка загрузки из БД!</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="TestHistory" xml:space="preserve">
+    <value>История проверок {0}</value>
+  </data>
+  <data name="ComplyRE" xml:space="preserve">
+    <value>Соотв. РЭ</value>
+  </data>
+  <data name="NotComplyRe" xml:space="preserve">
+    <value>Не соотв. РЭ</value>
+  </data>
+  <data name="ReportBaseLineCheck" xml:space="preserve">
+    <value>Проверка основных параметров устройства</value>
+  </data>
+  <data name="ReportCompletedWorksAndNote" xml:space="preserve">
+    <value>Выполненные работы/Примечание:</value>
+  </data>
+  <data name="ReportConclusion" xml:space="preserve">
+    <value>Заключение</value>
+  </data>
+  <data name="ReportController" xml:space="preserve">
+    <value>Контролер:</value>
+  </data>
+  <data name="ReportFIO" xml:space="preserve">
+    <value>Ф.И.О.</value>
+  </data>
+  <data name="ReportOperator" xml:space="preserve">
+    <value>Исполнитель:</value>
+  </data>
+  <data name="ReportParamName" xml:space="preserve">
+    <value>Наименование параметра</value>
+  </data>
+  <data name="ReportNTP" xml:space="preserve">
+    <value>НТП</value>
+  </data>
+  <data name="ReportSubscribe" xml:space="preserve">
+    <value>подпись</value>
+  </data>
+  <data name="ReportTestDate" xml:space="preserve">
+    <value>Дата выполнения работ:</value>
+  </data>
+  <data name="ReportTypeAircraft" xml:space="preserve">
+    <value>Тип ВС:</value>
+  </data>
+  <data name="ReportTypeCheck" xml:space="preserve">
+    <value>Форма ТО</value>
+  </data>
+  <data name="ReportUnits" xml:space="preserve">
+    <value>Ед.изм.</value>
+  </data>
+  <data name="ReportMeasValue" xml:space="preserve">
+    <value>Фактически</value>
+  </data>
+  <data name="ReportAircraftRegNo" xml:space="preserve">
+    <value>Оп. знак ВС:</value>
+  </data>
+  <data name="ReportAircraftSerNo" xml:space="preserve">
+    <value>Зав. номер ВС:</value>
+  </data>
+  <data name="ReportEquipment" xml:space="preserve">
+    <value>Оборудование</value>
+  </data>
+  <data name="ReportItemSerNo" xml:space="preserve">
+    <value>Зав. номер</value>
+  </data>
+  <data name="ReportTBO" xml:space="preserve">
+    <value>ППР</value>
+  </data>
+  <data name="ReportTSN" xml:space="preserve">
+    <value>СНЭ</value>
+  </data>
+  <data name="ReportAllPages" xml:space="preserve">
+    <value>Всего страниц</value>
+  </data>
+  <data name="ReportConfiguration" xml:space="preserve">
+    <value>В составе:</value>
+  </data>
+  <data name="ReportPage" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="ReportConclusionParameters" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReportNotMeasured" xml:space="preserve">
+    <value>Не измерялось</value>
+  </data>
+  <data name="DeleteBlockRow" xml:space="preserve">
+    <value>Вы действительно хотите удалить выбранный блок из состава?</value>
+  </data>
+  <data name="Block8OrtWarning" xml:space="preserve">
+    <value>Проверьте, что счётчики блока 8 "ПУТЬ КМ" и "БОКОВОЕ УКЛОНЕНИЕ КМ" обнулены и "УГОЛ КАРТЫ" выставлен правильно: 90 для проверки при 135 градусах курса и 0 для всех остальных </value>
+  </data>
+  <data name="FieldNRequired" xml:space="preserve">
+    <value>Поле "{0}" должно быть заполнено!</value>
+  </data>
+  <data name="ErrorPictureFormat" xml:space="preserve">
+    <value>Картинка не соответствует формату!</value>
+  </data>
+  <data name="PowerSupply115VFailed" xml:space="preserve">
+    <value>Питание источника 115В выходит за пределы допустимого!</value>
+  </data>
+  <data name="PowerSupply27VFailed" xml:space="preserve">
+    <value>Питание источника 27В выходит за пределы допустимого!</value>
+  </data>
+  <data name="PressB1" xml:space="preserve">
+    <value>Нажмите и отпустите кнопку B1 на блоке НЧ!</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия {0}</value>
+  </data>
+  <data name="Diss13" xml:space="preserve">
+    <value>ДИСС-013</value>
+  </data>
+  <data name="ConnectUsingRE" xml:space="preserve">
+    <value>Подсоедините согласно РЭ {0}, после чего нажмите ОК</value>
+  </data>
+  <data name="FrequencyMeter" xml:space="preserve">
+    <value>частотомер</value>
+  </data>
+  <data name="PowerMeter" xml:space="preserve">
+    <value>измеритель мощности</value>
+  </data>
+  <data name="WaveGuideAdapterAndAttenuator" xml:space="preserve">
+    <value>волноводный переход и аттенюатор</value>
+  </data>
+  <data name="DissIsOff" xml:space="preserve">
+    <value>ДИСС выключен!</value>
+  </data>
+  <data name="DissIsOn" xml:space="preserve">
+    <value>ДИСС включён!</value>
+  </data>
+  <data name="TurnOffDiss" xml:space="preserve">
+    <value>Выключение ДИСС...</value>
+  </data>
+  <data name="TurnOnDiss" xml:space="preserve">
+    <value>Включение ДИСС...</value>
+  </data>
+  <data name="PhaseIndex" xml:space="preserve">
+    <value>Индекс частотной модуляции</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>частота</value>
+  </data>
+  <data name="Hz" xml:space="preserve">
+    <value>Гц</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>мощность</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Вопрос</value>
+  </data>
+  <data name="ErrorOnDeviceN" xml:space="preserve">
+    <value>Ошибка на устройстве: {0}</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="DeleteConfirmMessage" xml:space="preserve">
+    <value>Тип прибора: {0}
+Заводской номер: {1}
+Дата изготовления: {2}
+Дата и время проверки: {3}
+Исполнитель: {4}
+Продолжить?</value>
+  </data>
+  <data name="PS40VFailed" xml:space="preserve">
+    <value>Ошибка связи с источником питания 27В</value>
+  </data>
+  <data name="LTRCrateFailed" xml:space="preserve">
+    <value>Нет связи с крейтом LTR</value>
+  </data>
+  <data name="MHz" xml:space="preserve">
+    <value>МГц</value>
+  </data>
+  <data name="ButtonDissOffAlready" xml:space="preserve">
+    <value>ДИСС ВЫКЛЮЧЕН</value>
+  </data>
+  <data name="ButtonDissOnAlready" xml:space="preserve">
+    <value>ДИСС ВКЛЮЧЁН</value>
+  </data>
+  <data name="ButtonDissReadyToOff" xml:space="preserve">
+    <value>ДИСС ВЫКЛЮЧИТЬ</value>
+  </data>
+  <data name="ButtonDissReadyToOn" xml:space="preserve">
+    <value>ДИСС ВКЛЮЧИТЬ</value>
+  </data>
+  <data name="PoverkaText" xml:space="preserve">
+    <value>Поверка комплекса</value>
+  </data>
+  <data name="WxN" xml:space="preserve">
+    <value>Wx НКВ</value>
+  </data>
+  <data name="WxS" xml:space="preserve">
+    <value>Wx СПСВ</value>
+  </data>
+  <data name="WxT" xml:space="preserve">
+    <value>Wx Тестер</value>
+  </data>
+  <data name="WyN" xml:space="preserve">
+    <value>Wy НКВ</value>
+  </data>
+  <data name="WyS" xml:space="preserve">
+    <value>Wy СПСВ</value>
+  </data>
+  <data name="WyT" xml:space="preserve">
+    <value>Wy Тестер</value>
+  </data>
+  <data name="WzN" xml:space="preserve">
+    <value>Wz НКВ</value>
+  </data>
+  <data name="WzS" xml:space="preserve">
+    <value>Wz СПСВ</value>
+  </data>
+  <data name="WzT" xml:space="preserve">
+    <value>Wz Тестер</value>
+  </data>
+  <data name="SVCh" xml:space="preserve">
+    <value>СВЧ</value>
+  </data>
+  <data name="PoverkaUNCH" xml:space="preserve">
+    <value>Поверка МХ ИК напряжения переменного тока</value>
+  </data>
+  <data name="PoverkaTime" xml:space="preserve">
+    <value>Поверка МХ ИК временных интервалов между событиями</value>
+  </data>
+  <data name="PoverkaMeandr" xml:space="preserve">
+    <value>Поверка МХ ИК напряжения формы "меандр" с произвольной установкой амплитуды, частоты и сдвига фаз между каналами</value>
+  </data>
+  <data name="UNCHSignals" xml:space="preserve">
+    <value>Сигналы УНЧ</value>
+  </data>
+  <data name="clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clock.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poverka" xml:space="preserve">
+    <value>Поверка</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="CantCloseForm" xml:space="preserve">
+    <value>Невозможно закрыть форму при проведении измерений, остановите измерения и повторите попытку!</value>
+  </data>
+  <data name="DevicesNotFound" xml:space="preserve">
+    <value>Устройства не найдены</value>
+  </data>
+  <data name="EmulationText" xml:space="preserve">
+    <value>Программа находится в режиме эмуляции стенда!</value>
+  </data>
+  <data name="ErrorNumber" xml:space="preserve">
+    <value>Неверный формат числа</value>
+  </data>
+  <data name="CriticalProgramError" xml:space="preserve">
+    <value>Возникла ошибка в программе, требуется полностью выключить и включить компьютер!</value>
+  </data>
+  <data name="ErrorDeleteBlockFromDb" xml:space="preserve">
+    <value>Ошибка удаления блока из базы данных!</value>
+  </data>
+  <data name="ErrorEmployeeNotSelected" xml:space="preserve">
+    <value>Не выбран сотрудник!</value>
+  </data>
+  <data name="ErrorProductNumberIsEmpty" xml:space="preserve">
+    <value>Не введён заводской номер устройства!</value>
+  </data>
+  <data name="Attestation" xml:space="preserve">
+    <value>Аттестация</value>
+  </data>
+  <data name="CheckBackup" xml:space="preserve">
+    <value>Проверка актуальности копии базы данных...</value>
+  </data>
+  <data name="ConnectingDb" xml:space="preserve">
+    <value>Подключение к базе данных...</value>
+  </data>
+  <data name="LoadingSettings" xml:space="preserve">
+    <value>Загрузка настроек...</value>
+  </data>
+  <data name="StartLTRServer" xml:space="preserve">
+    <value>Запуск LTR-сервера...</value>
+  </data>
+  <data name="UnknownError" xml:space="preserve">
+    <value>Неизвестная ошибка</value>
+  </data>
+  <data name="AttentionBigLineResistance" xml:space="preserve">
+    <value>Внимание! Обнаружено большое сопротивление линии {0} Ом (&gt; {1} Ом). Возможно допущена ошибка при калибровке.
+Если нет, то ошибка в монтаже линии до ИП 115В.</value>
+  </data>
+  <data name="ErrorWrongLineResistance" xml:space="preserve">
+    <value>Внимание! Обнаружено недопустимое сопротивление на линии {0} Ом (&gt; {1} Ом). Данные не будут сохранены!</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>угол</value>
+  </data>
+  <data name="KPK2" xml:space="preserve">
+    <value>КПК-2</value>
+  </data>
+  <data name="SpeedBackward" xml:space="preserve">
+    <value>скорость НАЗАД</value>
+  </data>
+  <data name="SpeedDown" xml:space="preserve">
+    <value>скорость ВНИЗ</value>
+  </data>
+  <data name="SpeedForward" xml:space="preserve">
+    <value>скорость ВПЕРЕД</value>
+  </data>
+  <data name="AfterPLightPressButtonN" xml:space="preserve">
+    <value>После загорания табло "П" на блоке 7 нажмите кнопку "{0}"</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>скорость</value>
+  </data>
+  <data name="SpeedRight" xml:space="preserve">
+    <value>скорость ВПРАВО</value>
+  </data>
+  <data name="SpeedLeft" xml:space="preserve">
+    <value>скорость ВЛЕВО</value>
+  </data>
+  <data name="SpeedUp" xml:space="preserve">
+    <value>скорость ВВЕРХ</value>
+  </data>
+  <data name="CurrentByN" xml:space="preserve">
+    <value>Ток по {0}</value>
+  </data>
+  <data name="CalculateMD5Failed" xml:space="preserve">
+    <value>Возникло исключение при попытке вычислить хэш файла</value>
+  </data>
+  <data name="ClearDbFailed" xml:space="preserve">
+    <value>Возникла ошибка при очистке базы!</value>
+  </data>
+  <data name="ClearDbRequest" xml:space="preserve">
+    <value>При подтверждении полностью будут удалены все проверки, сотрудники, вертолёты, должности. Вы подтверждаете очистку базы?</value>
+  </data>
+  <data name="ClearDbSuccessful" xml:space="preserve">
+    <value>База успешно очищена!</value>
+  </data>
+  <data name="LogsCopyOutFailed" xml:space="preserve">
+    <value>Возникла ошибка при выгрузке логов. Возможно логи были выгружены не полностью!</value>
+  </data>
+  <data name="LogsCopyOutSuccessfulFilesN" xml:space="preserve">
+    <value>Логи успешно выгружены! Выгружено файлов: {0}</value>
+  </data>
+  <data name="OpenManualError" xml:space="preserve">
+    <value>Ошибка открытия файла руководства. Файл отсутствует или повреждён.</value>
+  </data>
+  <data name="CopyDbFailed" xml:space="preserve">
+    <value>При создании резервной копии базы данных произошла ошибка!</value>
+  </data>
+  <data name="CopyDbSuccessful" xml:space="preserve">
+    <value>Резервное копирование базы данных успешно завершено!
+Путь к резервной копии: {0}</value>
+  </data>
+  <data name="CopyLogoFailedNN" xml:space="preserve">
+    <value>Не удалось скопировать файл лого: {0} {1}</value>
+  </data>
+  <data name="WriteLogError" xml:space="preserve">
+    <value>Ошибка при записи в лог</value>
+  </data>
+  <data name="AddFoto" xml:space="preserve">
+    <value>Добавить фотографию...</value>
+  </data>
+  <data name="ChangeFoto" xml:space="preserve">
+    <value>Изменить фотографию...</value>
+  </data>
+  <data name="EditEmployee" xml:space="preserve">
+    <value>Редактирование данных о сотруднике</value>
+  </data>
+  <data name="EditNewEmployee" xml:space="preserve">
+    <value>Добавление данных о новом сотруднике</value>
+  </data>
+  <data name="NotWork" xml:space="preserve">
+    <value>не работает</value>
+  </data>
+  <data name="Work" xml:space="preserve">
+    <value>работает</value>
+  </data>
+  <data name="EmployeeNumberAlreadyExist" xml:space="preserve">
+    <value>Такой табельный номер уже существует. Его необходимо изменить.</value>
+  </data>
+  <data name="AddPost" xml:space="preserve">
+    <value>Добавление должности</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>доступна</value>
+  </data>
+  <data name="EditPost" xml:space="preserve">
+    <value>Редактирование должности</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>не доступна</value>
+  </data>
+  <data name="ShowAllPosts" xml:space="preserve">
+    <value>Показать все должности из БД</value>
+  </data>
+  <data name="ShowAvailablePosts" xml:space="preserve">
+    <value>Показать доступные должности</value>
+  </data>
+  <data name="EmployeeAlreadyExist" xml:space="preserve">
+    <value>Такой сотрудник уже существует!</value>
+  </data>
+  <data name="PostAlreadyExist" xml:space="preserve">
+    <value>Эта должность уже существует!</value>
+  </data>
+  <data name="TSNLessThanTSO" xml:space="preserve">
+    <value>Время СНЭ должно быть больше либо равно ППР!</value>
+  </data>
+  <data name="TimeCantBeNegative" xml:space="preserve">
+    <value>Время должно быть больше 0!</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>"Путь"</value>
+  </data>
+  <data name="WriteValuesPathAndAngle" xml:space="preserve">
+    <value>Зафиксируйте показания счетчиков
+"ПУТЬ" и "БОКОВОЕ УКЛОНЕНИЕ"</value>
+  </data>
+  <data name="AngleSpeedMessage" xml:space="preserve">
+    <value>После нажатия на кнопку "{0}", следите за указателем Угла Сноса блока 7, как только он пройдёт участок (расстояние) равный 15° нажмите кнопку "Остановить таймер"</value>
+  </data>
+  <data name="ForwardBackwardSpeedMessage" xml:space="preserve">
+    <value>После нажатия на кнопку "{0}", следите за указателем НАЗАД-ВПЕРЁД блока 6, как только он пройдёт участок (расстояние) равный 20 км/ч нажмите кнопку "Остановить таймер"</value>
+  </data>
+  <data name="LeftRightSpeedMessage" xml:space="preserve">
+    <value>После нажатия на кнопку "{0}", следите за указателем ВЛЕВО-ВПРАВО блока 6, как только он пройдёт участок (расстояние) равный 20 км/ч нажмите кнопку "Остановить таймер"</value>
+  </data>
+  <data name="SpeedSpeedMessage" xml:space="preserve">
+    <value>После нажатия на кнопку "{0}", следите за индикатором скорости блока 7, как только он пройдёт участок (расстояние) равный 100км/ч нажмите кнопку "Остановить таймер"</value>
+  </data>
+  <data name="UpDownSpeedMessage" xml:space="preserve">
+    <value>После нажатия на кнопку "{0}", следите за указателем ВВЕРХ-ВНИЗ блока 6, как только он пройдёт участок (расстояние) равный 8 м/c нажмите кнопку "Остановить таймер"</value>
+  </data>
+  <data name="Block8GeoWarning" xml:space="preserve">
+    <value>Вставьте в блок 10 контрольную планку ВП8.810.034.
+Установите на блоке 10 переключатель "ОТКЛ-ВКЛ" в положение "ВКЛ".
+Установите центр визира на контрольной планке Блока 10 в начальную точку 1</value>
+  </data>
+  <data name="MeasuredValuesPSAndUSN" xml:space="preserve">
+    <value>Измеренные значения ПС и УС №{0}</value>
+  </data>
+  <data name="SetMapCorner" xml:space="preserve">
+    <value>Установите на Блоке 10 центр визира за зоной ГРАНИЦА КАРТЫ и отожмите кнопку "{0}"</value>
+  </data>
+  <data name="ErrorDoCommand" xml:space="preserve">
+    <value>Ошибка при выдаче управляющих команд</value>
+  </data>
+  <data name="SetBoardParams" xml:space="preserve">
+    <value>Установка начальных значений на платах</value>
+  </data>
+  <data name="ReportOK" xml:space="preserve">
+    <value>соответствует НТП</value>
+  </data>
+  <data name="ReportWrong" xml:space="preserve">
+    <value>не соответствует НТП</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="CheckOf" xml:space="preserve">
+    <value>Проверка {0}</value>
+  </data>
+  <data name="LoadSettingsError" xml:space="preserve">
+    <value>Ошибка загрузки настроек!</value>
+  </data>
+  <data name="Percent" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ErrorDoDriveCommand" xml:space="preserve">
+    <value>Произошла ошибка при выдаче управляющей команды.
+Приложение необходимо закрыть.</value>
+  </data>
+  <data name="ErrorDriveCommand" xml:space="preserve">
+    <value>Ошибка в управляющих командах</value>
+  </data>
+  <data name="OutputZeroVoltages" xml:space="preserve">
+    <value>Выходные напряжения блока ВСС, пропорциональные составляющим вектора скорости
+Wxr, Wzr, Wyr при обнулении этих составляющих</value>
+  </data>
+  <data name="WxgSPSV" xml:space="preserve">
+    <value>Wxг СПСВ</value>
+  </data>
+  <data name="NoConnectionWithBoardN" xml:space="preserve">
+    <value>Нет связи с платой: {0}</value>
+  </data>
+  <data name="AlfaMGrad" xml:space="preserve">
+    <value>αм, град</value>
+  </data>
+  <data name="Mcs" xml:space="preserve">
+    <value>мкс</value>
+  </data>
+  <data name="CantChangeDbLanguage" xml:space="preserve">
+    <value>Не удалось переключить язык в базе данных!</value>
+  </data>
+  <data name="GreaterThanDb" xml:space="preserve">
+    <value>увелич.</value>
+  </data>
+  <data name="LessThanDb" xml:space="preserve">
+    <value>уменьш.</value>
+  </data>
+  <data name="SameDb" xml:space="preserve">
+    <value>без измен.</value>
+  </data>
+  <data name="Block8OrtWarningSimple" xml:space="preserve">
+    <value>Проверьте, что счётчики блока 8 "ПУТЬ КМ", "БОКОВОЕ УКЛОНЕНИЕ КМ" и "УГОЛ КАРТЫ" обнулены. </value>
+  </data>
+  <data name="Block5TypeMissing" xml:space="preserve">
+    <value>Не выбран тип блока 5!</value>
+  </data>
+  <data name="PrepareBlock10" xml:space="preserve">
+    <value>Установите на блоке 10 переключатель "ОТКЛ-ВКЛ" в положение "ВКЛ".
+Установите центр визира на контрольной планке блока 10 в начальную точку 1.</value>
+  </data>
+  <data name="CheckInterrupted" xml:space="preserve">
+    <value>Проверка прервана!</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="RepeatTest" xml:space="preserve">
+    <value>Повторить проверку</value>
+  </data>
+  <data name="PowerMeterCalibration" xml:space="preserve">
+    <value>Калибровка измерителя мощности...</value>
+  </data>
+  <data name="PowerMeterCalibrationFinished" xml:space="preserve">
+    <value>Калибровка завершена</value>
+  </data>
+  <data name="NoSignal" xml:space="preserve">
+    <value>нет сигнала</value>
+  </data>
+  <data name="CloseFormError" xml:space="preserve">
+    <value>Возникла ошибка при закрытии формы!</value>
+  </data>
+  <data name="UnexpectedExceptionAppearApplicationWillClose" xml:space="preserve">
+    <value>Возникло неожиданное исключение, приложение будет закрыто!</value>
+  </data>
+  <data name="Ready" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="DetectKZError" xml:space="preserve">
+    <value>Ошибка определения версии платы КЗ</value>
+  </data>
+  <data name="PS27VCurrentExceedN" xml:space="preserve">
+    <value>Выключился ИП 27В из-за превышения тока ограничения {0} А</value>
+  </data>
+  <data name="PS27OverVoltage" xml:space="preserve">
+    <value>Выключился ИП 27В по перенапряжению</value>
+  </data>
+  <data name="AutocheckCantRun" xml:space="preserve">
+    <value>автоматическая поверка невозможна!</value>
+  </data>
+  <data name="ChoosedChannelUnavailableByAutocheck" xml:space="preserve">
+    <value>"Выбранный канал не проверяется автоматической поверкой"</value>
+  </data>
+  <data name="ChooseMeasuringChannel" xml:space="preserve">
+    <value>Выберите измерительный канал!</value>
+  </data>
+  <data name="VoltmeterNotConnected" xml:space="preserve">
+    <value>Вольтметр не подключён.</value>
+  </data>
+  <data name="ErrorsOnDevices" xml:space="preserve">
+    <value>На оборудовании произошла одна или несколько ошибок!</value>
+  </data>
+  <data name="CalibrationNotCompleteAfterN" xml:space="preserve">
+    <value>Калибровка не была завершена после {0} попыток</value>
+  </data>
+  <data name="PrepareToCalibratePowerMeter" xml:space="preserve">
+    <value>Сейчас будет произведена калибровка измерителя мощности!
+Убедитесь, что отключён ВЧ разъём от измерителя мощности!</value>
+  </data>
+  <data name="Diss32_90A_CheckWork" xml:space="preserve">
+    <value>ДИСС 32 90А (РП)</value>
+  </data>
+  <data name="TaskUSPSInstruction2_2USPS" xml:space="preserve">
+    <value>Установите переключатель на индикаторе УС ПС №1 и на индикаторе УС ПС №2 в положение "С"</value>
+  </data>
+  <data name="TaskUSPSInstruction_2USPS" xml:space="preserve">
+    <value>Установите переключатель на индикаторе УС ПС №1 и на индикаторе УС ПС №2
+в положение {0} и после отработки задачи
+нажмите кнопку "{1}"</value>
+  </data>
+  <data name="PowerMeterError" xml:space="preserve">
+    <value>Ошибка на измерителе мощности!
+Попробуйте перезапустить проверку с отключением и подключением снова измерителя мощности!</value>
+  </data>
+</root>

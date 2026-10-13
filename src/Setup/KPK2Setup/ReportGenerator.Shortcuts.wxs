@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <?define ManufacturerShortName="Sparc"?>
+  <Fragment>
+    <!--Ярлыки на рабочем столе-->
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="Cmp.Kpk2ReportGenerator.Shortcuts.Desktop" Guid="21F9081D-483D-4D41-98C2-EE9BDF222608">
+
+        <Shortcut Id="Shortcut.ReportGenerator.Desktop"
+                  Name="!(loc.KPK2.ReportGenerator)"
+                  Description="!(loc.KPK2.ReportGeneratorDescription)"
+                  Target="[ReportGenerator]Sparc.Utils.GenerateSoftwareReport.exe"
+                  WorkingDirectory="ReportGenerator"
+        />
+        <!--Надо что бы ссылка на Репорты ссылалсь-->
+        <RegistryValue Root="HKCU" Key="Software\$(var.ManufacturerShortName)\ReportGenerator" Name="ReportGeneratorShortcutsInstalled" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+  </Fragment>
+</Wix>

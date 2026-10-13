@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rbAlternateVoltageOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="rbAlternateVoltageOn.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="rbAlternateVoltageOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="rbAlternateVoltageOff.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="gbAlternatePSOutputState.Text" xml:space="preserve">
+    <value>PS output status</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Standard voltages</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 14</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>- measuring power voltage</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 14</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>- measuring current consumption</value>
+  </data>
+  <data name="bSetAlternateFrequency.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>- frequency, Hz</value>
+  </data>
+  <data name="bSetAlternateCurrentLimit.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="bSetAlternateVoltage.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 14</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>- power voltage, V</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 14</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>- clamping current, A</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Generated signal parameters</value>
+  </data>
+  <data name="bAlternateCurrentMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="gbAlternateVoltage.Text" xml:space="preserve">
+    <value>Check of the AC voltage reproducing measuring channel metrological performance</value>
+  </data>
+  <data name="rbDirectVoltageOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="rbDirectVoltageOn.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="rbDirectVoltageOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="rbDirectVoltageOff.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="gbDirectPSOutputState.Text" xml:space="preserve">
+    <value>PS output status</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Standard voltages</value>
+  </data>
+  <data name="lbl21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 14</value>
+  </data>
+  <data name="lbl21.Text" xml:space="preserve">
+    <value>- measuring power voltage</value>
+  </data>
+  <data name="lbl22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 14</value>
+  </data>
+  <data name="lbl22.Text" xml:space="preserve">
+    <value>- measuring current consumption</value>
+  </data>
+  <data name="bSetDirectCurrentLimit.Text" xml:space="preserve">
+    <value> Enter</value>
+  </data>
+  <data name="bSetDirectVoltage.Text" xml:space="preserve">
+    <value> Enter</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 14</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>- power voltage, V</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 14</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>- clamping current, A</value>
+  </data>
+  <data name="groupBox18.Text" xml:space="preserve">
+    <value>Generated signal parameters</value>
+  </data>
+  <data name="bDirectCurrentMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="gbDirectVoltage.Text" xml:space="preserve">
+    <value>Check of the DC voltage reproducing measuring channel metrological performance</value>
+  </data>
+  <data name="rb115V.Text" xml:space="preserve">
+    <value>U 115V</value>
+  </data>
+  <data name="rb27V.Text" xml:space="preserve">
+    <value>U 27V</value>
+  </data>
+  <data name="lUnit.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="bPowerMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="gbPS.Text" xml:space="preserve">
+    <value>Power sources</value>
+  </data>
+  <data name="tbPage_Power.Text" xml:space="preserve">
+    <value>Power sources</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="bVoltages1.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="gbVoltages1.Text" xml:space="preserve">
+    <value>Check of the DC voltage measuring channel metrological performance</value>
+  </data>
+  <data name="tbVoltages1.Text" xml:space="preserve">
+    <value>Voltages 1</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="bVoltages2.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="gbVoltages2.Text" xml:space="preserve">
+    <value>Check of the DC voltage measuring channel metrological performance</value>
+  </data>
+  <data name="tbVoltages2.Text" xml:space="preserve">
+    <value>Voltages 2</value>
+  </data>
+  <data name="gbSpeed.Text" xml:space="preserve">
+    <value>Speeds and Drift angle</value>
+  </data>
+  <data name="gbSD.Text" xml:space="preserve">
+    <value>SD</value>
+  </data>
+  <data name="gbSecPitan.Text" xml:space="preserve">
+    <value>Secondary power sources</value>
+  </data>
+  <data name="bVoltageMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Direct-current voltages (V)</value>
+  </data>
+  <data name="tbPage_Const_U_V.Text" xml:space="preserve">
+    <value> Voltages (V)</value>
+  </data>
+  <data name="gbZero.Text" xml:space="preserve">
+    <value> Nulling </value>
+  </data>
+  <data name="bMiliVoltageMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>U, mV</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Direct-current voltages (mV)</value>
+  </data>
+  <data name="tbPage_Const_U_mV.Text" xml:space="preserve">
+    <value>Voltages (mV)</value>
+  </data>
+  <data name="gbNoiseUNCh.Text" xml:space="preserve">
+    <value>LFA noise</value>
+  </data>
+  <data name="gbSignalUNCh.Text" xml:space="preserve">
+    <value>LFA signal</value>
+  </data>
+  <data name="bUNChMeasure.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>U, V</value>
+  </data>
+  <data name="gbUNCH.Text" xml:space="preserve">
+    <value>LFA Noises and Signals</value>
+  </data>
+  <data name="tbPage_Var_U.Text" xml:space="preserve">
+    <value>LFA Noises and Signals</value>
+  </data>
+  <data name="tiWork.VisualText" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="tiHV.VisualText" xml:space="preserve">
+    <value>HV</value>
+  </data>
+  <data name="tiMemory.VisualText" xml:space="preserve">
+    <value>MEMORY</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 14</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>testing the time measuring channel Memory</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>t, sec</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>t, sec</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 14</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>testing the time measuring channel ВН</value>
+  </data>
+  <data name="bMemory.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="bHV.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="gbTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="tbPage_Time.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="btn_15_5.Text" xml:space="preserve">
+    <value>Starting CT-5</value>
+  </data>
+  <data name="btn_15_1.Text" xml:space="preserve">
+    <value>Starting CT-1</value>
+  </data>
+  <data name="btn_15_3.Text" xml:space="preserve">
+    <value>Starting CT-3</value>
+  </data>
+  <data name="btn_15_2.Text" xml:space="preserve">
+    <value>Starting CT-2</value>
+  </data>
+  <data name="btn_15_6.Text" xml:space="preserve">
+    <value>Starting CT-6</value>
+  </data>
+  <data name="btn_15_4.Text" xml:space="preserve">
+    <value>Starting CT-4</value>
+  </data>
+  <data name="lbl1.Text" xml:space="preserve">
+    <value>U, mV</value>
+  </data>
+  <data name="btn_Stop.Text" xml:space="preserve">
+    <value>Stop </value>
+  </data>
+  <data name="gbMeandr.Text" xml:space="preserve">
+    <value>Testing the LFA signals simulating channels</value>
+  </data>
+  <data name="tbPage_Meandr.Text" xml:space="preserve">
+    <value>Meanders</value>
+  </data>
+  <data name="lbl3.Text" xml:space="preserve">
+    <value>Sin(90°), mV</value>
+  </data>
+  <data name="lbl2.Text" xml:space="preserve">
+    <value>Cos(0°), mV</value>
+  </data>
+  <data name="grpBox_Corner.Text" xml:space="preserve">
+    <value>Сhoose the angle to be simulated</value>
+  </data>
+  <data name="btn_Cal_Cos.Text" xml:space="preserve">
+    <value>Calculate Cos(0°)</value>
+  </data>
+  <data name="btn_Cal_Sin.Text" xml:space="preserve">
+    <value>Calculate Sin(90°)</value>
+  </data>
+  <data name="grpBox_CKT.Text" xml:space="preserve">
+    <value>Testing the SCT signals simulating channel</value>
+  </data>
+  <data name="tbPage_CKT.Text" xml:space="preserve">
+    <value>SCT</value>
+  </data>
+  <data name="bGeneratorOff.Text" xml:space="preserve">
+    <value>Disable the generator</value>
+  </data>
+  <data name="lValueScribe.Text" xml:space="preserve">
+    <value>SIN, mV</value>
+  </data>
+  <data name="bSave.Text" xml:space="preserve">
+    <value>Save </value>
+  </data>
+  <data name="gbAngleValue.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Function measured</value>
+  </data>
+  <data name="gbSinCosAngle.Text" xml:space="preserve">
+    <value>Сhoose the angle to be simulated</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Check of the SCT turn angle measuring channel metrological performance</value>
+  </data>
+  <data name="tbSKT.Text" xml:space="preserve">
+    <value>SCT</value>
+  </data>
+  <data name="bGenSinCosOff.Text" xml:space="preserve">
+    <value>Disable the generator</value>
+  </data>
+  <data name="bSetSignal.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 14</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>- phase shift, deg.</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 14</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>- RMS voltage, mV</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>- frequency, Hz</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Signal</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 14</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Channel:</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Group signals</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 14</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>- RMS voltage, mV</value>
+  </data>
+  <data name="bSetMainSignal.Text" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>- frequency, Hz</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Reference signal</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Check of the AC synchronous voltage reproducing measuring channel metrological performance</value>
+  </data>
+  <data name="tbSignals.Text" xml:space="preserve">
+    <value>Synchronous signals</value>
+  </data>
+  <data name="rbFD6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="rbFD6.Text" xml:space="preserve">
+    <value>-PD3</value>
+  </data>
+  <data name="rbFD5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="rbFD5.Text" xml:space="preserve">
+    <value>-PD2</value>
+  </data>
+  <data name="rbFD4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 18</value>
+  </data>
+  <data name="rbFD4.Text" xml:space="preserve">
+    <value>-PD1</value>
+  </data>
+  <data name="rbDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 18</value>
+  </data>
+  <data name="rbDuration.Text" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="rbFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="rbFrequency.Text" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="gbMeasureValue.Text" xml:space="preserve">
+    <value>Value measured </value>
+  </data>
+  <data name="rbFD3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="rbFD3.Text" xml:space="preserve">
+    <value>+PD3</value>
+  </data>
+  <data name="rbFD2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="rbFD2.Text" xml:space="preserve">
+    <value>+PD2</value>
+  </data>
+  <data name="rbFD1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 18</value>
+  </data>
+  <data name="rbFD1.Text" xml:space="preserve">
+    <value>+PD1</value>
+  </data>
+  <data name="bMeasureFrequency.Text" xml:space="preserve">
+    <value>Measure</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Check of pulses frequency and duration reproducing measuring channel metrological performance</value>
+  </data>
+  <data name="tbFrequency.Text" xml:space="preserve">
+    <value>Frequency and Duration</value>
+  </data>
+  <data name="bResetRele.Text" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="bSetRele.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="gbReleState.Text" xml:space="preserve">
+    <value>Relay status</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 14</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Relay board:</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Relay switching control</value>
+  </data>
+  <data name="tbRele.Text" xml:space="preserve">
+    <value>Relay control</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADAwMD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//
+        AAD//wAAf/8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Test system certification</value>
+  </data>
+  <data name="bRead.Text" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="gbTK32.Text" xml:space="preserve">
+    <value>SC (ДИСС-32-90A)  </value>
+  </data>
+  <data name="gbTK15.Text" xml:space="preserve">
+    <value>SC (ДИСС-15)</value>
+  </data>
+</root>

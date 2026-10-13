@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbl_Set_Task.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Set_Task.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Set_Task.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 227</value>
+  </data>
+  <data name="lbl_Set_Task.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 26</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_Set_Task.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_Set_Task.Text" xml:space="preserve">
+    <value>Идет отработка указателей индикатора УС ПС</value>
+  </data>
+  <data name="lbl_Set_Task.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Set_Task.Name" xml:space="preserve">
+    <value>lbl_Set_Task</value>
+  </data>
+  <data name="&gt;&gt;lbl_Set_Task.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Set_Task.Parent" xml:space="preserve">
+    <value>grpBox_Task</value>
+  </data>
+  <data name="&gt;&gt;lbl_Set_Task.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="indValue3.DownSign" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="indValue3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="indValue3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 19</value>
+  </data>
+  <data name="indValue3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 59</value>
+  </data>
+  <data name="indValue3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="indValue3.UpSign" xml:space="preserve">
+    <value>V, м/с</value>
+  </data>
+  <data name="indValue3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;indValue3.Name" xml:space="preserve">
+    <value>indValue3</value>
+  </data>
+  <data name="&gt;&gt;indValue3.Type" xml:space="preserve">
+    <value>UserControlsKPK2.IndicatorValue, UserControlsKPK2, Version=1.0.8984.29312, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;indValue3.Parent" xml:space="preserve">
+    <value>grpBox_Speed</value>
+  </data>
+  <data name="&gt;&gt;indValue3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="indValue2.DownSign" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="indValue2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="indValue2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="indValue2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 59</value>
+  </data>
+  <data name="indValue2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="indValue2.UpSign" xml:space="preserve">
+    <value>V, км/ч</value>
+  </data>
+  <data name="&gt;&gt;indValue2.Name" xml:space="preserve">
+    <value>indValue2</value>
+  </data>
+  <data name="&gt;&gt;indValue2.Type" xml:space="preserve">
+    <value>UserControlsKPK2.IndicatorValue, UserControlsKPK2, Version=1.0.8984.29312, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;indValue2.Parent" xml:space="preserve">
+    <value>grpBox_Speed</value>
+  </data>
+  <data name="&gt;&gt;indValue2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="indValue1.DownSign" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="indValue1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="indValue1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="indValue1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 59</value>
+  </data>
+  <data name="indValue1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="indValue1.UpSign" xml:space="preserve">
+    <value>V, км/ч</value>
+  </data>
+  <data name="&gt;&gt;indValue1.Name" xml:space="preserve">
+    <value>indValue1</value>
+  </data>
+  <data name="&gt;&gt;indValue1.Type" xml:space="preserve">
+    <value>UserControlsKPK2.IndicatorValue, UserControlsKPK2, Version=1.0.8984.29312, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;indValue1.Parent" xml:space="preserve">
+    <value>grpBox_Speed</value>
+  </data>
+  <data name="&gt;&gt;indValue1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpBox_Speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 135</value>
+  </data>
+  <data name="grpBox_Speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 84</value>
+  </data>
+  <data name="grpBox_Speed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="grpBox_Speed.Text" xml:space="preserve">
+    <value>Составляющие скорости с блока 6</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Speed.Name" xml:space="preserve">
+    <value>grpBox_Speed</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Speed.Parent" xml:space="preserve">
+    <value>grpBox_Task</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Speed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IndicatorLeft.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="IndicatorLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 15</value>
+  </data>
+  <data name="IndicatorLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="IndicatorLeft.NameLabelDown" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="IndicatorLeft.NameLabelUp" xml:space="preserve">
+    <value>V м/с</value>
+  </data>
+  <data name="IndicatorLeft.NameSegment" xml:space="preserve">
+    <value>SegmentIndication1</value>
+  </data>
+  <data name="IndicatorLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="IndicatorLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="IndicatorLeft.TestId" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IndicatorLeft.Value" type="System.Double, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IndicatorLeft.Name" xml:space="preserve">
+    <value>IndicatorLeft</value>
+  </data>
+  <data name="&gt;&gt;IndicatorLeft.Type" xml:space="preserve">
+    <value>UserControlsKPK2.SegmentIndicatorControl, KPK2, Version=2.0.26.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IndicatorLeft.Parent" xml:space="preserve">
+    <value>grpBox_Value</value>
+  </data>
+  <data name="&gt;&gt;IndicatorLeft.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="IndicatorDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="IndicatorDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 15</value>
+  </data>
+  <data name="IndicatorDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="IndicatorDown.NameLabelDown" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="IndicatorDown.NameLabelUp" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="IndicatorDown.NameSegment" xml:space="preserve">
+    <value>SegmentIndication1</value>
+  </data>
+  <data name="IndicatorDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="IndicatorDown.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="IndicatorDown.TestId" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IndicatorDown.Value" type="System.Double, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IndicatorDown.Name" xml:space="preserve">
+    <value>IndicatorDown</value>
+  </data>
+  <data name="&gt;&gt;IndicatorDown.Type" xml:space="preserve">
+    <value>UserControlsKPK2.SegmentIndicatorControl, KPK2, Version=2.0.26.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IndicatorDown.Parent" xml:space="preserve">
+    <value>grpBox_Value</value>
+  </data>
+  <data name="&gt;&gt;IndicatorDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IndicatorUp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="IndicatorUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 15</value>
+  </data>
+  <data name="IndicatorUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="IndicatorUp.NameLabelDown" xml:space="preserve">
+    <value>Вперед</value>
+  </data>
+  <data name="IndicatorUp.NameLabelUp" xml:space="preserve">
+    <value>V м/с</value>
+  </data>
+  <data name="IndicatorUp.NameSegment" xml:space="preserve">
+    <value>SegmentIndication1</value>
+  </data>
+  <data name="IndicatorUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="IndicatorUp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="IndicatorUp.TestId" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IndicatorUp.Value" type="System.Double, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IndicatorUp.Name" xml:space="preserve">
+    <value>IndicatorUp</value>
+  </data>
+  <data name="&gt;&gt;IndicatorUp.Type" xml:space="preserve">
+    <value>UserControlsKPK2.SegmentIndicatorControl, KPK2, Version=2.0.26.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;IndicatorUp.Parent" xml:space="preserve">
+    <value>grpBox_Value</value>
+  </data>
+  <data name="&gt;&gt;IndicatorUp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpBox_Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="grpBox_Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 98</value>
+  </data>
+  <data name="grpBox_Value.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpBox_Value.Text" xml:space="preserve">
+    <value>Составляющие скорости с выходов ПКВ</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Value.Name" xml:space="preserve">
+    <value>grpBox_Value</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Value.Parent" xml:space="preserve">
+    <value>grpBox_Task</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Value.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpBox_Task.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="grpBox_Task.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 265</value>
+  </data>
+  <data name="grpBox_Task.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpBox_Task.Text" xml:space="preserve">
+    <value>Контрольная задача КЗ-1</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Task.Name" xml:space="preserve">
+    <value>grpBox_Task</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Task.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Task.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpBox_Task.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 265</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>IndicationPanel</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
